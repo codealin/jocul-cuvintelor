@@ -5,8 +5,9 @@ const os      = require('os');
 const QRCode  = require('qrcode');
 const { WebSocketServer } = require('ws');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const ROOT = __dirname;
+const PUBLIC_DOMAIN = process.env.RAILWAY_PUBLIC_DOMAIN || null;
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -33,7 +34,9 @@ const server = http.createServer((req, res) => {
     const parsedUrl = new URL(req.url, 'http://localhost');
     const theme = parsedUrl.searchParams.get('theme') || 'clasic';
     const colors = QR_COLORS[theme] || QR_COLORS.clasic;
-    const playerUrl = `http://${cachedIP}:${PORT}/player.html`;
+    const playerUrl = PUBLIC_DOMAIN
+      ? `https://${PUBLIC_DOMAIN}/player.html`
+      : `http://${cachedIP}:${PORT}/player.html`;
     QRCode.toDataURL(playerUrl, { width: 220, margin: 1, color: colors }, (err, dataUrl) => {
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ playerUrl, qrDataUrl: err ? null : dataUrl }));
@@ -134,14 +137,21 @@ function getLocalIP() {
 
 server.listen(PORT, '0.0.0.0', () => {
   const ip = getLocalIP();
-  cachedIP = ip;
+  cachedIP = PUBLIC_DOMAIN || ip;
+  const base = PUBLIC_DOMAIN ? `https://${PUBLIC_DOMAIN}` : `http://${ip}:${PORT}`;
   console.log('');
   console.log('╔══════════════════════════════════════════════╗');
   console.log('║       JOCUL CUVINTELOR — SERVER PORNIT       ║');
   console.log('╠══════════════════════════════════════════════╣');
-  console.log(`║  TV / Joc    →  http://localhost:${PORT}        ║`);
-  console.log(`║  Prezentator →  http://localhost:${PORT}/#presenter`);
-  console.log(`║  Jucători    →  http://${ip}:${PORT}/player.html`);
+  if (PUBLIC_DOMAIN) {
+    console.log(`║  TV / Joc    →  ${base}`);
+    console.log(`║  Prezentator →  ${base}/#presenter`);
+    console.log(`║  Jucători    →  ${base}/player.html`);
+  } else {
+    console.log(`║  TV / Joc    →  http://localhost:${PORT}`);
+    console.log(`║  Prezentator →  http://localhost:${PORT}/#presenter`);
+    console.log(`║  Jucători    →  ${base}/player.html`);
+  }
   console.log('╚══════════════════════════════════════════════╝');
   console.log('');
 });
