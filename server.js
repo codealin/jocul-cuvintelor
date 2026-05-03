@@ -34,9 +34,10 @@ const server = http.createServer((req, res) => {
     const parsedUrl = new URL(req.url, 'http://localhost');
     const theme = parsedUrl.searchParams.get('theme') || 'clasic';
     const colors = QR_COLORS[theme] || QR_COLORS.clasic;
-    const playerUrl = PUBLIC_DOMAIN
-      ? `https://${PUBLIC_DOMAIN}/player.html`
-      : `http://${cachedIP}:${PORT}/player.html`;
+    // Detect public URL from Railway proxy headers, fallback to local IP
+    const fwdHost  = req.headers['x-forwarded-host'] || req.headers['host'] || `${cachedIP}:${PORT}`;
+    const fwdProto = req.headers['x-forwarded-proto'] || 'http';
+    const playerUrl = `${fwdProto}://${fwdHost}/player.html`;
     QRCode.toDataURL(playerUrl, { width: 220, margin: 1, color: colors }, (err, dataUrl) => {
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ playerUrl, qrDataUrl: err ? null : dataUrl }));
