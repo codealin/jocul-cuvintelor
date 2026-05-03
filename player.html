@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Jocul Cuvintelor — Jucător</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;600;700&family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #FFD700;
+    --gold-dim: #B8960C;
+    --red: #E63030;
+    --green: #00C853;
+    --bg: #0A0A0F;
+    --text: #F0F0F0;
+    --dim: #888;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  /* ── LOGIN ── */
+  #loginScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 28px 24px 32px;
+    width: 100%;
+    max-width: 400px;
+  }
+  /* ── AVATAR GRID ── */
+  .av-section { width: 100%; display: flex; flex-direction: column; gap: 7px; }
+  .av-section-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: var(--dim);
+    text-transform: uppercase;
+  }
+  .av-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    width: 100%;
+  }
+  .av-item {
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    overflow: hidden;
+    aspect-ratio: 1;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.12s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .av-item:active { transform: scale(0.93); }
+  .av-item.sel {
+    border-color: var(--gold);
+    box-shadow: 0 0 12px rgba(255,215,0,0.5);
+  }
+  .av-item svg { width: 100%; height: 100%; display: block; pointer-events: none; }
+  .login-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 8px;
+    color: var(--gold);
+    text-align: center;
+  }
+  .login-sub {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--dim);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .login-input {
+    width: 100%;
+    background: rgba(255,215,0,0.04);
+    border: 2px solid rgba(255,215,0,0.3);
+    color: var(--text);
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    letter-spacing: 4px;
+    padding: 16px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .login-input:focus { border-color: var(--gold); }
+  .login-input::placeholder { color: var(--dim); font-size: 14px; letter-spacing: 3px; }
+  .login-btn {
+    width: 100%;
+    background: var(--gold);
+    border: none;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 6px;
+    padding: 18px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .login-btn:active { opacity: 0.8; }
+
+  /* ── GAME SCREEN ── */
+  #gameScreen {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100dvh;
+    padding: 24px 20px 32px;
+    gap: 16px;
+  }
+
+  .player-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+  }
+  .player-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: var(--dim);
+    text-transform: uppercase;
+  }
+  .player-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 6px;
+    color: var(--gold);
+  }
+  .score-display {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: var(--gold-dim);
+  }
+
+  /* ── STATUS AREA ── */
+  .status-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+    text-align: center;
+    overflow-y: auto;
+    padding: 8px 0;
+  }
+  .status-badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--dim);
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border: 1px solid rgba(255,215,0,0.15);
+  }
+  .status-main {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(24px, 7vw, 44px);
+    letter-spacing: 4px;
+    line-height: 1.1;
+  }
+  .status-main.active   { color: var(--green); }
+  .status-main.waiting  { color: var(--dim); }
+  .status-main.stop     { color: var(--red); }
+  .status-main.between  { color: var(--gold); }
+
+  /* ── DEFINITION (shown when it's player's turn) ── */
+  .definition-box {
+    width: 100%;
+    background: rgba(255,215,0,0.04);
+    border: 1px solid rgba(255,215,0,0.2);
+    padding: 16px 18px;
+    text-align: center;
+  }
+  .definition-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: var(--dim);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .definition-text {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: clamp(16px, 4.5vw, 22px);
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.5;
+  }
+
+  .next-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--dim);
+    text-transform: uppercase;
+  }
+  .next-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: var(--gold-dim);
+  }
+  .stop-timer {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    letter-spacing: 4px;
+    color: var(--red);
+    line-height: 1;
+  }
+
+  /* ── STOP BUTTON ── */
+  .stop-btn-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  #stopBtn {
+    width: 100%;
+    max-width: 340px;
+    height: 130px;
+    background: var(--red);
+    border: none;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  #stopBtn:active { transform: scale(0.96); }
+  #stopBtn.disabled {
+    background: rgba(255,255,255,0.06);
+    color: rgba(255,255,255,0.15);
+    pointer-events: none;
+  }
+  #stopBtn.pressed {
+    background: rgba(230,48,48,0.2);
+    border: 2px solid rgba(230,48,48,0.35);
+    color: rgba(230,48,48,0.4);
+    pointer-events: none;
+  }
+  .stop-hint {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--dim);
+    text-transform: uppercase;
+    text-align: center;
+    min-height: 16px;
+  }
+
+  /* ── CONNECTION ── */
+  .conn-status {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: var(--dim);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .conn-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--dim);
+    transition: background 0.3s;
+  }
+  .conn-dot.ok  { background: var(--green); }
+  .conn-dot.err { background: var(--red); }
+
+  .idle-msg {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: rgba(255,215,0,0.3);
+    text-align: center;
+    line-height: 2;
+  }
+
+  /* ── END LEADERBOARD ── */
+  .end-lb { width: 100%; display: flex; flex-direction: column; gap: 7px; }
+  .end-lb-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px;
+    border: 1px solid rgba(255,215,0,0.15);
+  }
+  .end-lb-row.lb-me {
+    border: 2.5px solid var(--gold);
+    background: rgba(255,215,0,0.07);
+  }
+  .end-lb-rank {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px; color: var(--dim); min-width: 22px;
+  }
+  .end-lb-row.lb-me .end-lb-rank { color: var(--gold-dim); }
+  .end-lb-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px; letter-spacing: 2px; color: var(--text); flex: 1;
+    text-transform: uppercase;
+  }
+  .end-lb-row.lb-me .end-lb-name { color: var(--gold); }
+  .end-lb-score {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px; color: var(--gold-dim); letter-spacing: 1px;
+  }
+  .end-lb-row.lb-me .end-lb-score { color: var(--gold); }
+
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginScreen">
+  <div class="login-logo">Jocul Cuvintelor</div>
+  <div class="login-sub">Introdu numele tău</div>
+  <input class="login-input" id="nameInput" type="text" placeholder="NUMELE TĂU" maxlength="20"
+    autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false">
+
+  <div class="av-section">
+    <div class="av-section-label">Alege avatar</div>
+    <div class="av-grid" id="avGrid"></div>
+  </div>
+
+  <button class="login-btn" onclick="joinGame()">INTRU ÎN JOC →</button>
+</div>
+
+<!-- GAME SCREEN -->
+<div id="gameScreen">
+
+  <div class="player-header">
+    <div class="player-label">jucător</div>
+    <div class="player-name" id="myNameDisplay">—</div>
+    <div class="score-display" id="myScore">SCOR: 0</div>
+  </div>
+
+  <div class="status-area" id="statusArea">
+    <div class="idle-msg">Așteptare joc...<br>Prezentatorul pornește din curând.</div>
+  </div>
+
+  <div class="stop-btn-wrap">
+    <button id="stopBtn" class="disabled" onclick="pressStop()">⏸ STOP</button>
+    <div class="stop-hint" id="stopHint">așteaptă tura ta</div>
+  </div>
+
+  <div class="conn-status">
+    <span class="conn-dot" id="connDot"></span>
+    <span id="connText">conectare...</span>
+  </div>
+
+</div>
+
+<script>
+  let myName = '';
+  let lastState = null;
+  let myAvatar = { animal: 0 };
+
+  /* ── Animal SVGs ── */
+  const ANIMAL_SVGS = [
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#EDEDED"/><circle cx="25" cy="25" r="12" fill="#333"/><circle cx="75" cy="25" r="12" fill="#333"/><circle cx="50" cy="55" r="35" fill="white"/><ellipse cx="35" cy="50" rx="10" ry="12" fill="#333"/><ellipse cx="65" cy="50" rx="10" ry="12" fill="#333"/><circle cx="35" cy="48" r="3" fill="white"/><circle cx="65" cy="48" r="3" fill="white"/><path d="M45 65 Q50 70 55 65" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#FF8C42"/><path d="M20 30 L40 10 L50 30 Z" fill="#E5772F"/><path d="M80 30 L60 10 L50 30 Z" fill="#E5772F"/><path d="M50 40 L15 65 Q15 85 50 85 Q85 85 85 65 Z" fill="white"/><circle cx="35" cy="55" r="4" fill="#333"/><circle cx="65" cy="55" r="4" fill="#333"/><circle cx="50" cy="68" r="5" fill="#333"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#95A5A6"/><path d="M25 35 L20 15 L45 35 Z" fill="#7F8C8D"/><path d="M75 35 L80 15 L55 35 Z" fill="#7F8C8D"/><circle cx="35" cy="55" r="5" fill="#333"/><circle cx="65" cy="55" r="5" fill="#333"/><path d="M45 70 Q50 75 55 70" stroke="#333" stroke-width="2" fill="none"/><line x1="15" y1="60" x2="30" y2="62" stroke="#BDC3C7" stroke-width="2"/><line x1="85" y1="60" x2="70" y2="62" stroke="#BDC3C7" stroke-width="2"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#FFC0CB"/><ellipse cx="35" cy="20" rx="8" ry="20" fill="#FFC0CB"/><ellipse cx="65" cy="20" rx="8" ry="20" fill="#FFC0CB"/><ellipse cx="35" cy="22" rx="4" ry="12" fill="#FFB6C1"/><ellipse cx="65" cy="22" rx="4" ry="12" fill="#FFB6C1"/><circle cx="35" cy="55" r="4" fill="#333"/><circle cx="65" cy="55" r="4" fill="#333"/><circle cx="50" cy="65" r="4" fill="#E74C3C"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#8D6E63"/><circle cx="25" cy="25" r="10" fill="#6D4C41"/><circle cx="75" cy="25" r="10" fill="#6D4C41"/><circle cx="50" cy="65" r="20" fill="#A1887F"/><circle cx="38" cy="50" r="4" fill="#333"/><circle cx="62" cy="50" r="4" fill="#333"/><ellipse cx="50" cy="62" rx="6" ry="4" fill="#333"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#2C3E50"/><ellipse cx="50" cy="60" rx="30" ry="35" fill="white"/><circle cx="38" cy="45" r="4" fill="#333"/><circle cx="62" cy="45" r="4" fill="#333"/><path d="M45 55 L50 65 L55 55 Z" fill="#F39C12"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="55" r="45" fill="#4CAF50"/><circle cx="30" cy="25" r="12" fill="#4CAF50"/><circle cx="70" cy="25" r="12" fill="#4CAF50"/><circle cx="30" cy="25" r="7" fill="white"/><circle cx="70" cy="25" r="7" fill="white"/><circle cx="30" cy="25" r="3" fill="black"/><circle cx="70" cy="25" r="3" fill="black"/><path d="M30 70 Q50 85 70 70" stroke="#1B5E20" stroke-width="3" fill="none" stroke-linecap="round"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="48" fill="#E67E22" stroke="#D35400" stroke-width="2"/><circle cx="50" cy="52" r="35" fill="#F1C40F"/><circle cx="40" cy="45" r="4" fill="#333"/><circle cx="60" cy="45" r="4" fill="#333"/><circle cx="50" cy="58" r="12" fill="#F39C12" opacity="0.5"/><circle cx="50" cy="58" r="4" fill="#333"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#9B59B6"/><ellipse cx="50" cy="65" rx="30" ry="25" fill="#8E44AD"/><circle cx="35" cy="40" r="15" fill="white"/><circle cx="65" cy="40" r="15" fill="white"/><circle cx="35" cy="40" r="6" fill="#333"/><circle cx="65" cy="40" r="6" fill="#333"/><path d="M45 55 L50 62 L55 55 Z" fill="#F1C40F"/><path d="M30 75 Q35 70 40 75 M60 75 Q65 70 70 75" stroke="#F1C40F" stroke-width="2" fill="none"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#7F8C8D"/><ellipse cx="50" cy="60" rx="35" ry="30" fill="#95A5A6"/><circle cx="20" cy="40" r="15" fill="#7F8C8D"/><circle cx="80" cy="40" r="15" fill="#7F8C8D"/><path d="M50 65 L40 85 Q50 90 60 85 L50 65 Z" fill="#BDC3C7"/><circle cx="40" cy="50" r="3" fill="#333"/><circle cx="60" cy="50" r="3" fill="#333"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#E67E22"/><ellipse cx="50" cy="60" rx="35" ry="30" fill="#F5CBA7"/><path d="M15 35 L30 15 L35 35 Z" fill="#D35400"/><path d="M85 35 L70 15 L65 35 Z" fill="#D35400"/><circle cx="40" cy="50" r="4" fill="#333"/><circle cx="60" cy="50" r="4" fill="#333"/><ellipse cx="50" cy="65" rx="8" ry="6" fill="#D35400"/><path d="M48 75 Q50 78 52 75" stroke="#333" stroke-width="2" fill="none"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#F4D03F"/><ellipse cx="50" cy="60" rx="35" ry="30" fill="#D35400"/><circle cx="25" cy="45" r="10" fill="#D35400"/><circle cx="75" cy="45" r="10" fill="#D35400"/><circle cx="40" cy="55" r="4" fill="#333"/><circle cx="60" cy="55" r="4" fill="#333"/><path d="M40 75 Q50 82 60 75" stroke="#8D6E63" stroke-width="2" fill="none"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#85C1E9"/><ellipse cx="50" cy="55" rx="35" ry="25" fill="#F1C40F"/><rect x="25" y="40" width="10" height="30" fill="#333"/><rect x="45" y="40" width="10" height="30" fill="#333"/><rect x="65" y="40" width="10" height="30" fill="#333"/><ellipse cx="40" cy="35" rx="10" ry="8" fill="white" opacity="0.7"/><ellipse cx="60" cy="35" rx="10" ry="8" fill="white" opacity="0.7"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#F1948A"/><circle cx="50" cy="55" r="40" fill="#F5B7B1"/><path d="M25 30 L35 15 L45 30 Z" fill="#F1948A"/><path d="M75 30 L65 15 L55 30 Z" fill="#F1948A"/><ellipse cx="50" cy="68" rx="15" ry="10" fill="#FADBD8"/><circle cx="45" cy="68" r="3" fill="#E6B0AA"/><circle cx="55" cy="68" r="3" fill="#E6B0AA"/><circle cx="38" cy="50" r="3" fill="#333"/><circle cx="62" cy="50" r="3" fill="#333"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#A2D9CE"/><circle cx="50" cy="60" r="35" fill="#BDC3C7"/><circle cx="20" cy="45" r="18" fill="#BDC3C7"/><circle cx="80" cy="45" r="18" fill="#BDC3C7"/><circle cx="20" cy="45" r="10" fill="white"/><circle cx="80" cy="45" r="10" fill="white"/><ellipse cx="50" cy="65" rx="8" ry="12" fill="#333"/><circle cx="40" cy="50" r="3" fill="#7F8C8D"/><circle cx="60" cy="50" r="3" fill="#7F8C8D"/></svg>`,
+    `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50" fill="#81D4FA"/><circle cx="50" cy="55" r="40" fill="#FF9800"/><path d="M15 30 L30 15 L35 30 Z" fill="#FF9800"/><path d="M85 30 L70 15 L65 30 Z" fill="#FF9800"/><ellipse cx="50" cy="70" rx="20" ry="15" fill="white"/><circle cx="50" cy="68" r="5" fill="#333"/><circle cx="38" cy="52" r="4" fill="#333"/><circle cx="62" cy="52" r="4" fill="#333"/><path d="M25 45 L15 42 L25 40 Z" fill="black"/><path d="M75 45 L85 42 L75 40 Z" fill="black"/><path d="M45 25 L50 35 L55 25 Z" fill="black"/></svg>`,
+  ];
+
+  function buildAnimalGrid() {
+    const grid = document.getElementById('avGrid');
+    grid.innerHTML = ANIMAL_SVGS.map((svg, i) =>
+      `<div class="av-item${i === 0 ? ' sel' : ''}" onclick="selectAnimal(${i})">${svg}</div>`
+    ).join('');
+  }
+
+  function selectAnimal(idx) {
+    myAvatar.animal = idx;
+    document.querySelectorAll('.av-item').forEach((el, i) => el.classList.toggle('sel', i === idx));
+  }
+
+  buildAnimalGrid();
+
+  // Pre-fill name from URL param
+  const urlName = new URLSearchParams(location.search).get('name');
+  if (urlName) document.getElementById('nameInput').value = urlName;
+
+  // ── WebSocket ──
+  let ws = null;
+  const queue = [];
+
+  function wsConnect() {
+    const protocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+    ws = new WebSocket(`${protocol}//${location.host}`);
+
+    ws.onopen = () => {
+      setConn(true);
+      if (myName) ws.send(JSON.stringify({ type: 'join', name: myName, avatar: myAvatar }));
+      queue.splice(0).forEach(msg => ws.send(msg));
+    };
+
+    ws.onmessage = (e) => {
+      try {
+        const msg = JSON.parse(e.data);
+        if (msg.type === 'state') handleState(msg);
+      } catch (_) {}
+    };
+
+    ws.onclose = () => { setConn(false); setTimeout(wsConnect, 2000); };
+    ws.onerror = () => {};
+  }
+
+  function wsSend(data) {
+    const str = JSON.stringify(data);
+    if (ws && ws.readyState === WebSocket.OPEN) ws.send(str);
+    else queue.push(str);
+  }
+
+  function setConn(ok) {
+    document.getElementById('connDot').className = 'conn-dot ' + (ok ? 'ok' : 'err');
+    document.getElementById('connText').textContent = ok ? 'conectat' : 'reconectare...';
+  }
+
+  // ── Login ──
+  function joinGame() {
+    const val = document.getElementById('nameInput').value.trim().toUpperCase();
+    if (!val) { document.getElementById('nameInput').focus(); return; }
+    myName = val;
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('gameScreen').style.display = 'flex';
+    document.getElementById('myNameDisplay').textContent = myName;
+    wsConnect();
+  }
+
+  document.getElementById('nameInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') joinGame();
+  });
+
+  // ── State handler ──
+  function handleState(s) {
+    lastState = s;
+
+    if (s.players && myName) {
+      const me = s.players.find(p => p.name.toUpperCase() === myName);
+      if (me) document.getElementById('myScore').textContent = `SCOR: ${me.score.toLocaleString('ro')}`;
+    }
+
+    const area = document.getElementById('statusArea');
+    const btn  = document.getElementById('stopBtn');
+    const hint = document.getElementById('stopHint');
+
+    const playerMembers = Array.isArray(s.playerMembers) ? s.playerMembers : [];
+    const isMyTurn = s.playerName && (
+      s.playerName.toUpperCase() === myName ||
+      playerMembers.some(m => m.toUpperCase() === myName)
+    );
+    const phase = s.phase || 'idle';
+
+    if (phase === 'idle') {
+      area.innerHTML = `<div class="idle-msg">Așteptare joc...<br>Prezentatorul pornește din curând.</div>`;
+      btn.className = 'disabled';
+      hint.textContent = '';
+      return;
+    }
+
+    if (phase === 'end') {
+      const sorted = [...(s.players || [])].sort((a, b) => b.score - a.score);
+      const rows = sorted.map((p, i) => {
+        const isMe = p.name.toUpperCase() === myName ||
+          (Array.isArray(p.members) && p.members.some(m => m.toUpperCase() === myName));
+        return `<div class="end-lb-row${isMe ? ' lb-me' : ''}">
+          <div class="end-lb-rank">${i + 1}</div>
+          <div class="end-lb-name">${p.name}</div>
+          <div class="end-lb-score">${(p.score || 0).toLocaleString('ro')}</div>
+        </div>`;
+      }).join('');
+      area.innerHTML = `
+        <div class="status-badge" style="color:var(--gold);margin-bottom:6px;">JOC ÎNCHEIAT</div>
+        <div class="end-lb">${rows}</div>
+      `;
+      btn.className = 'disabled';
+      hint.textContent = '';
+      return;
+    }
+
+    if (phase === 'between') {
+      area.innerHTML = `<div class="status-main between">GATA<br>PENTRU<br>URMĂTOR?</div>`;
+      btn.className = 'disabled';
+      hint.textContent = '';
+      return;
+    }
+
+    // phase === 'playing'
+    if (s.stopActive) {
+      const secs = s.stopTimerSecs || 0;
+      const pressedBy = s.stopPressedByName || '';
+      const pressedByLine = pressedBy && !isMyTurn
+        ? `<div class="next-label">apăsat de <span style="color:var(--gold);letter-spacing:2px;">${pressedBy}</span></div>`
+        : '';
+      area.innerHTML = `
+        <div class="status-badge">STOP ACTIV</div>
+        <div class="stop-timer">${secs}</div>
+        ${isMyTurn ? '<div class="status-main stop">RĂSPUNDE!</div>' : pressedByLine}
+      `;
+      btn.className = 'pressed';
+      hint.textContent = isMyTurn ? 'dai răspunsul prezentatorului' : '';
+      return;
+    }
+
+    if (isMyTurn) {
+      const def = s.definitie || '';
+      area.innerHTML = `
+        <div class="status-badge">E RÂNDUL TĂU</div>
+        ${def ? `<div class="definition-box">
+          <div class="definition-label">definiție</div>
+          <div class="definition-text">${def}</div>
+        </div>` : ''}
+      `;
+      if (s.stopWasPressedThisWord) {
+        btn.className = 'pressed';
+        hint.textContent = 'stop deja apăsat';
+      } else {
+        btn.className = '';
+        hint.textContent = 'apasă când știi răspunsul';
+      }
+    } else {
+      const nextIsMe = s.nextPlayerName && s.nextPlayerName.toUpperCase() === myName;
+      area.innerHTML = `
+        <div class="status-badge">JOACĂ ACUM</div>
+        <div class="status-main waiting">${s.playerName || '—'}</div>
+        ${nextIsMe
+          ? `<div class="next-label" style="color:var(--gold);">urmezi tu!</div>`
+          : (s.nextPlayerName ? `<div class="next-label">urmează</div><div class="next-name">${s.nextPlayerName}</div>` : '')
+        }
+      `;
+      btn.className = 'disabled';
+      hint.textContent = nextIsMe ? 'pregătește-te, urmezi!' : 'nu e rândul tău';
+    }
+  }
+
+  // ── STOP button ──
+  function pressStop() {
+    if (!lastState || lastState.phase !== 'playing') return;
+    const pm = Array.isArray(lastState.playerMembers) ? lastState.playerMembers : [];
+    const isMyTurn = lastState.playerName && (
+      lastState.playerName.toUpperCase() === myName ||
+      pm.some(m => m.toUpperCase() === myName)
+    );
+    if (!isMyTurn || lastState.stopWasPressedThisWord || lastState.stopActive) return;
+    wsSend({ type: 'action', action: 'stop', fromName: myName });
+    document.getElementById('stopBtn').className = 'pressed';
+    document.getElementById('stopHint').textContent = 'stop trimis!';
+  }
+
+  // Auto-login if ?name= present
+  if (urlName && urlName.trim()) joinGame();
+</script>
+</body>
+</html>

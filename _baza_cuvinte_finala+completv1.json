@@ -1,0 +1,6141 @@
+[
+  {
+    "cuvant": "BOLI",
+    "definitie": "A fi bolnav pentru o vreme. A nu fi în putere."
+  },
+  {
+    "cuvant": "BRAȚ",
+    "definitie": "Partea corpului între umăr și cot."
+  },
+  {
+    "cuvant": "ACID",
+    "definitie": "Cel care are un umor tăios."
+  },
+  {
+    "cuvant": "BOXA",
+    "definitie": "A participa la o luptă între corzi."
+  },
+  {
+    "cuvant": "CAPĂ",
+    "definitie": "Haină care flutură în urma lui Dracula."
+  },
+  {
+    "cuvant": "CALD",
+    "definitie": "Sezonul care nu te face să tremuri de frig."
+  },
+  {
+    "cuvant": "ABIS",
+    "definitie": "Adâncul încă neexploatat de oameni."
+  },
+  {
+    "cuvant": "RAME",
+    "definitie": "Margini care încercuiesc imagini."
+  },
+  {
+    "cuvant": "MUTĂ",
+    "definitie": "Cea care se face înțeleasă doar prin gesturi, nu prin cuvinte."
+  },
+  {
+    "cuvant": "BORD",
+    "definitie": "Panoul din fața șoferului într-un autoturism."
+  },
+  {
+    "cuvant": "FALS",
+    "definitie": "Ipocrit, prefăcut, mincinos."
+  },
+  {
+    "cuvant": "ABUZ",
+    "definitie": "Exagerare și depășirea limitelor în serviciu."
+  },
+  {
+    "cuvant": "ZINC",
+    "definitie": "Mineral care face părul și unghiile puternice."
+  },
+  {
+    "cuvant": "MORT",
+    "definitie": "Unghi fără vizibilitate."
+  },
+  {
+    "cuvant": "PATE",
+    "definitie": "Pastă fină din carne, pește sau legume."
+  },
+  {
+    "cuvant": "REAL",
+    "definitie": "Cel care există, nu e imaginar."
+  },
+  {
+    "cuvant": "PROF",
+    "definitie": "Apelativul informal pentru un cadru didactic."
+  },
+  {
+    "cuvant": "ALBI",
+    "definitie": "A se schimba inevitabil culoarea părului."
+  },
+  {
+    "cuvant": "RANG",
+    "definitie": "Poziție într-o ierarhie."
+  },
+  {
+    "cuvant": "ȘUBĂ",
+    "definitie": "Uniforma ciobanului."
+  },
+  {
+    "cuvant": "RARI",
+    "definitie": "Care se întâlnesc în puține exemplare."
+  },
+  {
+    "cuvant": "SETA",
+    "definitie": "A regla ceasul pentru a indica ora corectă."
+  },
+  {
+    "cuvant": "BODY",
+    "definitie": "Salopetă pentru nou-născuți."
+  },
+  {
+    "cuvant": "FOTĂ",
+    "definitie": "Piesă a costumului popular românesc."
+  },
+  {
+    "cuvant": "MAMA",
+    "definitie": "Cea care poate înlocui pe oricine dar al cărui loc nu poate fi luat de nimeni altcineva."
+  },
+  {
+    "cuvant": "REGI",
+    "definitie": "Piese care dețin supremația pe tabla de șah."
+  },
+  {
+    "cuvant": "AFIȘ",
+    "definitie": "Tipăritură cu scop informativ."
+  },
+  {
+    "cuvant": "ARTĂ",
+    "definitie": "Expresia creativității umane."
+  },
+  {
+    "cuvant": "SOȚI",
+    "definitie": "Protagoniști la Starea Civilă."
+  },
+  {
+    "cuvant": "VERS",
+    "definitie": "Șir de cuvinte ordonate ritmic."
+  },
+  {
+    "cuvant": "ADUS",
+    "definitie": "Care a fost transportat de acolo încoace."
+  },
+  {
+    "cuvant": "TRAP",
+    "definitie": "Între pas și galop."
+  },
+  {
+    "cuvant": "GEME",
+    "definitie": "A striga de plăcere sau de durere."
+  },
+  {
+    "cuvant": "TABU",
+    "definitie": "Tip de subiect pe care societatea îl evită."
+  },
+  {
+    "cuvant": "ULEI",
+    "definitie": "Lichid gras extras din plante."
+  },
+  {
+    "cuvant": "SOMN",
+    "definitie": "Pește răpitor care vânează noaptea, când ceilalți dorm."
+  },
+  {
+    "cuvant": "ROMB",
+    "definitie": "Formă geometrică specifică diamantului de pe cărțile de joc."
+  },
+  {
+    "cuvant": "LIFT",
+    "definitie": "Cabină cu oglinzi care circulă între etajele unui magazin."
+  },
+  {
+    "cuvant": "MOȚI",
+    "definitie": "Român din zona montană a Transilvaniei."
+  },
+  {
+    "cuvant": "CLEI",
+    "definitie": "Adeziv natural care se formează pe scoarța copacilor."
+  },
+  {
+    "cuvant": "JDER",
+    "definitie": "Frate în cartea lui Sadoveanu."
+  },
+  {
+    "cuvant": "COPT",
+    "definitie": "Care este rumenit."
+  },
+  {
+    "cuvant": "MURĂ",
+    "definitie": "Zmeură neagră."
+  },
+  {
+    "cuvant": "DISC",
+    "definitie": "Jucărie care seamănă cu o farfurie."
+  },
+  {
+    "cuvant": "PLIA",
+    "definitie": "Am păturit un scaun."
+  },
+  {
+    "cuvant": "UMAN",
+    "definitie": "Care nu aparține roboților sau inteligenței artificiale."
+  },
+  {
+    "cuvant": "AJUN",
+    "definitie": "Noaptea în care darurile se așează sub brad."
+  },
+  {
+    "cuvant": "SUAV",
+    "definitie": "Care este grațios, delicat."
+  },
+  {
+    "cuvant": "RUPE",
+    "definitie": "A smulge o crenguță de brad."
+  },
+  {
+    "cuvant": "FULG",
+    "definitie": "Bucățică de zăpadă care se așează pe gene."
+  },
+  {
+    "cuvant": "SUIT",
+    "definitie": "Care a fost poziționat mai sus la vedere."
+  },
+  {
+    "cuvant": "RECI",
+    "definitie": "Care dau senzația de frig."
+  },
+  {
+    "cuvant": "RATĂ",
+    "definitie": "Tranșe plătite în cuantum prestabilit și la date fixe."
+  },
+  {
+    "cuvant": "BUZĂ",
+    "definitie": "Parte care mărginește gura."
+  },
+  {
+    "cuvant": "NEGA",
+    "definitie": "A nu admite un fapt."
+  },
+  {
+    "cuvant": "URNE",
+    "definitie": "Obiecte în care se introduc buletinele de vot."
+  },
+  {
+    "cuvant": "DURI",
+    "definitie": "Care sunt tari, solizi, puternici."
+  },
+  {
+    "cuvant": "FETE",
+    "definitie": "Huse pentru perne."
+  },
+  {
+    "cuvant": "SURD",
+    "definitie": "Care nu percepe sunetele."
+  },
+  {
+    "cuvant": "GREC",
+    "definitie": "Petrecăreț care sparge farfurii."
+  },
+  {
+    "cuvant": "PIUI",
+    "definitie": "A vorbi cu ceilalți copii din coteț pe limba puilor."
+  },
+  {
+    "cuvant": "MUST",
+    "definitie": "Sucul dulce de struguri ușor alcoolizat."
+  },
+  {
+    "cuvant": "LEAC",
+    "definitie": "Tratament băbesc."
+  },
+  {
+    "cuvant": "SLOI",
+    "definitie": "Rece ca gheața."
+  },
+  {
+    "cuvant": "IERI",
+    "definitie": "Moment anterior zilei în curs."
+  },
+  {
+    "cuvant": "GLET",
+    "definitie": "Amestec de var, apă și ipsos."
+  },
+  {
+    "cuvant": "CUPE",
+    "definitie": "Forme pentru înghețată."
+  },
+  {
+    "cuvant": "CRAI",
+    "definitie": "Bărbatul cu aer de donjuan în tradiția populară."
+  },
+  {
+    "cuvant": "APOS",
+    "definitie": "Care conține o proporție dominantă de apă, zemos."
+  },
+  {
+    "cuvant": "VALE",
+    "definitie": "Formă de relief întâlnită în munți și dealuri, partea de jos a unui versant."
+  },
+  {
+    "cuvant": "KAKI",
+    "definitie": "Fruct exotic portocaliu, specific și culorii uniformei militare."
+  },
+  {
+    "cuvant": "UZAT",
+    "definitie": "Pe care au apărut zgârieturi din cauza folosirii îndelungate."
+  },
+  {
+    "cuvant": "TRON",
+    "definitie": "Fotoliu pentru capete încoronate."
+  },
+  {
+    "cuvant": "TASA",
+    "definitie": "A netezi un strat de nisip prin lovituri ușoare, comprimând înainte de așezarea dalelor."
+  },
+  {
+    "cuvant": "TURĂ",
+    "definitie": "Piesă în formă de turn la șah."
+  },
+  {
+    "cuvant": "SUMO",
+    "definitie": "Duel al bărbaților îmbrăcați în chiloți de dimensiuni mari."
+  },
+  {
+    "cuvant": "TAXA",
+    "definitie": "A percepe o sumă pentru folosirea unor drumuri."
+  },
+  {
+    "cuvant": "MOFT",
+    "definitie": "Capriciu, nazuri, comportament plin de pretenții nejustificate."
+  },
+  {
+    "cuvant": "TORT",
+    "definitie": "Prăjitură care vine la pachet cu mulți ani trăiască."
+  },
+  {
+    "cuvant": "STUP",
+    "definitie": "Fabrică de ceară și hrană, casă mică aglomerată pentru albine."
+  },
+  {
+    "cuvant": "OMIS",
+    "definitie": "Care a fost trecut cu vederea, lăsat în afara unei liste."
+  },
+  {
+    "cuvant": "POLO",
+    "definitie": "Joc acvatic între două echipe."
+  },
+  {
+    "cuvant": "CORN",
+    "definitie": "Semn distinctiv al rinocerilor și taurilor."
+  },
+  {
+    "cuvant": "OLOG",
+    "definitie": "Cel care funcționează cu o limitare fizică, care are un membru lipsă."
+  },
+  {
+    "cuvant": "LUME",
+    "definitie": "Populația globului pământesc."
+  },
+  {
+    "cuvant": "PISA",
+    "definitie": "A zdrobi usturoiul ca să obții mujdei."
+  },
+  {
+    "cuvant": "GOJI",
+    "definitie": "Fructe mici și roșii cu gust dulce-acrișor, originare din China, bogate în antioxidanți."
+  },
+  {
+    "cuvant": "IATĂ",
+    "definitie": "Interjecție care indică apariția cuiva sau a ceva."
+  },
+  {
+    "cuvant": "FAKE",
+    "definitie": "Produs sau informație falsă sau de calitate scăzută."
+  },
+  {
+    "cuvant": "MAGI",
+    "definitie": "Cei trei călători din povestea nașterii lui Iisus care au venit după stea."
+  },
+  {
+    "cuvant": "TAUR",
+    "definitie": "Semn de pământ în horoscop, între aprilie și mai."
+  },
+  {
+    "cuvant": "ȘARM",
+    "definitie": "Farmec specific unei persoane, franțuzism."
+  },
+  {
+    "cuvant": "ȘALE",
+    "definitie": "Zona spatelui care ne amintește că îmbătrânim."
+  },
+  {
+    "cuvant": "BIROU",
+    "definitie": "Masă de lucru la care trebuie să stai așezat."
+  },
+  {
+    "cuvant": "DALBE",
+    "definitie": "Culoarea florilor din cântecul Iacă vin colindătorii."
+  },
+  {
+    "cuvant": "MAGIE",
+    "definitie": "Trucul cu care se scoate iepurașul din joben."
+  },
+  {
+    "cuvant": "BLAMA",
+    "definitie": "A reproșa în mod formal și public."
+  },
+  {
+    "cuvant": "FULAR",
+    "definitie": "Țesătură moale cu care te înfofolea mama."
+  },
+  {
+    "cuvant": "PUNGI",
+    "definitie": "Ambalaje pe care le cumperi doar dacă nu vii cu ele de acasă."
+  },
+  {
+    "cuvant": "CAPSA",
+    "definitie": "A prinde mai multe foi între ele."
+  },
+  {
+    "cuvant": "PICAT",
+    "definitie": "A fi respins la examenul auto."
+  },
+  {
+    "cuvant": "DALTĂ",
+    "definitie": "Ustensilă cu care se modelează piatra sau lemnul."
+  },
+  {
+    "cuvant": "FOAIE",
+    "definitie": "Pânză albă pentru scriitori."
+  },
+  {
+    "cuvant": "HAZNA",
+    "definitie": "Buda din curte."
+  },
+  {
+    "cuvant": "RODII",
+    "definitie": "Fructe exotice care testează limitele răbdării."
+  },
+  {
+    "cuvant": "SURPA",
+    "definitie": "A ceda asfaltul din cauza inundațiilor."
+  },
+  {
+    "cuvant": "LALEA",
+    "definitie": "Floare care crește din bulb și înflorește primăvara."
+  },
+  {
+    "cuvant": "REFUZ",
+    "definitie": "Respingerea unei oferte sau sugestii."
+  },
+  {
+    "cuvant": "GAZDĂ",
+    "definitie": "Persoană responsabilă de primirea invitaților."
+  },
+  {
+    "cuvant": "HURUI",
+    "definitie": "A scoate un zgomot ciudat."
+  },
+  {
+    "cuvant": "PIPER",
+    "definitie": "Mirodenie, boabe sau măcinată."
+  },
+  {
+    "cuvant": "GAZON",
+    "definitie": "Covor verde natural sau artificial."
+  },
+  {
+    "cuvant": "PLUSA",
+    "definitie": "A se simți norocos și a crește miza."
+  },
+  {
+    "cuvant": "CEARĂ",
+    "definitie": "Materialul de suport pentru aplicarea sigiliului."
+  },
+  {
+    "cuvant": "FORMA",
+    "definitie": "A organiza o propoziție coerentă."
+  },
+  {
+    "cuvant": "DOCIL",
+    "definitie": "Care are o fire blândă, nu se opune, se supune cu ușurință."
+  },
+  {
+    "cuvant": "PÂRLI",
+    "definitie": "A frige dar la exterior."
+  },
+  {
+    "cuvant": "VÂSLE",
+    "definitie": "Accesorii pentru ambarcațiunile fără motor care merg pe Dunăre."
+  },
+  {
+    "cuvant": "MÂRÂI",
+    "definitie": "A scoate un sunet de neliniște specific patrupezilor, cățeilor."
+  },
+  {
+    "cuvant": "ACTOR",
+    "definitie": "Profesionist la Bollywood."
+  },
+  {
+    "cuvant": "COPAC",
+    "definitie": "Denumire generică pentru arborele cu tulpină mare și groasă."
+  },
+  {
+    "cuvant": "APUNE",
+    "definitie": "A dispărea sub orizont."
+  },
+  {
+    "cuvant": "ECRAN",
+    "definitie": "Perete de sticlă care se stinge și se aprinde."
+  },
+  {
+    "cuvant": "POPOR",
+    "definitie": "Comunitate umană locuitori ai aceluiași teritoriu."
+  },
+  {
+    "cuvant": "IARNA",
+    "definitie": "Sosește pe 1 decembrie."
+  },
+  {
+    "cuvant": "INTRA",
+    "definitie": "A merge dintr-un spațiu deschis într-un loc închis."
+  },
+  {
+    "cuvant": "HOTAR",
+    "definitie": "Zone care desparte o țară de altă țară."
+  },
+  {
+    "cuvant": "ARĂTA",
+    "definitie": "A scoate la iveală."
+  },
+  {
+    "cuvant": "UNIRE",
+    "definitie": "Alianță în vederea unui scop comun."
+  },
+  {
+    "cuvant": "FRAȚI",
+    "definitie": "Persoane care împart același ADN."
+  },
+  {
+    "cuvant": "MILOG",
+    "definitie": "Cel care caută sau cere constant ajutor, favoruri sau bunuri de la alții."
+  },
+  {
+    "cuvant": "PIURE",
+    "definitie": "Garnitură preparată din legume fierte și pasate, servită lângă mâncărurile cu sos."
+  },
+  {
+    "cuvant": "ȚUICĂ",
+    "definitie": "Tărie servită vara rece și iarna fierbinte."
+  },
+  {
+    "cuvant": "BÂZÂI",
+    "definitie": "Insectele care zumzăie din aripioare."
+  },
+  {
+    "cuvant": "TIARA",
+    "definitie": "Podoabă regală purtată de prințese."
+  },
+  {
+    "cuvant": "LUPTE",
+    "definitie": "Conflicte corp la corp."
+  },
+  {
+    "cuvant": "BAZAR",
+    "definitie": "Spațiu public comercial."
+  },
+  {
+    "cuvant": "TORȚĂ",
+    "definitie": "Simbolul Jocurilor Olimpice."
+  },
+  {
+    "cuvant": "PALME",
+    "definitie": "Părți ale mâinilor cu care manipulezi lucruri."
+  },
+  {
+    "cuvant": "CLOVN",
+    "definitie": "Artist de circ cu aspect exagerat."
+  },
+  {
+    "cuvant": "EȘUAT",
+    "definitie": "Care a ratat îndeplinirea scopului propus."
+  },
+  {
+    "cuvant": "MEDII",
+    "definitie": "Note semestriale."
+  },
+  {
+    "cuvant": "BĂLAI",
+    "definitie": "Care are părul deschis la culoare."
+  },
+  {
+    "cuvant": "NINJA",
+    "definitie": "Spion sau asasini din Japonia medievală."
+  },
+  {
+    "cuvant": "NINGE",
+    "definitie": "A vedea cum iarna își intră în drepturi."
+  },
+  {
+    "cuvant": "PÂNDI",
+    "definitie": "A spiona sosirea moșului de la fereastra casei."
+  },
+  {
+    "cuvant": "FĂINĂ",
+    "definitie": "Produs alimentar obținut prin măcinare."
+  },
+  {
+    "cuvant": "MORSĂ",
+    "definitie": "Mamifer semiacvatic din mările polare."
+  },
+  {
+    "cuvant": "PLĂTI",
+    "definitie": "A finaliza o achiziție."
+  },
+  {
+    "cuvant": "MÂNUI",
+    "definitie": "A manipula un obiect cu pricepere."
+  },
+  {
+    "cuvant": "ABILĂ",
+    "definitie": "Cea care se orientează ușor în situații diferite."
+  },
+  {
+    "cuvant": "SCAMĂ",
+    "definitie": "Fir foarte scurt destrămat dintr-o țesătură."
+  },
+  {
+    "cuvant": "CREȚĂ",
+    "definitie": "Care este în formă de spirală."
+  },
+  {
+    "cuvant": "SÂRME",
+    "definitie": "Produse lungi și subțiri de oțel, aramă sau aluminiu."
+  },
+  {
+    "cuvant": "PUTEA",
+    "definitie": "A fi în stare, a avea forță sau puterea de a face un lucru."
+  },
+  {
+    "cuvant": "ASPRĂ",
+    "definitie": "Care este tare și țepoasă."
+  },
+  {
+    "cuvant": "VECIN",
+    "definitie": "Cel care stă foarte aproape, locuiește în proximitate."
+  },
+  {
+    "cuvant": "REGLA",
+    "definitie": "A fixa corespunzător un ceas."
+  },
+  {
+    "cuvant": "COCOȘ",
+    "definitie": "Personajul principal din Punguța cu doi bani."
+  },
+  {
+    "cuvant": "JEFUI",
+    "definitie": "A lua cu forța bunurile sau banii cuiva."
+  },
+  {
+    "cuvant": "ACUȘA",
+    "definitie": "În prezent."
+  },
+  {
+    "cuvant": "SORBI",
+    "definitie": "A consuma un lichid în mod deranjant."
+  },
+  {
+    "cuvant": "PIAȚĂ",
+    "definitie": "Spații publice descoperite înconjurate de clădiri."
+  },
+  {
+    "cuvant": "HALVA",
+    "definitie": "Desert dulce oriental din amestec de semințe."
+  },
+  {
+    "cuvant": "IBRIC",
+    "definitie": "Recipient tradițional turcesc pentru încălzit apa."
+  },
+  {
+    "cuvant": "CĂSCA",
+    "definitie": "A da semne de plictiseală."
+  },
+  {
+    "cuvant": "DULCE",
+    "definitie": "Care are cel mai plăcut gust."
+  },
+  {
+    "cuvant": "LEAFĂ",
+    "definitie": "Răsplată pentru munca depusă."
+  },
+  {
+    "cuvant": "VOLEI",
+    "definitie": "Sport de echipă jucat cu serviciu, în care nu se atinge mingea cu piciorul."
+  },
+  {
+    "cuvant": "MÂNJI",
+    "definitie": "A întinde și a murdări o suprafață, lăsând urme."
+  },
+  {
+    "cuvant": "PLASA",
+    "definitie": "A iniția o acțiune comercială online, a confirma dorința de cumpărare a unei comenzi."
+  },
+  {
+    "cuvant": "SOCRU",
+    "definitie": "Titlul părintesc dobândit prin căsătorie, tatăl care devine rudă prin alianță."
+  },
+  {
+    "cuvant": "MILOS",
+    "definitie": "Omul bun la inimă, căruia îi este milă de ceilalți și dă de pomană."
+  },
+  {
+    "cuvant": "PENAJ",
+    "definitie": "Costumul natural al păsărilor, haina lor colorată și lucioasă."
+  },
+  {
+    "cuvant": "SALAM",
+    "definitie": "Produs de masă consumat între două felii de pâine sau de pită."
+  },
+  {
+    "cuvant": "GĂSIT",
+    "definitie": "Care nu mai este pierdut."
+  },
+  {
+    "cuvant": "MINOR",
+    "definitie": "Cel care nu a împlinit încă vârsta majoratului."
+  },
+  {
+    "cuvant": "RUMBA",
+    "definitie": "Dans de societate cu mișcări lente și senzuale, de origine cubaneză."
+  },
+  {
+    "cuvant": "AREST",
+    "definitie": "Măsură privativă de libertate."
+  },
+  {
+    "cuvant": "SNACK",
+    "definitie": "Ronțăială cu etichetă englezească, gustare rapidă."
+  },
+  {
+    "cuvant": "COBZĂ",
+    "definitie": "Instrument muzical cu coarde care seamănă cu lăuta."
+  },
+  {
+    "cuvant": "CARAS",
+    "definitie": "Rudă a crapului, pește care trăiește în ape tulburi, lacuri și bălți."
+  },
+  {
+    "cuvant": "CRĂPA",
+    "definitie": "A apărea crăpături mici pe un perete, a se deteriora."
+  },
+  {
+    "cuvant": "FRÂNĂ",
+    "definitie": "Dispozitiv care oprește sau reduce viteza unui vehicul."
+  },
+  {
+    "cuvant": "SUPER",
+    "definitie": "Răspuns pe care îl dai atunci când primești o veste bună."
+  },
+  {
+    "cuvant": "BOBOC",
+    "definitie": "Începător, cel aflat la început de drum, cu puf gălbui."
+  },
+  {
+    "cuvant": "RĂBDA",
+    "definitie": "A rezista într-o situație până obții rezultatul dorit, a suporta și a aștepta."
+  },
+  {
+    "cuvant": "TUȘIT",
+    "definitie": "A curăța căile respiratorii prin expirare zgomotoasă."
+  },
+  {
+    "cuvant": "TOCIT",
+    "definitie": "Care nu mai taie sau nu mai scrie bine, care și-a pierdut ascuțișul."
+  },
+  {
+    "cuvant": "ZAHĂR",
+    "definitie": "Produs alimentar obținut din trestie sau din sfeclă, materie de bază în cofetărie."
+  },
+  {
+    "cuvant": "BORNĂ",
+    "definitie": "Marcaj rutier pentru orientarea călătorilor care indică distanța dintre localități."
+  },
+  {
+    "cuvant": "PRIME",
+    "definitie": "Numere care se divid doar prin ele însele."
+  },
+  {
+    "cuvant": "CÂINI",
+    "definitie": "Domestici ai lupilor."
+  },
+  {
+    "cuvant": "DINTE",
+    "definitie": "Specialitatea Zânei Măseluță."
+  },
+  {
+    "cuvant": "GRAJD",
+    "definitie": "Construcție simplă într-o fermă, încăpere acoperită pentru animale mari, unde se țin furaje și paie."
+  },
+  {
+    "cuvant": "LANSA",
+    "definitie": "A propulsa un obiect în direcția țintită, a trimite ceva în zbor cu mare viteză."
+  },
+  {
+    "cuvant": "ORDIN",
+    "definitie": "Indicație care nu se poate negocia sau refuza, cerere pe care trebuie s-o urmezi cu fermitate."
+  },
+  {
+    "cuvant": "ZĂVOI",
+    "definitie": "Loc umbrit cu vegetație, locul pe unde trece mândra ceată a lui Pițigoi."
+  },
+  {
+    "cuvant": "FARSE",
+    "definitie": "Glume puse la cale pentru a stârni râsul, șotii."
+  },
+  {
+    "cuvant": "RUJAT",
+    "definitie": "Cel care și-a aplicat ruj pe buze."
+  },
+  {
+    "cuvant": "IȚARI",
+    "definitie": "Nădragi purtați împreună cu pieptarul și brâul în portul popular."
+  },
+  {
+    "cuvant": "PANDA",
+    "definitie": "Ursul care ține dietă vegetariană, alb-negru."
+  },
+  {
+    "cuvant": "VOLAN",
+    "definitie": "Cârmă a unui vehicul pe patru roți."
+  },
+  {
+    "cuvant": "ASPRI",
+    "definitie": "Cei care sunt severi, reci, opusul celor blânzi."
+  },
+  {
+    "cuvant": "PILAF",
+    "definitie": "Amestec savuros de orez și legume la olaltă."
+  },
+  {
+    "cuvant": "CĂTUN",
+    "definitie": "Sătuc mic cu o populație restrânsă."
+  },
+  {
+    "cuvant": "PRIZĂ",
+    "definitie": "Dispozitiv care permite conectarea unui aparat la rețeaua electrică."
+  },
+  {
+    "cuvant": "ÎNNOI",
+    "definitie": "A schimba ceva vechi cu ceva nou, a actualiza."
+  },
+  {
+    "cuvant": "CHETĂ",
+    "definitie": "Strângere de bani făcută din proprie inițiativă, sumă strânsă voluntar."
+  },
+  {
+    "cuvant": "ȘACAL",
+    "definitie": "Mamifer sălbatic numit la noi și lupul auriu, frate cu lupul și vulpea."
+  },
+  {
+    "cuvant": "CRAME",
+    "definitie": "Pivnițele podgoriilor."
+  },
+  {
+    "cuvant": "SCRIE",
+    "definitie": "A transpune într-un text o poveste, un mesaj sau un gând."
+  },
+  {
+    "cuvant": "CUȘCĂ",
+    "definitie": "Locuința câinelui."
+  },
+  {
+    "cuvant": "VREME",
+    "definitie": "Soare, nori, ploaie, vânt, ninsoare."
+  },
+  {
+    "cuvant": "SEJUR",
+    "definitie": "Cumul de zile în vacanță la hotel."
+  },
+  {
+    "cuvant": "VERDE",
+    "definitie": "Care are culoarea acelor de brad."
+  },
+  {
+    "cuvant": "SALSA",
+    "definitie": "Sos originar din bucătăria mexicană pe bază de roșii coapte cu usturoi și ardei iute."
+  },
+  {
+    "cuvant": "BÂRÂI",
+    "definitie": "A cicăli pe cineva, a bate la cap cu insistență."
+  },
+  {
+    "cuvant": "CIOARA",
+    "definitie": "Pasăre inteligentă cu ciocul puternic și penaj negru."
+  },
+  {
+    "cuvant": "CORSET",
+    "definitie": "Accesoriu care tăia resuflarea doamnelor în epoca victoriană."
+  },
+  {
+    "cuvant": "VESTIC",
+    "definitie": "Care se află pe direcția în care apune soarele."
+  },
+  {
+    "cuvant": "VIROZĂ",
+    "definitie": "Afecțiuni contagioase."
+  },
+  {
+    "cuvant": "MINUNI",
+    "definitie": "Întâmplări miraculoase care nu au o explicație logică."
+  },
+  {
+    "cuvant": "FESTIV",
+    "definitie": "Mediul care te introduce în atmosfera sărbătorilor."
+  },
+  {
+    "cuvant": "BUTONA",
+    "definitie": "A forma un număr pe telefonul cu taste."
+  },
+  {
+    "cuvant": "BRÂNZĂ",
+    "definitie": "Aliment de origine animală obținut prin presare și maturare."
+  },
+  {
+    "cuvant": "BUREȚI",
+    "definitie": "Obiecte folosite zilnic în sala de clasă."
+  },
+  {
+    "cuvant": "REGĂSI",
+    "definitie": "A se redescoperi după o perioadă mai grea, mai întunecată."
+  },
+  {
+    "cuvant": "GREIER",
+    "definitie": "Muzicant."
+  },
+  {
+    "cuvant": "SCOICI",
+    "definitie": "Carapace cu interior moale, decorative."
+  },
+  {
+    "cuvant": "LUSTRĂ",
+    "definitie": "Sistem de iluminare suspendat."
+  },
+  {
+    "cuvant": "ZĂBOVI",
+    "definitie": "A mai sta într-un loc de unde trebuie să pleci."
+  },
+  {
+    "cuvant": "FAGURI",
+    "definitie": "Structuri apicole hexagonale."
+  },
+  {
+    "cuvant": "ERODAT",
+    "definitie": "Care s-a degradat din cauza apei, a vântului."
+  },
+  {
+    "cuvant": "PATENT",
+    "definitie": "Unealtă născută din cleștele Ferrarilor."
+  },
+  {
+    "cuvant": "GEANTĂ",
+    "definitie": "Accesoriu pentru transportul obiectelor de uz zilnic."
+  },
+  {
+    "cuvant": "LAMINA",
+    "definitie": "A prelucra un material gros până ajunge fin."
+  },
+  {
+    "cuvant": "ORACOL",
+    "definitie": "Jurnalul ăla colectiv păstrat în pagini de caiet."
+  },
+  {
+    "cuvant": "TARTRU",
+    "definitie": "Strat solid și dur pe smalț."
+  },
+  {
+    "cuvant": "CASTAN",
+    "definitie": "Copac masiv cu fructe comestibile care-s învelite într-o coajă spinoasă."
+  },
+  {
+    "cuvant": "GHIDUȘ",
+    "definitie": "Cel care e pus pe trăznăi."
+  },
+  {
+    "cuvant": "PLOAPE",
+    "definitie": "Uși care se închid la intrarea în lumea viselor."
+  },
+  {
+    "cuvant": "PREFIX",
+    "definitie": "Segment poziționat înainte de baza unui cuvânt."
+  },
+  {
+    "cuvant": "BLAZON",
+    "definitie": "Marcă de noblețe a unei familii sau a unei dinastii."
+  },
+  {
+    "cuvant": "CAPSAT",
+    "definitie": "Care a fost găurit și prins cu ajutorul unor piese mici metalice."
+  },
+  {
+    "cuvant": "ÎNCHIS",
+    "definitie": "Care nu mai poate ieși din locul unde se află."
+  },
+  {
+    "cuvant": "BICEPS",
+    "definitie": "Mușchi lung și puternic așezat pe fața anterioară a brațului."
+  },
+  {
+    "cuvant": "GHICIT",
+    "definitie": "Care a fost descoperit la întâmplare prin deducție."
+  },
+  {
+    "cuvant": "IMNURI",
+    "definitie": "Melodii oficiale."
+  },
+  {
+    "cuvant": "MĂNUȘI",
+    "definitie": "Accesorii purtate atât de sudori, cât și de doctori și motocicliști."
+  },
+  {
+    "cuvant": "MENTOR",
+    "definitie": "Călăuzitor care oferă îndrumare într-un anumit domeniu."
+  },
+  {
+    "cuvant": "SENILI",
+    "definitie": "A căror putere de gândire s-a diminuat odată cu vârsta."
+  },
+  {
+    "cuvant": "BANANĂ",
+    "definitie": "Fruct fără semințe adus din țări tropicale sau subtropicale."
+  },
+  {
+    "cuvant": "ȚĂRANI",
+    "definitie": "Săteni, cultivatori sau gospodari."
+  },
+  {
+    "cuvant": "BEZELE",
+    "definitie": "Pufoșenii de zahăr coapte la foc deschis."
+  },
+  {
+    "cuvant": "JURIZA",
+    "definitie": "A aprecia calitatea unei performanțe artistice sau sportive."
+  },
+  {
+    "cuvant": "BOTOȘI",
+    "definitie": "Cipici din materiale moi."
+  },
+  {
+    "cuvant": "LACĂTE",
+    "definitie": "Accesorii de metal utilizate pentru securizarea unor bunuri."
+  },
+  {
+    "cuvant": "SULIȚĂ",
+    "definitie": "Armă simplă destinată atacului de aproape dar și aruncării."
+  },
+  {
+    "cuvant": "GOGOȘI",
+    "definitie": "Gustarea preferată a polițiștilor."
+  },
+  {
+    "cuvant": "MĂSUȚĂ",
+    "definitie": "Piesă joasă de mobilier."
+  },
+  {
+    "cuvant": "SĂNIUȘ",
+    "definitie": "Activitate de iarnă bazată pe coordonare."
+  },
+  {
+    "cuvant": "PUNCTE",
+    "definitie": "Unități numerice atribuite sporturilor de echipă sau celor individuale."
+  },
+  {
+    "cuvant": "ROSTUL",
+    "definitie": "Semnificația sau scopul unui lucru."
+  },
+  {
+    "cuvant": "MUTATE",
+    "definitie": "Care au fost duse într-o altă cameră în timpul curățeniei."
+  },
+  {
+    "cuvant": "DARURI",
+    "definitie": "Amintiri frumos împachetate."
+  },
+  {
+    "cuvant": "REȚELE",
+    "definitie": "Platforme de socializare care necesită net."
+  },
+  {
+    "cuvant": "SONDAJ",
+    "definitie": "Metodă de colectare publică a unor date."
+  },
+  {
+    "cuvant": "FRISON",
+    "definitie": "Tremur convulsii prin care corpul caută să se încălzească."
+  },
+  {
+    "cuvant": "ȘLEFUI",
+    "definitie": "A îndrepta înfrumuseța un material."
+  },
+  {
+    "cuvant": "SPIONI",
+    "definitie": "Persoane care strâng pe ascuns secrete de natură militară."
+  },
+  {
+    "cuvant": "CASNIC",
+    "definitie": "Când ține de gospodărie."
+  },
+  {
+    "cuvant": "ȘUVIȚĂ",
+    "definitie": "Mănunchi mic de fire de păr."
+  },
+  {
+    "cuvant": "TICHET",
+    "definitie": "Bilet care permite accesul la spectacole."
+  },
+  {
+    "cuvant": "LEGĂNA",
+    "definitie": "A mișca ușor dintr-o parte în alta."
+  },
+  {
+    "cuvant": "ȘOSETĂ",
+    "definitie": "Accesoriu pentru picioare."
+  },
+  {
+    "cuvant": "IMENSĂ",
+    "definitie": "Care nu se poate măsura."
+  },
+  {
+    "cuvant": "ADRESE",
+    "definitie": "Informații care indică locații precise."
+  },
+  {
+    "cuvant": "DEOCHI",
+    "definitie": "A fermeca pe cineva cu o singură ocheadă."
+  },
+  {
+    "cuvant": "CREȘTE",
+    "definitie": "A îngriji și a educa un pui de om."
+  },
+  {
+    "cuvant": "CLOCOT",
+    "definitie": "Mișcare zgomotoasă a lichidelor în contact cu flacăra."
+  },
+  {
+    "cuvant": "AGENDE",
+    "definitie": "Organizatoare pentru birou."
+  },
+  {
+    "cuvant": "REGINĂ",
+    "definitie": "Insecte cu rang nobiliar."
+  },
+  {
+    "cuvant": "FELIAT",
+    "definitie": "Care a fost tăiat circular sau pe lung."
+  },
+  {
+    "cuvant": "MIȘUNA",
+    "definitie": "A se deplasa rapid și într-un mod agitat sau dezordonat."
+  },
+  {
+    "cuvant": "DOPURI",
+    "definitie": "Obiecte care pot fi puse în urechi sau pe o sticlă de vin."
+  },
+  {
+    "cuvant": "OCOLIT",
+    "definitie": "Adjectiv care descrie ceva ce nu a fost atins sau abordat direct."
+  },
+  {
+    "cuvant": "ZDRANG",
+    "definitie": "Interjecție onomatopeică care imită zgomotul produs de atingerea corzilor de chitară."
+  },
+  {
+    "cuvant": "GRAHAM",
+    "definitie": "Tip de pâine mai sănătoasă, făcută dintr-un anumit tip de făină."
+  },
+  {
+    "cuvant": "OPINIE",
+    "definitie": "Judecată personală, punctul de vedere al cuiva."
+  },
+  {
+    "cuvant": "DILATA",
+    "definitie": "A se întâmpla exact inversul contracturii, a crește în volum sub acțiunea temperaturii."
+  },
+  {
+    "cuvant": "DIACON",
+    "definitie": "Cleric cu rol de slujitor al altarului, care îl asistă pe preot în timpul slujbei."
+  },
+  {
+    "cuvant": "STAȚII",
+    "definitie": "Puncte de oprire sau tranzit cu bănci și panouri informative."
+  },
+  {
+    "cuvant": "BOVINE",
+    "definitie": "Rumegătoare cu stomac compartimentat, cornute de dimensiuni mari crescute pentru forță de tracțiune și producție de lapte."
+  },
+  {
+    "cuvant": "JIGNIT",
+    "definitie": "Cel care s-a simțit atacat sau umilit verbal."
+  },
+  {
+    "cuvant": "ȘALURI",
+    "definitie": "Articole vestimentare cu franjuri care acoperă umerii, purtate uneori și pe cap."
+  },
+  {
+    "cuvant": "NEUTRU",
+    "definitie": "Cel care adoptă tactica elvețiană în disputele altora."
+  },
+  {
+    "cuvant": "ESENȚE",
+    "definitie": "Substanțe care dau un parfum plăcut, sortimente de parfum sau de înghețată."
+  },
+  {
+    "cuvant": "TEMPLE",
+    "definitie": "Lăcașe de cult cu acoperișuri decorate, clădiri destinate ceremoniilor religioase."
+  },
+  {
+    "cuvant": "PAROLĂ",
+    "definitie": "Combinație greu de memorat și ușor de uitat, care protejează accesul."
+  },
+  {
+    "cuvant": "CADEȚI",
+    "definitie": "Elevi la o academie militară, tineri aflați la începutul carierei în armată."
+  },
+  {
+    "cuvant": "ȘERBET",
+    "definitie": "Pastă dulce cu aromă de fructe făcută din zahăr, păstrată la borcan."
+  },
+  {
+    "cuvant": "BERBEC",
+    "definitie": "Obiect greu cu mânere acționat de trupele speciale pentru a forța intrarea."
+  },
+  {
+    "cuvant": "STATIV",
+    "definitie": "Suport fix sau mobil pe care se montează microfonul sau aparatul foto."
+  },
+  {
+    "cuvant": "STAGII",
+    "definitie": "Etape de instruire sau exersare a aptitudinilor, perioadă de practică."
+  },
+  {
+    "cuvant": "OMLETĂ",
+    "definitie": "Fritată spaniolă, scrambled îi zic englezii, papară le zic românii."
+  },
+  {
+    "cuvant": "BRETON",
+    "definitie": "Coafură care schimbă expresia feței, acoperă frunta și ascunde ridurile."
+  },
+  {
+    "cuvant": "ȘIFONA",
+    "definitie": "A se deforma, a-și pierde aspectul neted, a căpăta cute sau pliuri."
+  },
+  {
+    "cuvant": "PENSIE",
+    "definitie": "Plată lunară fără angajament de lucru."
+  },
+  {
+    "cuvant": "ZBURDA",
+    "definitie": "A sări, a alerga plin de viață, a te zbengui."
+  },
+  {
+    "cuvant": "LOPATĂ",
+    "definitie": "Unealtă de bază în diverse activități în curte sau gospodărie."
+  },
+  {
+    "cuvant": "TROFEE",
+    "definitie": "Amintiri tangibile ale succesului obținut."
+  },
+  {
+    "cuvant": "AJUTOR",
+    "definitie": "Strigăt scurt și ascuțit rostit când e nevoie, apel vocal prin care ceri sprijin."
+  },
+  {
+    "cuvant": "VAMPIR",
+    "definitie": "Aristocrat nocturn care are puteri supranaturale."
+  },
+  {
+    "cuvant": "BANNER",
+    "definitie": "Suport de diferite dimensiuni pentru promovare sau semnalizare, panou publicitar."
+  },
+  {
+    "cuvant": "TÂRGUI",
+    "definitie": "A negocia prețul, a insista pentru a reduce costul la cumpărături."
+  },
+  {
+    "cuvant": "PIFTIE",
+    "definitie": "Metodă veche de conservare a cărnii, preparat închegat și aromat, servit la rece iarna."
+  },
+  {
+    "cuvant": "PRESTA",
+    "definitie": "A efectua un serviciu conform cerințelor, a executa o obligație profesională sau socială."
+  },
+  {
+    "cuvant": "SEVERI",
+    "definitie": "Cei care tratează totul cu prea multă strictețe, care nu sunt indulgenți."
+  },
+  {
+    "cuvant": "INSULĂ",
+    "definitie": "Formă de relief independentă, izolată natural, care nu se învecinează cu nicio altă țară."
+  },
+  {
+    "cuvant": "TIMPAN",
+    "definitie": "Structură anatomică esențială pentru perceperea sunetelor."
+  },
+  {
+    "cuvant": "MÂNERE",
+    "definitie": "Părți ale unor obiecte care te ajută să tragi sau să împingi, pentru control și transport."
+  },
+  {
+    "cuvant": "UIMIȚI",
+    "definitie": "Care au amuțit la auzul unei vești, rămași fără cuvinte."
+  },
+  {
+    "cuvant": "JURNAL",
+    "definitie": "Agendă de confesiuni și autocunoaștere, hârtii pe care numai tu le scriai și le citeai."
+  },
+  {
+    "cuvant": "SEDARE",
+    "definitie": "A administra medicamente pentru a induce o stare de somnolență și relaxare."
+  },
+  {
+    "cuvant": "FIZICĂ",
+    "definitie": "Știință care se ocupă cu studiul materiei și al energiei în diferite condiții."
+  },
+  {
+    "cuvant": "ȘAORMA",
+    "definitie": "Rulou delicios, bombă calorică, sandviș oriental."
+  },
+  {
+    "cuvant": "APLANA",
+    "definitie": "A diminua intensitatea unei situații tensionate, a calma un conflict."
+  },
+  {
+    "cuvant": "TATAMI",
+    "definitie": "Pardoseală tradițională japoneză, saltea pe care se practică artele marțiale."
+  },
+  {
+    "cuvant": "COCIUG",
+    "definitie": "Loc în care vampirii își încarcă energiile, mobilier la care toți ajungem."
+  },
+  {
+    "cuvant": "STOMAC",
+    "definitie": "Locul prin care se spune că trece dragostea, unde simt fluturii când ești îndrăgostit."
+  },
+  {
+    "cuvant": "CALOTĂ",
+    "definitie": "Ghețarul continental, masa de gheață care acoperă porțiuni întinse în zona polară."
+  },
+  {
+    "cuvant": "IRIGAT",
+    "definitie": "Care este udat regulat ca să combată seceta."
+  },
+  {
+    "cuvant": "CĂPIȚE",
+    "definitie": "Unități compacte de fân adunate împreună manual pe câmp."
+  },
+  {
+    "cuvant": "SIMBOL",
+    "definitie": "Reprezentare grafică cu un înțeles, figură care comunică idei complexe."
+  },
+  {
+    "cuvant": "LIDERI",
+    "definitie": "Cei care știu să mobilizeze, să motiveze și să coordoneze o echipă."
+  },
+  {
+    "cuvant": "TERMOS",
+    "definitie": "Pahar special pentru cafea băută în drum spre munte."
+  },
+  {
+    "cuvant": "CABINĂ",
+    "definitie": "Cameră mică cu oglinzi în care doamnele uită să mai iasă, spațiu pentru probat haine."
+  },
+  {
+    "cuvant": "POMANĂ",
+    "definitie": "Ritual religios realizat la 3, 9, 40 de zile și la un an de la deces."
+  },
+  {
+    "cuvant": "JERTFĂ",
+    "definitie": "Ofrandă adusă zeilor, gest ritualic din antichitate."
+  },
+  {
+    "cuvant": "TABELE",
+    "definitie": "Grile folosite în rapoarte economice, scheme cu coloane și rânduri."
+  },
+  {
+    "cuvant": "GEROASE",
+    "definitie": "Care te fac să simți frigul până în oase."
+  },
+  {
+    "cuvant": "PIEDICI",
+    "definitie": "Bețe în roate pe care ți le pun adversarii."
+  },
+  {
+    "cuvant": "PULBERE",
+    "definitie": "Categorie de materiale granulate."
+  },
+  {
+    "cuvant": "BUSUIOC",
+    "definitie": "Verdeață de pus sub pernă sau lângă roșii."
+  },
+  {
+    "cuvant": "EXIGENT",
+    "definitie": "Cel care cere implicare totală, nu jumătate de măsură."
+  },
+  {
+    "cuvant": "PISCINE",
+    "definitie": "Locații preferate de iubitorii de apă."
+  },
+  {
+    "cuvant": "DEFECTA",
+    "definitie": "A deveni inoperabil, fără reparație imediată."
+  },
+  {
+    "cuvant": "BROASCĂ",
+    "definitie": "Vietate cu ochii bulbucați."
+  },
+  {
+    "cuvant": "MOLEȘIT",
+    "definitie": "Cel care se simte slăbit și nu are chef de nimic."
+  },
+  {
+    "cuvant": "ÎNCHISĂ",
+    "definitie": "Cea care nu poate părăsi locul în care se află."
+  },
+  {
+    "cuvant": "OGLINDĂ",
+    "definitie": "Obiect reglabil, indispensabil vehiculelor."
+  },
+  {
+    "cuvant": "INEGALE",
+    "definitie": "Ale căror proporții sunt neuniforme."
+  },
+  {
+    "cuvant": "GLUMEȚI",
+    "definitie": "Care au spirit jucăuș, sunt haioși."
+  },
+  {
+    "cuvant": "FURTUNĂ",
+    "definitie": "Haos temporar al naturii."
+  },
+  {
+    "cuvant": "BORDURI",
+    "definitie": "Extremități longitudinale din beton sau piatră."
+  },
+  {
+    "cuvant": "CONCRET",
+    "definitie": "Despre care poți să spui că există cu certitudine."
+  },
+  {
+    "cuvant": "MILENIU",
+    "definitie": "Interval timp în care are loc evoluția civilizației și a culturii umane în general."
+  },
+  {
+    "cuvant": "SHAORMA",
+    "definitie": "Regina industriei fast food, mai ales în România."
+  },
+  {
+    "cuvant": "PRODUCE",
+    "definitie": "A face să ia naștere, să apară, să existe."
+  },
+  {
+    "cuvant": "PROFITA",
+    "definitie": "A nu lăsa o oportunitate să-ți scape printre degete."
+  },
+  {
+    "cuvant": "PROPICE",
+    "definitie": "Tip care favorizează reușita sau îndeplinirea unui obiectiv."
+  },
+  {
+    "cuvant": "DROJDIE",
+    "definitie": "Substanță naturală sau artificială utilizată pentru fermentare."
+  },
+  {
+    "cuvant": "MONOLOG",
+    "definitie": "Vorbire neîntreruptă a cuiva."
+  },
+  {
+    "cuvant": "POPULAR",
+    "definitie": "Care se bucură de simpatia de considerație a opinii publice."
+  },
+  {
+    "cuvant": "FANFARĂ",
+    "definitie": "Ansamblul muzical format doar din instrumente de suflat și de percuție."
+  },
+  {
+    "cuvant": "PISTRUI",
+    "definitie": "Urmele lăsate de soare pe pielea oamenilor."
+  },
+  {
+    "cuvant": "COMBINA",
+    "definitie": "A îmbina lucruri diferite."
+  },
+  {
+    "cuvant": "ISTORIE",
+    "definitie": "Reconstituirea trecutului cu ajutorul informațiilor."
+  },
+  {
+    "cuvant": "REGIUNE",
+    "definitie": "Zona geografică locuită de o parte a populației."
+  },
+  {
+    "cuvant": "COROANE",
+    "definitie": "Simboluri depuse la mormintele eroilor."
+  },
+  {
+    "cuvant": "PLĂMÂNI",
+    "definitie": "Structuri anatomice cu rol în schimbul de gaze, rezervoarele de oxigen ale corpului."
+  },
+  {
+    "cuvant": "ÎMPINGE",
+    "definitie": "A aplica o forță asupra unui obiect."
+  },
+  {
+    "cuvant": "LIGHEAN",
+    "definitie": "Castron mare de uz casnic."
+  },
+  {
+    "cuvant": "SLĂBITĂ",
+    "definitie": "Cea care și-a pierdut puterile sau forța."
+  },
+  {
+    "cuvant": "CENTAUR",
+    "definitie": "Creatură mitologică hibridă, jumătate om și jumătate cal."
+  },
+  {
+    "cuvant": "IERTAȚI",
+    "definitie": "Cei eliberați de resentimentul altcuiva, cărora li s-a îngăduit să repare ce au greșit."
+  },
+  {
+    "cuvant": "OCROTIT",
+    "definitie": "Cel care este ferit de riscuri, pericole și amenințări, căruia i s-a asigurat un nivel de trai bun."
+  },
+  {
+    "cuvant": "FOITAJE",
+    "definitie": "Rețetă pe bază de aluat stratificat, folosit pentru produse dulci sau sărate."
+  },
+  {
+    "cuvant": "INSUFLA",
+    "definitie": "A dărui cuiva un strop de curaj sau de entuziasm."
+  },
+  {
+    "cuvant": "VIITURI",
+    "definitie": "Revărsări abundente de apă."
+  },
+  {
+    "cuvant": "BOWLING",
+    "definitie": "Sport de interior care se practică pe o singură pistă."
+  },
+  {
+    "cuvant": "ÎNTRUNI",
+    "definitie": "A se aduna într-un loc pentru un scop comun."
+  },
+  {
+    "cuvant": "ZORNĂIT",
+    "definitie": "Zgomot produs de unele obiecte prin lovire sau scuturare."
+  },
+  {
+    "cuvant": "RENEGAT",
+    "definitie": "Cel care este văzut ca un trădător."
+  },
+  {
+    "cuvant": "RÂȘNIȚĂ",
+    "definitie": "Ustensilă de bucătărie care pisează sau macină."
+  },
+  {
+    "cuvant": "REZILIA",
+    "definitie": "Când desfaci oficial un angajament."
+  },
+  {
+    "cuvant": "TREPIED",
+    "definitie": "Suport profesional care sprijină echipamente sau aparatură."
+  },
+  {
+    "cuvant": "EXTENUA",
+    "definitie": "A se suprasolicita psihic sau fizic."
+  },
+  {
+    "cuvant": "LICHIDE",
+    "definitie": "Mase fluide."
+  },
+  {
+    "cuvant": "ÎNGHEȚA",
+    "definitie": "A întrerupe cursurile universitare, dar fără să-ți pierzi statutul de student."
+  },
+  {
+    "cuvant": "MAIMUȚĂ",
+    "definitie": "Atleta junglei."
+  },
+  {
+    "cuvant": "EPUIZAT",
+    "definitie": "A cărui capacitate fizică e afectată, extrem de afectată de oboseală."
+  },
+  {
+    "cuvant": "UMERAȘE",
+    "definitie": "Obiecte indispensabile în garderobă."
+  },
+  {
+    "cuvant": "OBRAZUL",
+    "definitie": "Loc perfect pentru pupici."
+  },
+  {
+    "cuvant": "SLĂNINĂ",
+    "definitie": "Alimente esențiale în gospodării iarna."
+  },
+  {
+    "cuvant": "PREMIAT",
+    "definitie": "Cel care a luat Oscarul."
+  },
+  {
+    "cuvant": "CIOBANI",
+    "definitie": "Oameni care urmează tradiția transhumanței."
+  },
+  {
+    "cuvant": "BEZEAUA",
+    "definitie": "Prăjitură pe bază de albuș."
+  },
+  {
+    "cuvant": "CĂLUGĂR",
+    "definitie": "Bărbat care a făcut un legământ pe viață cu comunitatea religioasă."
+  },
+  {
+    "cuvant": "CAPTURA",
+    "definitie": "A prinde un răufăcător."
+  },
+  {
+    "cuvant": "ADEMENI",
+    "definitie": "A întinde o capcană."
+  },
+  {
+    "cuvant": "SENZUAL",
+    "definitie": "Care este lasciv, provocator."
+  },
+  {
+    "cuvant": "ALUNIȚĂ",
+    "definitie": "Mică excrescență pigmentată pe piele."
+  },
+  {
+    "cuvant": "FORMULE",
+    "definitie": "Expresii în simboluri chimice sau matematice."
+  },
+  {
+    "cuvant": "ATERIZA",
+    "definitie": "A finaliza un exercițiu de acrobație în gimnastică."
+  },
+  {
+    "cuvant": "ANONIMI",
+    "definitie": "Despre care nu se știe nimic."
+  },
+  {
+    "cuvant": "BISCUIT",
+    "definitie": "Aluat de prăjitură copt și fără creștere."
+  },
+  {
+    "cuvant": "CARTOFI",
+    "definitie": "Tuberculi comestibili."
+  },
+  {
+    "cuvant": "LUSTRUI",
+    "definitie": "A face să aibă luciu."
+  },
+  {
+    "cuvant": "MONDENE",
+    "definitie": "Relatează evenimente din cercurile înalte ale societății."
+  },
+  {
+    "cuvant": "CEAINIC",
+    "definitie": "Recipient special în care se pregătește un tip de cocktail naturist."
+  },
+  {
+    "cuvant": "SPAȚIOS",
+    "definitie": "Care se întinde pe o suprafață mare."
+  },
+  {
+    "cuvant": "AUTOCAR",
+    "definitie": "Vehicul amenajat ca să parcurgă distanțe mari."
+  },
+  {
+    "cuvant": "FETUȘCĂ",
+    "definitie": "Fiică în raport cu părinții."
+  },
+  {
+    "cuvant": "SINGURĂ",
+    "definitie": "Statutul celei care a încheiat o relație."
+  },
+  {
+    "cuvant": "CLĂTITE",
+    "definitie": "Shaorma deserturilor."
+  },
+  {
+    "cuvant": "GALAXIE",
+    "definitie": "Structură masivă învăluită în praf cosmic."
+  },
+  {
+    "cuvant": "ELIBERA",
+    "definitie": "A oferi independență unui popor."
+  },
+  {
+    "cuvant": "ADMIRAT",
+    "definitie": "Care este considerat remarcabil, demn de respect."
+  },
+  {
+    "cuvant": "BĂUTURI",
+    "definitie": "Preparate comestibile sub formă lichidă."
+  },
+  {
+    "cuvant": "RECHEMA",
+    "definitie": "A striga după cineva care a plecat, solicitând revenirea lui."
+  },
+  {
+    "cuvant": "BLOGGER",
+    "definitie": "Persoană care scrie, administrează sau publică articole pe un site personal."
+  },
+  {
+    "cuvant": "SUFLECA",
+    "definitie": "A strânge marginea unei haine pentru a te răcori."
+  },
+  {
+    "cuvant": "NARCISM",
+    "definitie": "Trăsătură de personalitate care pune eul în centrul atenției, inspirată din mitul lui Narcis."
+  },
+  {
+    "cuvant": "POZIȚII",
+    "definitie": "Locuri în clasament, pe hartă sau la șah."
+  },
+  {
+    "cuvant": "PREMIUM",
+    "definitie": "Care aparține unei categorii de calitate superioară."
+  },
+  {
+    "cuvant": "INUTILĂ",
+    "definitie": "Utilă, dar stă degeaba, neatinsă, nefolosită."
+  },
+  {
+    "cuvant": "STRÂMBA",
+    "definitie": "A modifica voluntar sau involuntar geometria unui obiect."
+  },
+  {
+    "cuvant": "VINEREA",
+    "definitie": "Ziua importantă în materie de shopping, cu reduceri mari."
+  },
+  {
+    "cuvant": "GANTERE",
+    "definitie": "Obiecte mici utilizate în antrenamentele de forță pentru dezvoltarea musculaturii."
+  },
+  {
+    "cuvant": "DERMATO",
+    "definitie": "Prefix care desemnează domeniul ce studiază și tratează pielea, cel mai mare organ al corpului uman."
+  },
+  {
+    "cuvant": "APRINDE",
+    "definitie": "Sinonim pentru a scoate flăcări, a lua foc."
+  },
+  {
+    "cuvant": "BUNCĂRE",
+    "definitie": "Construcții mari, solide, cu uși blindate, făcute pentru apărarea unui teritoriu."
+  },
+  {
+    "cuvant": "ARDEIUL",
+    "definitie": "Posesori de umplutură pe locul doi după sarmale."
+  },
+  {
+    "cuvant": "URGENTA",
+    "definitie": "A accelera desfășurarea unei acțiuni, a cere soluționarea mai rapidă."
+  },
+  {
+    "cuvant": "HOINARI",
+    "definitie": "Călători curioși care merg pe unde îi poartă vântul, aventurieri care străbat lumea."
+  },
+  {
+    "cuvant": "CAPSULĂ",
+    "definitie": "Mic recipient digerabil care permite eliberarea lentă a medicamentului."
+  },
+  {
+    "cuvant": "GIROFAR",
+    "definitie": "Dispozitiv luminos de semnalizare pentru o categorie specială de șoferi."
+  },
+  {
+    "cuvant": "INCLUSE",
+    "definitie": "Cele care au fost cuprinse sau inserate într-un sistem sau o categorie."
+  },
+  {
+    "cuvant": "CESIUNE",
+    "definitie": "A ceda în mod legal un bun, teren sau drept, transferând proprietatea printr-un act oficial."
+  },
+  {
+    "cuvant": "ȘOFERII",
+    "definitie": "Cei care știu diferența dintre oprire și staționare."
+  },
+  {
+    "cuvant": "BUFANTE",
+    "definitie": "Articole vestimentare cu croiala umflată și înfoiată peste umeri, venite din franceză."
+  },
+  {
+    "cuvant": "TRIBUNĂ",
+    "definitie": "Structură ridicată amplasată în spații publice, destinată suporterilor și oficialilor."
+  },
+  {
+    "cuvant": "RINOCER",
+    "definitie": "Mamifer masiv cu un corn în față, care poate ajunge la 2000 de kg."
+  },
+  {
+    "cuvant": "POSTERE",
+    "definitie": "Materiale tipărite puse pe pereții camerelor, englezism."
+  },
+  {
+    "cuvant": "HAIOASĂ",
+    "definitie": "Care poate face să te doară și stomacul și fălcile."
+  },
+  {
+    "cuvant": "RAȚIUNE",
+    "definitie": "Formă a conștiinței care blochează emoția."
+  },
+  {
+    "cuvant": "PIETONI",
+    "definitie": "Drumeți urbani."
+  },
+  {
+    "cuvant": "CANARUL",
+    "definitie": "Pasăre mică de colivie cu pene galbene, originară din insulele Canare, apreciată pentru cântec."
+  },
+  {
+    "cuvant": "IEFTINE",
+    "definitie": "Care nu necesită sacrificii mari ca să le obții, accesibile la îndemâna tuturor."
+  },
+  {
+    "cuvant": "MATRIȚE",
+    "definitie": "Șabloane industriale, unelte care dau o formă prestabilită pentru producerea de obiecte identice."
+  },
+  {
+    "cuvant": "ZGLOBIU",
+    "definitie": "Care este plin de energie și mereu în mișcare, vioi, zburdalnic."
+  },
+  {
+    "cuvant": "PREVENI",
+    "definitie": "A anticipa consecințele și a acționa din timp pentru a atenționat pe cineva în legătură cu factorii de risc."
+  },
+  {
+    "cuvant": "ÎNSURAT",
+    "definitie": "Cel care poartă o verighetă ca semn distinctiv."
+  },
+  {
+    "cuvant": "TORNADE",
+    "definitie": "Mișcări intense de aer care distrug totul în calea lor."
+  },
+  {
+    "cuvant": "EMBLEME",
+    "definitie": "Semne distinctive ale unor comercianți, simboluri care identifică o companie."
+  },
+  {
+    "cuvant": "SUVENIR",
+    "definitie": "Obiect artizanal păstrat ca amintire, lucrat manual pentru a aminti de o vizită sau călătorie."
+  },
+  {
+    "cuvant": "APLAUZE",
+    "definitie": "Zgomote produse de bătăile palmelor, serie de sunete ritmice."
+  },
+  {
+    "cuvant": "ȘTAFETĂ",
+    "definitie": "Competiție în atletism cu etape succesive."
+  },
+  {
+    "cuvant": "CIUCURI",
+    "definitie": "Franjuri cu rol ornamental, elemente decorative formate dintr-un mănunchi de fire."
+  },
+  {
+    "cuvant": "OPORTUN",
+    "definitie": "Care se produce la momentul sau locul potrivit, binevenit și favorabil."
+  },
+  {
+    "cuvant": "ISPRĂVI",
+    "definitie": "A finaliza cu succes o acțiune sau o misiune, a pune capăt cu bine unei activități."
+  },
+  {
+    "cuvant": "SUPLINI",
+    "definitie": "A substitui locul cuiva pe o perioadă determinată, a ține locul unei colege."
+  },
+  {
+    "cuvant": "SARDELE",
+    "definitie": "Pești comestibili mici, strânși mulți la un loc."
+  },
+  {
+    "cuvant": "PEDAGOG",
+    "definitie": "Cel care îndrumă procesul de educație, personaj din schița lui Caragiale."
+  },
+  {
+    "cuvant": "ASISTAT",
+    "definitie": "A fi martor la o întâmplare fără a participa activ, a fi de față la un incident."
+  },
+  {
+    "cuvant": "IGNIFUG",
+    "definitie": "Proprietate chimică a unui material de a împiedica propagarea focului."
+  },
+  {
+    "cuvant": "RISIPIT",
+    "definitie": "Care a fost folosit sau consumat aiurea, fără rost, cheltuit fără noimă."
+  },
+  {
+    "cuvant": "JACUZZI",
+    "definitie": "Echipament destinat relaxării, bazat pe hidroterapie."
+  },
+  {
+    "cuvant": "UTILAJE",
+    "definitie": "Mecanisme pentru activități tehnice sau industriale."
+  },
+  {
+    "cuvant": "OFFSIDE",
+    "definitie": "Poziție incorectă a unui jucător în atac la fotbal."
+  },
+  {
+    "cuvant": "LAVANDĂ",
+    "definitie": "Plantă aromatică folosită pentru relaxare și calmare."
+  },
+  {
+    "cuvant": "MANIACI",
+    "definitie": "Cei care au o obsesie intensă și exagerată pentru ceva, care fac o manie pentru o activitate."
+  },
+  {
+    "cuvant": "BOMFAIER",
+    "definitie": "Unealtă manuală ce taie obiecte greu de rupt."
+  },
+  {
+    "cuvant": "ZURGĂLĂI",
+    "definitie": "Obiecte al căror clinchet anunță sărbătorile."
+  },
+  {
+    "cuvant": "CAMARAZI",
+    "definitie": "Colegi care fac târâș pe coate."
+  },
+  {
+    "cuvant": "REVELION",
+    "definitie": "Eveniment care se serbează global indiferent de cultură."
+  },
+  {
+    "cuvant": "BLESTEMA",
+    "definitie": "A invoca răul prin puterea cuvintelor."
+  },
+  {
+    "cuvant": "CHIRURGI",
+    "definitie": "Practicieni medicali cu răbdare și mâini dibace."
+  },
+  {
+    "cuvant": "CHICIURĂ",
+    "definitie": "Peliculă fină ce îmbracă pomii în haine de iarnă."
+  },
+  {
+    "cuvant": "BĂNUIALĂ",
+    "definitie": "Suspiciuni nefondate."
+  },
+  {
+    "cuvant": "FARFURII",
+    "definitie": "Suporturi esențiale pentru alimente."
+  },
+  {
+    "cuvant": "BANCHETE",
+    "definitie": "Locuri aliniate pentru pasageri într-un mijloc de transport."
+  },
+  {
+    "cuvant": "CAMPIONI",
+    "definitie": "Tineri ambițioși care au făcut performanță din pasiune."
+  },
+  {
+    "cuvant": "PASTRAMĂ",
+    "definitie": "Preparat tradițional obținut prin marinare, uscare și presare."
+  },
+  {
+    "cuvant": "IAURTURI",
+    "definitie": "Alimente consumate de vegetarieni."
+  },
+  {
+    "cuvant": "DISPĂREA",
+    "definitie": "A i se pierde definitiv urma."
+  },
+  {
+    "cuvant": "ȘIFONIER",
+    "definitie": "Organizator spațios comercializat azi drept piesă vintage."
+  },
+  {
+    "cuvant": "ELEFANȚI",
+    "definitie": "Uriași care trăiesc în turme conduse de femele."
+  },
+  {
+    "cuvant": "FAMILIAR",
+    "definitie": "Tip de mediu, confortabil, așa, intim."
+  },
+  {
+    "cuvant": "PĂPUȘARI",
+    "definitie": "Actori nevăzuți pe scenă."
+  },
+  {
+    "cuvant": "CORNIȘON",
+    "definitie": "Soi mic de cucurbitacee."
+  },
+  {
+    "cuvant": "COMPLOTA",
+    "definitie": "A țese o pânză de intrigi împotriva cuiva."
+  },
+  {
+    "cuvant": "CONDUCTĂ",
+    "definitie": "Canal utilizat pentru transport controlat."
+  },
+  {
+    "cuvant": "LIMUZINĂ",
+    "definitie": "Vehicul exclusivist."
+  },
+  {
+    "cuvant": "RELOCARE",
+    "definitie": "Detașarea unui om într-un alt oraș sau în altă țară."
+  },
+  {
+    "cuvant": "FERICIRE",
+    "definitie": "Satisfacție totală."
+  },
+  {
+    "cuvant": "FLUIERAT",
+    "definitie": "A semnaliza o greșeală în timpul unui meci de fotbal."
+  },
+  {
+    "cuvant": "NAȚIONAL",
+    "definitie": "Caracterul unui bun care aparține statului."
+  },
+  {
+    "cuvant": "CONCEDIU",
+    "definitie": "Zile libere plătite."
+  },
+  {
+    "cuvant": "DEDESUBT",
+    "definitie": "În partea cea mai de jos."
+  },
+  {
+    "cuvant": "CONCERTA",
+    "definitie": "A pregăti și a susține un recital."
+  },
+  {
+    "cuvant": "STEAGURI",
+    "definitie": "Bucăți de material textil prevăzute cu embleme."
+  },
+  {
+    "cuvant": "NICĂIERI",
+    "definitie": "Adverb care indică absența unui loc sau a unei direcții reale."
+  },
+  {
+    "cuvant": "CONDUITĂ",
+    "definitie": "Modalitatea omului de a se comporta față de reguli și norme."
+  },
+  {
+    "cuvant": "POTCOAVĂ",
+    "definitie": "Obiect fixat cu ciocanul care dă un sunet special plimbării în șa."
+  },
+  {
+    "cuvant": "SUBMARIN",
+    "definitie": "Vehicul submersibil folosit în războaie."
+  },
+  {
+    "cuvant": "CONFETTI",
+    "definitie": "Materiale ușoare și viu colorate cu efect spectaculos, aruncate la celebrări."
+  },
+  {
+    "cuvant": "OPȚIONAL",
+    "definitie": "Care a fost ales în baza dorinței personale, nu este obligatoriu."
+  },
+  {
+    "cuvant": "COMPOSTA",
+    "definitie": "A folosi aparatul de autotaxare."
+  },
+  {
+    "cuvant": "CARAVANĂ",
+    "definitie": "Convoi de mașini aflate în mișcare."
+  },
+  {
+    "cuvant": "INDOLENT",
+    "definitie": "Cel care evită efortul sau munca și este lipsit de inițiativă."
+  },
+  {
+    "cuvant": "BURUIANĂ",
+    "definitie": "Plantă care crește spontan în grădini."
+  },
+  {
+    "cuvant": "CARAPACE",
+    "definitie": "Scut natural al unor specii."
+  },
+  {
+    "cuvant": "MANSARDĂ",
+    "definitie": "Camera scundă de la cel mai înalt nivel."
+  },
+  {
+    "cuvant": "CASEROLĂ",
+    "definitie": "Recipient termorezistent cu capac."
+  },
+  {
+    "cuvant": "CÂȘTIGAT",
+    "definitie": "Care a fost obținut în mod corect și legal."
+  },
+  {
+    "cuvant": "PAPAGALI",
+    "definitie": "Zburătoare cu abilități de înțelegere avansate."
+  },
+  {
+    "cuvant": "MUZICUȚE",
+    "definitie": "Instrumente de suflat întâlnite în jazz, muzica country sau folk."
+  },
+  {
+    "cuvant": "LINIȘTIT",
+    "definitie": "Cel care nu se grăbește, nu se agită, nu se stresează."
+  },
+  {
+    "cuvant": "METEORIT",
+    "definitie": "Piatră interplanetară."
+  },
+  {
+    "cuvant": "ÎMPODOBI",
+    "definitie": "A stimula atmosfera de sărbătoare urbană."
+  },
+  {
+    "cuvant": "VEVERIȚĂ",
+    "definitie": "Mamifer mic cu rol mare în dezvoltarea pădurilor."
+  },
+  {
+    "cuvant": "MECANICI",
+    "definitie": "Profesioniști care pun diagnostice, dar nu-s doctori."
+  },
+  {
+    "cuvant": "COZONACI",
+    "definitie": "Produse dulci a căror rețetă se transmite din generație în generație."
+  },
+  {
+    "cuvant": "PĂTRUNDE",
+    "definitie": "A trece dincolo de o limită sau o barieră."
+  },
+  {
+    "cuvant": "SAVARINA",
+    "definitie": "Blaturi însiropate cu zahăr și umplutură de frișcă."
+  },
+  {
+    "cuvant": "DOLOFANI",
+    "definitie": "Care au forme pline și rotunjite."
+  },
+  {
+    "cuvant": "ZAHARISI",
+    "definitie": "A-și schimba densitatea în urma cristalizării."
+  },
+  {
+    "cuvant": "MERDENEA",
+    "definitie": "Gustare umplută cu brânză sărată de vacă."
+  },
+  {
+    "cuvant": "ADORMITĂ",
+    "definitie": "Care se află într-o stare de repaus total."
+  },
+  {
+    "cuvant": "COMPLICA",
+    "definitie": "A face ca ceva să conțină o serie de probleme."
+  },
+  {
+    "cuvant": "AUTOGRAF",
+    "definitie": "Semnătură cu valoare."
+  },
+  {
+    "cuvant": "VITAMINA",
+    "definitie": "Compus esențial în procesele celulare vitale."
+  },
+  {
+    "cuvant": "TRĂDĂTOR",
+    "definitie": "Care este neloial față de cineva."
+  },
+  {
+    "cuvant": "CĂRUCIOR",
+    "definitie": "Mijloc de transport pe roți care poate parcurge doar distanțe scurte."
+  },
+  {
+    "cuvant": "PUPĂCIOS",
+    "definitie": "Care împarte bezele la toată lumea."
+  },
+  {
+    "cuvant": "CUTICULE",
+    "definitie": "Celule moarte care se unesc și formează o peliculă protectoare."
+  },
+  {
+    "cuvant": "ÎNTUNECA",
+    "definitie": "A deveni mai greu de distins."
+  },
+  {
+    "cuvant": "SCORBURĂ",
+    "definitie": "Adâncitură în interiorul unei tulpine groase."
+  },
+  {
+    "cuvant": "CONVINGE",
+    "definitie": "A folosi mijloace persuasive într-o conversație."
+  },
+  {
+    "cuvant": "IDENTICĂ",
+    "definitie": "Care a fost reprodusă ad litteram."
+  },
+  {
+    "cuvant": "UNGHIERĂ",
+    "definitie": "Instrument de mici dimensiuni pentru îngrijire personală."
+  },
+  {
+    "cuvant": "COMPANIE",
+    "definitie": "Societate cu scop profitabil."
+  },
+  {
+    "cuvant": "BĂRBIERI",
+    "definitie": "A scăpa de pilozitatea facială."
+  },
+  {
+    "cuvant": "PULMONAR",
+    "definitie": "Termen medical care ține de plămâni."
+  },
+  {
+    "cuvant": "GĂRGĂUNI",
+    "definitie": "Viespi mari de pădure, agresive, care atacă în roi."
+  },
+  {
+    "cuvant": "PIEPTENI",
+    "definitie": "Obiecte de înfrumusețare a părului, manuale sau electrice, pe care bărbații le purtau în buzunar."
+  },
+  {
+    "cuvant": "PROPOLIS",
+    "definitie": "Substanța cu care albinele își sigilează stupul."
+  },
+  {
+    "cuvant": "ACTIVATĂ",
+    "definitie": "Care a fost pusă în stare de funcționare, pregătită de utilizare."
+  },
+  {
+    "cuvant": "SHOWROOM",
+    "definitie": "Spațiu de prezentare, nu neapărat de vânzare."
+  },
+  {
+    "cuvant": "HOTĂRÂTĂ",
+    "definitie": "Cea care se cunoaște după felul în care spune da sau nu."
+  },
+  {
+    "cuvant": "SENZAȚII",
+    "definitie": "Primele forme de cunoaștere prin intermediul simțurilor."
+  },
+  {
+    "cuvant": "FUNDAȚIE",
+    "definitie": "Partea inferioară a unui bloc care distribuie presiunea uniform."
+  },
+  {
+    "cuvant": "BANCHERI",
+    "definitie": "Specialiști în gestionarea depozitelor, oameni care numără banii altora."
+  },
+  {
+    "cuvant": "DEROGARE",
+    "definitie": "Excepție temporară de la o prevedere, acordată în situații speciale."
+  },
+  {
+    "cuvant": "MAMIFERE",
+    "definitie": "Categorie de vertebrate cu sânge cald, prezente în toate mediile de pe pământ, care își hrănesc puii."
+  },
+  {
+    "cuvant": "COPILOȚI",
+    "definitie": "Membrii cheie cu abilități de orientare dintr-un echipaj, cei cu ochii în hărți."
+  },
+  {
+    "cuvant": "DOLEANȚĂ",
+    "definitie": "Dorință exprimată în mod explicit, rugăminte, cerere."
+  },
+  {
+    "cuvant": "RESTITUI",
+    "definitie": "A înapoia un bun către o persoană care este îndreptățită să-l primească."
+  },
+  {
+    "cuvant": "CIUPERCI",
+    "definitie": "Plante care nu au fotosinteză, bureți care nu au nevoie de detergenți."
+  },
+  {
+    "cuvant": "CURIOASE",
+    "definitie": "Cele care manifestă o mare dorință de cunoaștere, care întreabă și observă mai mult decât pare necesar."
+  },
+  {
+    "cuvant": "SPULBERA",
+    "definitie": "A se risipi total, a se destrăma în bucăți, a se dezintegra complet."
+  },
+  {
+    "cuvant": "TROLLERE",
+    "definitie": "Obiecte dreptunghiulare de diferite mărimi, călătoare în vacanță fără drept de alegere a destinației."
+  },
+  {
+    "cuvant": "VĂICĂRIT",
+    "definitie": "A dramatiza durerile într-o manieră zgomotoasă, a se plânge ostentativ."
+  },
+  {
+    "cuvant": "DIASPORA",
+    "definitie": "Comunitate dispersată care își păstrează identitatea comună, grup etnic care trăiește în afara granițelor țării."
+  },
+  {
+    "cuvant": "CANOTORI",
+    "definitie": "Exploratori ai lacurilor care se propulsează manual, merg în bărci fără motoare."
+  },
+  {
+    "cuvant": "SUSTRAGE",
+    "definitie": "A-și însuși un bun fără consimțământul proprietarului, sinonim la a fura."
+  },
+  {
+    "cuvant": "DEPUNERI",
+    "definitie": "Operațiunea opusă retragerilor bancare, sume plasate la o instituție financiară."
+  },
+  {
+    "cuvant": "PÂRJOALE",
+    "definitie": "Preparate moldovenești din carne, chiftele servite și calde și reci."
+  },
+  {
+    "cuvant": "VLOGGERI",
+    "definitie": "Producători de conținut cu materiale din viața personală, pe platforme video online."
+  },
+  {
+    "cuvant": "MÂNDRUȚĂ",
+    "definitie": "Personaj feminin care fură inimile flăcăilor din sat, fata frumoasă care îți fură privirile la horă."
+  },
+  {
+    "cuvant": "DIFUZATĂ",
+    "definitie": "Care a fost lansată pe un canal de comunicare, prezentată la radio sau la televizor."
+  },
+  {
+    "cuvant": "VORBITOR",
+    "definitie": "Cameră unde vizitatorii au timp limitat pentru discuții supravegheate."
+  },
+  {
+    "cuvant": "PAPANAȘI",
+    "definitie": "Desert tradițional românesc cu brânză, prăjiți sau fierți, serviți cu gem și smântână."
+  },
+  {
+    "cuvant": "NEPĂSARE",
+    "definitie": "Comportament dezinteresat față de responsabilități și reguli."
+  },
+  {
+    "cuvant": "INJECȚII",
+    "definitie": "Proceduri estetice minim invazive cu efect imediat în organism."
+  },
+  {
+    "cuvant": "SURPRINS",
+    "definitie": "Care surprinde prin apariția sa, care apare brusc fără să fie anticipat."
+  },
+  {
+    "cuvant": "BURUIENI",
+    "definitie": "Plante sălbatice care apar pe terenuri neglijate."
+  },
+  {
+    "cuvant": "COMISION",
+    "definitie": "Câștigul celui care intermediază două părți, care crește odată cu suma tranzacționată."
+  },
+  {
+    "cuvant": "EVAZIUNE",
+    "definitie": "Sustragerea deliberată de la plata unor taxe, infracțiune economică."
+  },
+  {
+    "cuvant": "PROGRESA",
+    "definitie": "A merge pe o linie ascendentă, a evolua."
+  },
+  {
+    "cuvant": "CHIFTELE",
+    "definitie": "Rețetă de carne tocată cu specific turcesc."
+  },
+  {
+    "cuvant": "CASCADOR",
+    "definitie": "Cel care îl lasă mereu șomer pe Tom Cruise, specialist în scene periculoase."
+  },
+  {
+    "cuvant": "INCULPAT",
+    "definitie": "Individ aflat în fața instanței într-un proces penal."
+  },
+  {
+    "cuvant": "SUBLINIA",
+    "definitie": "A accentua ideea principală într-un discurs, a evidenția."
+  },
+  {
+    "cuvant": "MANDARIN",
+    "definitie": "Unul dintre dialectele chineze standard."
+  },
+  {
+    "cuvant": "PELICANI",
+    "definitie": "Păsări acvatice ocrotite de lege, declarate monument al naturii, cu corp masiv, trăind în Delta Dunării."
+  },
+  {
+    "cuvant": "SINTETIC",
+    "definitie": "Care a fost obținut prin procese chimice sau prin combinarea substanțelor, fabricat de om, care nu e de origine naturală."
+  },
+  {
+    "cuvant": "DEZMINȚI",
+    "definitie": "A demonstra că o afirmație este falsă sau greșită, a respinge cu fermitate."
+  },
+  {
+    "cuvant": "PLASTURI",
+    "definitie": "Produse utilizate pentru a accelera vindecarea și a preveni infecțiile, preparate farmaceutice elastice."
+  },
+  {
+    "cuvant": "VALOROȘI",
+    "definitie": "Oameni cu calități superioare, demni de apreciere și prețuire."
+  },
+  {
+    "cuvant": "SAVARINE",
+    "definitie": "Delicatese umede și dulci însiropate, umplute cu frișcă, făcute după o rețetă de cofetărie autentică."
+  },
+  {
+    "cuvant": "NĂZBÂTII",
+    "definitie": "Greșeli copilărești generate de curiozitate, poznele făcute de copii."
+  },
+  {
+    "cuvant": "LIBRĂRII",
+    "definitie": "Magazine cu ferestre către alte universuri, buticuri pentru negoțul unor lucrări scrise."
+  },
+  {
+    "cuvant": "ÎNCREZUT",
+    "definitie": "Bărbatul care are o opinie exagerat de bună despre sine."
+  },
+  {
+    "cuvant": "NECAZURI",
+    "definitie": "Momente de impas care cer răbdare și tărie, situații critice din viața unui om."
+  },
+  {
+    "cuvant": "ÎNCASĂRI",
+    "definitie": "Sume colectate, diferența dintre profit și pierdere."
+  },
+  {
+    "cuvant": "DIOPTRIE",
+    "definitie": "Indicator folosit pentru a prescrie ochelari în oftalmologie."
+  },
+  {
+    "cuvant": "AFLUENȚI",
+    "definitie": "Cursuri mici de apă care măresc rețeaua hidrografică, se varsă în apele mari."
+  },
+  {
+    "cuvant": "ALUNECARE",
+    "definitie": "A trece involuntar de la echilibru la dezechilibrul corporal."
+  },
+  {
+    "cuvant": "BOBÂRNACE",
+    "definitie": "Lovituri copilărești mici, dar care dor."
+  },
+  {
+    "cuvant": "CANDIDATE",
+    "definitie": "Femei care aspiră la recunoașterea oficială."
+  },
+  {
+    "cuvant": "DEMERSURI",
+    "definitie": "Inițiative legale sau oficiale care te pun pe drumuri."
+  },
+  {
+    "cuvant": "A CAPTIVA",
+    "definitie": "A seduce privirea cuiva doar prin simpla prezență."
+  },
+  {
+    "cuvant": "BEZMETICI",
+    "definitie": "Care sunt pierduți ori în gânduri, ori în orientare."
+  },
+  {
+    "cuvant": "ESCHIMOȘI",
+    "definitie": "Locuitori ai unei zone cu un singur anotimp."
+  },
+  {
+    "cuvant": "CAMPUSURI",
+    "definitie": "Infrastructuri complexe dedicate vieții academice."
+  },
+  {
+    "cuvant": "CIMPANZEU",
+    "definitie": "Primată cu intelect surprinzător."
+  },
+  {
+    "cuvant": "PERMISIVI",
+    "definitie": "Cei care tolerează micile abateri de la reguli."
+  },
+  {
+    "cuvant": "BRAȘOVENI",
+    "definitie": "Ardeleni care se sfătuiesc în piață."
+  },
+  {
+    "cuvant": "FACULTĂȚI",
+    "definitie": "Centre de educație opțională."
+  },
+  {
+    "cuvant": "BOLBOROSI",
+    "definitie": "A vorbi încet fără a articula concret și corect."
+  },
+  {
+    "cuvant": "LOGODNICI",
+    "definitie": "Cei care trăiesc între promisiune și jurământ."
+  },
+  {
+    "cuvant": "EXPERTIZĂ",
+    "definitie": "Evaluare profesionistă sau analiză realizată de un specialist autorizat."
+  },
+  {
+    "cuvant": "ANESTEZIA",
+    "definitie": "A aplica metoda prin care se elimină suferința parțial, local sau general."
+  },
+  {
+    "cuvant": "CARBONIZA",
+    "definitie": "A trece printr-un proces de ardere totală."
+  },
+  {
+    "cuvant": "NĂZDRĂVAN",
+    "definitie": "Cei care fac tot ce le trece prin cap."
+  },
+  {
+    "cuvant": "REVIZUIRE",
+    "definitie": "Proces analitic de examinare a unui document."
+  },
+  {
+    "cuvant": "CONTRACTA",
+    "definitie": "A contracta o firmă de prestări servicii."
+  },
+  {
+    "cuvant": "PORTBAGAJ",
+    "definitie": "Compartiment destinat transportului suplimentar."
+  },
+  {
+    "cuvant": "DĂRĂPĂNAT",
+    "definitie": "Care prezintă semne clare de vechime, de neglijență."
+  },
+  {
+    "cuvant": "VERNISAJE",
+    "definitie": "Evenimente culturale dedicate noilor colecții."
+  },
+  {
+    "cuvant": "MOLDOVEAN",
+    "definitie": "Care aparține ținutului dintre Carpații Orientali și Prut."
+  },
+  {
+    "cuvant": "STRĂNEPOT",
+    "definitie": "Fiul copiilor tăi."
+  },
+  {
+    "cuvant": "DEDICAȚII",
+    "definitie": "Cadouri muzicale."
+  },
+  {
+    "cuvant": "SĂRBĂTORI",
+    "definitie": "A marca un eveniment printr-o solemnitate."
+  },
+  {
+    "cuvant": "ACROBAȚIE",
+    "definitie": "Echilibristică în aer."
+  },
+  {
+    "cuvant": "VIZUALIZA",
+    "definitie": "A vedea cu ochii minții o imagine din realitate."
+  },
+  {
+    "cuvant": "SĂNĂTOASĂ",
+    "definitie": "Care are o bunăstare fizică și mentală completă."
+  },
+  {
+    "cuvant": "TAMBURINĂ",
+    "definitie": "Instrument de percuție cu o membrană, specific muzicii italiene și spaniole."
+  },
+  {
+    "cuvant": "PLAFONARE",
+    "definitie": "Lipsa progresului în carieră sau în viață."
+  },
+  {
+    "cuvant": "PERMEABIL",
+    "definitie": "Care are capacitatea de a absorbi umiditatea și de a lăsa să treacă prin țesătură."
+  },
+  {
+    "cuvant": "PANTOMIMĂ",
+    "definitie": "Gen teatral în care acțiunea este prezentată fără cuvinte."
+  },
+  {
+    "cuvant": "CONCEDIAT",
+    "definitie": "A pedepsi un eșec profesional prin eliminarea din funcție."
+  },
+  {
+    "cuvant": "ÎMPĂRȚIRE",
+    "definitie": "Divizare echitabilă."
+  },
+  {
+    "cuvant": "RECTIFICA",
+    "definitie": "A modifica în conformitate cu noile standarde, a aduce la forma corectă."
+  },
+  {
+    "cuvant": "CONDENSAT",
+    "definitie": "Care s-a transformat într-o substanță activă densă."
+  },
+  {
+    "cuvant": "ZĂCĂMINTE",
+    "definitie": "Bogățiile pământului care pot să fie exploatate."
+  },
+  {
+    "cuvant": "REVELAȚII",
+    "definitie": "Sclipiri de moment bazate pe inspirație."
+  },
+  {
+    "cuvant": "VERBALIZA",
+    "definitie": "A comunica ceea ce este gândit sau ce ai simțit."
+  },
+  {
+    "cuvant": "SUBORDONA",
+    "definitie": "A se supune directivelor venite pe linie ierarhică."
+  },
+  {
+    "cuvant": "CULTURIST",
+    "definitie": "Sculptor medaliat în proporția și armonia corpului."
+  },
+  {
+    "cuvant": "NAVIGATOR",
+    "definitie": "Explorator maritim, expert în orientare."
+  },
+  {
+    "cuvant": "APROFUNDA",
+    "definitie": "A înțelege în detaliu aspectele fundamentale."
+  },
+  {
+    "cuvant": "INCOMPLET",
+    "definitie": "Care este lipsit de componente esențiale sau detalii importante."
+  },
+  {
+    "cuvant": "PETRECERI",
+    "definitie": "Cele mai căutate evenimente în preajma sărbătorilor de iarnă."
+  },
+  {
+    "cuvant": "ÎNFOFOLIT",
+    "definitie": "Căruia abia să-i mai vadă ochii pe ulița înzăpezită."
+  },
+  {
+    "cuvant": "INUNDAȚIE",
+    "definitie": "Fenomen natural, distructiv, care are un impact major."
+  },
+  {
+    "cuvant": "LAMPADARE",
+    "definitie": "Obiecte utilizate pentru completarea iluminatului principal."
+  },
+  {
+    "cuvant": "SCHIMBARE",
+    "definitie": "Proces de adaptare la noi circumstanțe."
+  },
+  {
+    "cuvant": "RUGĂCIUNI",
+    "definitie": "Acte spirituale de introspecție."
+  },
+  {
+    "cuvant": "ACCEPTATĂ",
+    "definitie": "Căreia i s-a dat acceptul."
+  },
+  {
+    "cuvant": "BIJUTERIE",
+    "definitie": "Accesorii elegante."
+  },
+  {
+    "cuvant": "ÎMBUTELIA",
+    "definitie": "A închide ermetic conținutul unei sticle."
+  },
+  {
+    "cuvant": "PERSONAJE",
+    "definitie": "Caracter ficțional."
+  },
+  {
+    "cuvant": "ARȚĂGOASĂ",
+    "definitie": "Care provoacă discuții aprinse."
+  },
+  {
+    "cuvant": "SEMNĂTURI",
+    "definitie": "Modalități de aprobare a unor acte, contracte, documente."
+  },
+  {
+    "cuvant": "ȘERVETELE",
+    "definitie": "Bucăți dreptunghiulare sau pătrate din pânză sau hârtie."
+  },
+  {
+    "cuvant": "IMOBILIZA",
+    "definitie": "A fi adus în stare de inactivitate."
+  },
+  {
+    "cuvant": "SERVITORI",
+    "definitie": "Persoane angajate într-o gospodărie."
+  },
+  {
+    "cuvant": "STRUCTURA",
+    "definitie": "A face să aibă o anumită ordine."
+  },
+  {
+    "cuvant": "INSOLENTĂ",
+    "definitie": "Susținerea opiniei într-un mod agasant."
+  },
+  {
+    "cuvant": "FĂȚARNICĂ",
+    "definitie": "Care se comportă în mod artificial."
+  },
+  {
+    "cuvant": "DIFERENȚE",
+    "definitie": "Variații care există între două sau mai multe lucruri sau fenomene."
+  },
+  {
+    "cuvant": "AMBULANȚE",
+    "definitie": "Unități mobile care asigură servicii de stabilizare."
+  },
+  {
+    "cuvant": "CUMSECADE",
+    "definitie": "Care are o comportare adecvată."
+  },
+  {
+    "cuvant": "BIBEROANE",
+    "definitie": "Recipiente termorezistente cu tetină."
+  },
+  {
+    "cuvant": "CLEPSIDRĂ",
+    "definitie": "Instrument antic pentru determinarea unui interval."
+  },
+  {
+    "cuvant": "DETERIORA",
+    "definitie": "A uza un obiect prin întrebuințare îndelungată."
+  },
+  {
+    "cuvant": "SEPARATOR",
+    "definitie": "Cel care are rolul de a despărți două sau mai multe obiecte."
+  },
+  {
+    "cuvant": "EDUCATIVE",
+    "definitie": "Care au caracter instructiv și formativ, ajută la dezvoltarea minții."
+  },
+  {
+    "cuvant": "TELEFONIE",
+    "definitie": "Ansamblu de sisteme care permite comunicarea la sute de kilometri distanță."
+  },
+  {
+    "cuvant": "PRONUNȚIE",
+    "definitie": "Mod corect și convențional de articulare a sunetelor, rostirea clară și corectă a cuvintelor."
+  },
+  {
+    "cuvant": "ANOTIMPUL",
+    "definitie": "Perioadă calendaristică de vreo 12 săptămâni, etapă din ciclul anual."
+  },
+  {
+    "cuvant": "ECHITAȚIE",
+    "definitie": "Sport tradițional cu calul, practicat de englezi și arabi."
+  },
+  {
+    "cuvant": "ENERVANȚI",
+    "definitie": "Cei care provoacă disconfort altora prin felul lor de a fi."
+  },
+  {
+    "cuvant": "BANDEROLE",
+    "definitie": "Fâșii purtate pe braț în scopuri sociale, politice sau sportive, inclusiv banderola de căpitan."
+  },
+  {
+    "cuvant": "DEFORMARE",
+    "definitie": "Proces vizibil de alterare a proporțiilor, transformare în urma deteriorării unui obiect."
+  },
+  {
+    "cuvant": "EXTINCTOR",
+    "definitie": "Dispozitiv care poate transforma un om simplu în salvator, amplasat obligatoriu în școli și magazine."
+  },
+  {
+    "cuvant": "EXTRĂDARE",
+    "definitie": "Procedură internațională juridică realizată în vederea judecății, pe baza unui acord între țări."
+  },
+  {
+    "cuvant": "TERMOPANE",
+    "definitie": "Structuri stratificate cu rol de izolare care limitează schimbul termic."
+  },
+  {
+    "cuvant": "REDOBÂNDI",
+    "definitie": "A recăpăta controlul asupra unui drept sau privilegiu, a redeveni titularul a ceea ce ți-a fost luat."
+  },
+  {
+    "cuvant": "COLIZIUNE",
+    "definitie": "Contact brusc și violent între două forțe opuse, impact puternic între două obiecte."
+  },
+  {
+    "cuvant": "DEPOSEDAT",
+    "definitie": "Actul de a priva pe cineva de un bun, drept sau avantaj."
+  },
+  {
+    "cuvant": "SEMNĂTURĂ",
+    "definitie": "Marcă proprie recunoscută drept dovadă de autenticitate, lăsată pe ultima pagină a unui contract."
+  },
+  {
+    "cuvant": "UTILIZARE",
+    "definitie": "Exploatarea unui bun în scopul pentru care a fost creat, folosirea eficientă a unor resurse."
+  },
+  {
+    "cuvant": "INCIDENTE",
+    "definitie": "Întâmplări neașteptate care apar în desfășurarea unui eveniment, întrerupând o acțiune."
+  },
+  {
+    "cuvant": "GEAMANTAN",
+    "definitie": "Bagaj specific generației X, obiecte dreptunghiulare pentru transport."
+  },
+  {
+    "cuvant": "PATRULARE",
+    "definitie": "Tur de control efectuat prin deplasare sistematică, activitate de supraveghere a zonelor publice."
+  },
+  {
+    "cuvant": "REVENDICA",
+    "definitie": "A reclama o proprietate, a pretinde bunuri materiale dintr-o moștenire."
+  },
+  {
+    "cuvant": "SCAFANDRU",
+    "definitie": "Împătimit al cercetării marine, explorator care se aventurează acolo unde presiunea crește constant."
+  },
+  {
+    "cuvant": "TURMENTAT",
+    "definitie": "A trece de la sobrietate la ebrietate, cetățeanul lui Caragiale care nu știa cu cine să voteze."
+  },
+  {
+    "cuvant": "CORNULEȚE",
+    "definitie": "Dulciuri fragede, pufoase la interior și crocante la exterior, mâncate de sărbători."
+  },
+  {
+    "cuvant": "DEVANSARE",
+    "definitie": "Depășire strategică într-o competiție, situație în care cineva preia controlul într-un clasament."
+  },
+  {
+    "cuvant": "MĂRTURISI",
+    "definitie": "A spune ce ai pe suflet, a face o confesiune."
+  },
+  {
+    "cuvant": "POMPIERUL",
+    "definitie": "Profesionist pregătit să acționeze în câteva secunde, pentru care riscul face parte din rutina zilnică."
+  },
+  {
+    "cuvant": "FRUCTIERĂ",
+    "definitie": "Recipient elegant în care aduni frumos fructe sezoniere."
+  },
+  {
+    "cuvant": "DEZMEMBRA",
+    "definitie": "A aduce un obiect la starea dinaintea montajului, a separa elementele unui sistem."
+  },
+  {
+    "cuvant": "PARTIZANI",
+    "definitie": "Apărătorii activi ai unei credințe sau doctrine, cei care sprijină o tabără."
+  },
+  {
+    "cuvant": "REZOLVATE",
+    "definitie": "Care au fost clarificate și finalizate cu bine, care nu mai au nevoie de intervenție."
+  },
+  {
+    "cuvant": "DECERNĂRI",
+    "definitie": "Acte oficiale de acordare a unor distincții, festivități în care se premiază câștigători."
+  },
+  {
+    "cuvant": "FURCULIȚĂ",
+    "definitie": "Manipulator de alimente de uz comun, folosit zilnic la masă."
+  },
+  {
+    "cuvant": "DISCIPOLI",
+    "definitie": "Cei care se formează sub îndrumarea unui maestru."
+  },
+  {
+    "cuvant": "IMPLICAȚI",
+    "definitie": "Cei care au luat parte direct la un accident."
+  },
+  {
+    "cuvant": "MALPRAXIS",
+    "definitie": "Culpă profesională, greșeală gravă a unui specialist medical."
+  },
+  {
+    "cuvant": "COPERTINE",
+    "definitie": "Structuri ușoare, fixe sau retractabile, sisteme de protecție împotriva soarelui sau ploii."
+  },
+  {
+    "cuvant": "HIDRATARE",
+    "definitie": "Proces fiziologic prin care corpul își menține echilibrul intern prin refacerea nivelului de lichide."
+  },
+  {
+    "cuvant": "ÎMPĂTIMIT",
+    "definitie": "Cel care acordă foarte mult timp anumitor activități, care are o dorință puternică și o dedicare totală pentru ceva."
+  },
+  {
+    "cuvant": "HOLOCAUST",
+    "definitie": "Act de genocid sistematic și planificat, cel mai întunecat eveniment din istoria umanității."
+  },
+  {
+    "cuvant": "UTILITATE",
+    "definitie": "Capacitatea unui lucru de a servi unui scop, valoarea practică a unui obiect."
+  },
+  {
+    "cuvant": "ENIGMATIC",
+    "definitie": "Care se comportă de parcă ar avea ceva de ascuns, dificil de descifrat, care stârnește curiozitate."
+  },
+  {
+    "cuvant": "COLȚUNAȘI",
+    "definitie": "Gogoșele mici umplute, fierte la aburi."
+  },
+  {
+    "cuvant": "FIERBINȚI",
+    "definitie": "Care provoacă o senzație de arsură, aburii sau lichidele la temperatură ridicată."
+  },
+  {
+    "cuvant": "DEBLOCATĂ",
+    "definitie": "A elimina restricțiile de utilizare ale unui mecanism, a repune în funcțiune."
+  },
+  {
+    "cuvant": "MEDIATIZA",
+    "definitie": "A face dintr-o simplă știre un subiect cunoscut la nivel național, prezent în toată mass-media."
+  },
+  {
+    "cuvant": "PLASAMENT",
+    "definitie": "Loc de găzduire pentru copii aflați în dificultate familială, centru de protecție a minorilor."
+  },
+  {
+    "cuvant": "CONVULSII",
+    "definitie": "Situații medicale în care corpul reacționează necontrolat, semne ale unor probleme neurologice."
+  },
+  {
+    "cuvant": "TEHNICIAN",
+    "definitie": "Specialist indispensabil în ateliere și laboratoare, cu cunoștințe practice care manevrează aparatura."
+  },
+  {
+    "cuvant": "DEFRIȘĂRI",
+    "definitie": "Procese de curățare cu impact negativ asupra ozonului, din cauza cărora dispar plămânii pământului."
+  },
+  {
+    "cuvant": "AUTONOMIE",
+    "definitie": "Capacitatea unui vehicul de a circula fără realimentare, distanța maximă parcursă cu un plin."
+  },
+  {
+    "cuvant": "SUBESTIMA",
+    "definitie": "A atribui unei situații o importanță mai mică decât cea reală."
+  },
+  {
+    "cuvant": "DEFINIȚII",
+    "definitie": "Formulări care îți provoacă gândirea și memoria, enunțuri care exprimă concepte."
+  },
+  {
+    "cuvant": "CAPODOPERĂ",
+    "definitie": "Creație care strălucește mai tare decât celelalte."
+  },
+  {
+    "cuvant": "REALIZABIL",
+    "definitie": "Care este fezabil și ușor aplicabil."
+  },
+  {
+    "cuvant": "CALIGRAFIE",
+    "definitie": "Tehnica sau arta scrisului ornamental."
+  },
+  {
+    "cuvant": "DECOLORATE",
+    "definitie": "Care și-au pierdut nuanțele aprinse."
+  },
+  {
+    "cuvant": "CONSECINȚĂ",
+    "definitie": "Efectul pe care îl are un gest asupra ta sau asupra altora."
+  },
+  {
+    "cuvant": "CONFISCATE",
+    "definitie": "Care au fost luate de autorități ca măsură legală."
+  },
+  {
+    "cuvant": "TOTALITATE",
+    "definitie": "Ce rezultă atunci când nimic nu lipsește."
+  },
+  {
+    "cuvant": "PLANETARIU",
+    "definitie": "Construcție de unde poți să explorezi cosmosul."
+  },
+  {
+    "cuvant": "VOLUMINOȘI",
+    "definitie": "Care sunt mari încăpători sau greoi."
+  },
+  {
+    "cuvant": "CAMPIONATE",
+    "definitie": "Turnee sportive pentru titluri de excelență."
+  },
+  {
+    "cuvant": "CREȘTINARE",
+    "definitie": "Proces de inițiere în credința și valorile unei religii."
+  },
+  {
+    "cuvant": "RADIOACTIV",
+    "definitie": "Care poate provoca daune biologice."
+  },
+  {
+    "cuvant": "INTERPRETA",
+    "definitie": "A reda prin mijloace adecvate conținutul unei opere muzicale dramatice sau literare."
+  },
+  {
+    "cuvant": "HANDBALIST",
+    "definitie": "Sportivul care are dreptul la hands."
+  },
+  {
+    "cuvant": "TRICOLORUL",
+    "definitie": "Simbolul națiunii noastre."
+  },
+  {
+    "cuvant": "PATRIOTISM",
+    "definitie": "Unitate demnitate și viziune națională."
+  },
+  {
+    "cuvant": "COLABORĂRI",
+    "definitie": "Parteneriate profesionale."
+  },
+  {
+    "cuvant": "INSTRUMENT",
+    "definitie": "Obiect construit sau modificat cu scopul de a produce sunete organizate."
+  },
+  {
+    "cuvant": "SACRIFICIU",
+    "definitie": "Renunțare voluntară la ceva important în folosul unei cauze."
+  },
+  {
+    "cuvant": "NEÎNȚELEȘI",
+    "definitie": "Oamenii pe care lumea îi consideră enigmatici și misterioși."
+  },
+  {
+    "cuvant": "NECENZURAT",
+    "definitie": "Al cărui conținut nu a fost alterat, tăiat sau restricționat de o autoritate."
+  },
+  {
+    "cuvant": "PROVIZORIU",
+    "definitie": "Care a fost stabilit pentru un interval limitat de timp."
+  },
+  {
+    "cuvant": "IMPEDIMENT",
+    "definitie": "Piedică fizică sau barieră mentală care stă în calea progresului."
+  },
+  {
+    "cuvant": "PERSISTENT",
+    "definitie": "Care este caracterizat prin durabilitate în timp, care continuă să acționeze fără întrerupere."
+  },
+  {
+    "cuvant": "ÎNVINGĂTOR",
+    "definitie": "Cel care e câștigător la puncte."
+  },
+  {
+    "cuvant": "INTERCALAT",
+    "definitie": "Care a fost adăugat într-o înșiruire."
+  },
+  {
+    "cuvant": "MOLIPSITOR",
+    "definitie": "Care se transmite ușor de la unul la altul."
+  },
+  {
+    "cuvant": "MEDICAMENT",
+    "definitie": "Formulă chimică menită să restabilească funcțiile organismului."
+  },
+  {
+    "cuvant": "PRIZONIERE",
+    "definitie": "Cele care au căzut în mâinile dușmanilor."
+  },
+  {
+    "cuvant": "ASEMĂNĂTOR",
+    "definitie": "Care are trăsături comune esențiale."
+  },
+  {
+    "cuvant": "RECLAMAȚIE",
+    "definitie": "Solicitare de corectare a unei situații."
+  },
+  {
+    "cuvant": "DRAGOSTOȘI",
+    "definitie": "Care manifestă afecțiune și atenție față de ceilalți."
+  },
+  {
+    "cuvant": "CERCETĂTOR",
+    "definitie": "Autor care publică în literatura de specialitate rezultatele studiilor sale."
+  },
+  {
+    "cuvant": "NEVĂSTUICĂ",
+    "definitie": "Vânătoare mică și feroce face parte din fauna României."
+  },
+  {
+    "cuvant": "CATEGORICI",
+    "definitie": "Cei care afirmă sau neagă ceva fără să ezite."
+  },
+  {
+    "cuvant": "GOSPODĂRII",
+    "definitie": "Averile celor care sunt harnici la sate."
+  },
+  {
+    "cuvant": "FRIGUROASĂ",
+    "definitie": "Cea care își pune mereu picioarele între."
+  },
+  {
+    "cuvant": "REMUNERARE",
+    "definitie": "Proces administrativ și financiar care transformă munca în venit oficial."
+  },
+  {
+    "cuvant": "LOCALITĂȚI",
+    "definitie": "Așezări omenești indiferent de mărime sau întindere."
+  },
+  {
+    "cuvant": "NESUFERITĂ",
+    "definitie": "Cea care trezește antipatie."
+  },
+  {
+    "cuvant": "ACCESORIZA",
+    "definitie": "A potrivi diverse piese la obiectele de îmbrăcăminte."
+  },
+  {
+    "cuvant": "CAPODOPERE",
+    "definitie": "Creații artistice de valoare excepțională."
+  },
+  {
+    "cuvant": "PREȘEDINȚI",
+    "definitie": "Mediatori între puterile statului sau între stat și popor."
+  },
+  {
+    "cuvant": "INVIZIBILĂ",
+    "definitie": "Cea care se poate simți dar nu se poate vedea."
+  },
+  {
+    "cuvant": "SUPLIMENTA",
+    "definitie": "A veni în completarea unui produs sau a unui obiect."
+  },
+  {
+    "cuvant": "INFIRMIERE",
+    "definitie": "Persoane care oferă îngrijiri de sănătate preventive, curative și paleative."
+  },
+  {
+    "cuvant": "TURBULENȚE",
+    "definitie": "Variații rapide de presiune și viteza vântului."
+  },
+  {
+    "cuvant": "COMPROMISĂ",
+    "definitie": "Femeie care are reputația pătată."
+  },
+  {
+    "cuvant": "FĂT-FRUMOS",
+    "definitie": "Tânăr viteaz care are puritate morală."
+  },
+  {
+    "cuvant": "DIRIGENȚIA",
+    "definitie": "Ore dedicate îndrumării sociale a copiilor."
+  },
+  {
+    "cuvant": "LOCOMOTIVE",
+    "definitie": "Mari simboluri ale industrializării și ale Progresului tehnic."
+  },
+  {
+    "cuvant": "DEZINFECTA",
+    "definitie": "A elimina majoritatea microorganismelor dăunătoare."
+  },
+  {
+    "cuvant": "ÎNCONJURAT",
+    "definitie": "A încadra un obiect într-un spațiu limitat."
+  },
+  {
+    "cuvant": "INFLUENCER",
+    "definitie": "Proprietar al unui cont online cu mare vizibilitate."
+  },
+  {
+    "cuvant": "ZÂMBITOARE",
+    "definitie": "Cea care are o atitudine prietenoasă și pozitivă."
+  },
+  {
+    "cuvant": "EVANGHELIE",
+    "definitie": "Cele mai importante cărți ale creștinismului."
+  },
+  {
+    "cuvant": "ALIMENTARĂ",
+    "definitie": "Loc destinat comerțului cu amănuntul."
+  },
+  {
+    "cuvant": "FUNCȚIONAR",
+    "definitie": "Personaj tipic al birocrației, prezent în scrierile lui Caragiale."
+  },
+  {
+    "cuvant": "ONOMASTICĂ",
+    "definitie": "Eveniment simbolic și personal cu dată fixă în calendar, când primești felicitări o dată pe an."
+  },
+  {
+    "cuvant": "EMANCIPARE",
+    "definitie": "Eliberare de limitările impuse de tradiții, legi sau prejudecăți."
+  },
+  {
+    "cuvant": "COMENTATOR",
+    "definitie": "Specialist sau expert care oferă opinii și interpretează evenimente pentru public."
+  },
+  {
+    "cuvant": "LICENȚIATĂ",
+    "definitie": "Cea care a obținut o diplomă universitară."
+  },
+  {
+    "cuvant": "SUCEVEANCĂ",
+    "definitie": "Reprezentanta județului din nord-estul României cu mănăstirile Putna, Voroneț și Sucevița."
+  },
+  {
+    "cuvant": "ARTIZANALE",
+    "definitie": "Obiecte lucrate cu migală, manual, nu pe bandă rulantă."
+  },
+  {
+    "cuvant": "PARAFRAZAT",
+    "definitie": "A prezenta esența unei idei reinterpretând-o, a reda cu alte cuvinte ce a spus o persoană."
+  },
+  {
+    "cuvant": "DEPUNCTARE",
+    "definitie": "Consecință suferită de cei fără fairplay, formă de penalizare care poate schimba un clasament."
+  },
+  {
+    "cuvant": "IMPLEMENTA",
+    "definitie": "A transforma o idee într-o acțiune concretă, a pune în practică o teorie."
+  },
+  {
+    "cuvant": "ARMISTIȚIU",
+    "definitie": "Înțelegere prin care combatanții opresc lupta pentru o vreme."
+  },
+  {
+    "cuvant": "DEFINITIVE",
+    "definitie": "Decizii judecătorești asupra cărora nu se mai poate interveni, care nu mai pot fi contestate."
+  },
+  {
+    "cuvant": "ÎNFOMETARE",
+    "definitie": "Abținere prelungită de la necesitatea primară de a mânca."
+  },
+  {
+    "cuvant": "REPARTIZAT",
+    "definitie": "Cel care a fost numit să-și desfășoare activitatea într-un anumit departament."
+  },
+  {
+    "cuvant": "TIRBUȘOANE",
+    "definitie": "Obiecte comune în baruri și restaurante care lucrează prin rotire, folosite pentru produse sigilate."
+  },
+  {
+    "cuvant": "ZOOTEHNIST",
+    "definitie": "Specialist în creșterea și reproducerea animalelor dintr-o fermă."
+  },
+  {
+    "cuvant": "SECURIZATE",
+    "definitie": "Care sunt protejate împotriva riscurilor, rămân inaccesibile fără autorizație."
+  },
+  {
+    "cuvant": "TRANSLUCID",
+    "definitie": "Care difuzează lumina parțial, dar ascunde claritatea, semitransparent."
+  },
+  {
+    "cuvant": "ZDRĂNGĂNIT",
+    "definitie": "A provoca vibrații sonore prin mișcări repetitive, sunet produs de lovirea corzilor."
+  },
+  {
+    "cuvant": "SOLICITANT",
+    "definitie": "Care necesită efort, concentrare și implicare sporită, care îți consumă toată energia."
+  },
+  {
+    "cuvant": "DESTITUIRI",
+    "definitie": "Revocări din funcție, măsuri administrative de retragere din poziții."
+  },
+  {
+    "cuvant": "ÎNȚEPENITE",
+    "definitie": "Care sunt imobilizate temporar sau permanent, care și-au pierdut proprietatea de a fi flexibile."
+  },
+  {
+    "cuvant": "PORTUGHEZĂ",
+    "definitie": "Limba de bază a muzicii fado."
+  },
+  {
+    "cuvant": "EMOȚIONATE",
+    "definitie": "A căror inimă bate mai tare pe moment."
+  },
+  {
+    "cuvant": "PRETENȚIOS",
+    "definitie": "Care apreciază detaliile și nu se mulțumește cu puțin, manifestă exigență în alegeri și gusturi."
+  },
+  {
+    "cuvant": "DEPANATORI",
+    "definitie": "Profesioniști care identifică și corectează probleme tehnice, care readuc la viață aparatura electrocasnică."
+  },
+  {
+    "cuvant": "COMPETIȚII",
+    "definitie": "Activități de testare a abilităților sau cunoștințelor, la finalul cărora primești un premiu."
+  },
+  {
+    "cuvant": "CHELTUITOR",
+    "definitie": "A cărui dorință de a consuma e mai mare decât cea de a păstra."
+  },
+  {
+    "cuvant": "SUSPENDARE",
+    "definitie": "Menținerea unui obiect sau a unui om în aer."
+  },
+  {
+    "cuvant": "ȚÂȘNITOARE",
+    "definitie": "Instalație pentru irigații folosită în locuri publice, din care bei apă în parcuri."
+  },
+  {
+    "cuvant": "ÎNDEPĂRTAT",
+    "definitie": "Față de care s-a creat un spațiu mare, care a fost plasat la distanță."
+  },
+  {
+    "cuvant": "NERUȘINARE",
+    "definitie": "Reacție impertinentă, comportament lipsit de jenă."
+  },
+  {
+    "cuvant": "GARSONIERĂ",
+    "definitie": "Spațiu de locuit redus la esențial, proiectat pentru costuri mici și eficiență maximă."
+  },
+  {
+    "cuvant": "DECODIFICA",
+    "definitie": "A transforma simboluri sau semne în informație clară, a aduce un text criptat la o formă inteligibilă."
+  },
+  {
+    "cuvant": "AVANTAJATĂ",
+    "definitie": "Cea care are un plus, care beneficiază de o poziție superioară prin circumstanțe favorabile."
+  },
+  {
+    "cuvant": "HARABABURĂ",
+    "definitie": "Situație dezordonată și haotică, debandadă."
+  },
+  {
+    "cuvant": "OBSTRUCȚIE",
+    "definitie": "Piedică pusă în calea desfășurării normale a unei activități."
+  },
+  {
+    "cuvant": "RECUNOSCUT",
+    "definitie": "Care a fost admis sau confirmat în mod oficial, care a primit apreciere."
+  },
+  {
+    "cuvant": "COMPASIUNE",
+    "definitie": "Înclinare naturală de a oferi sprijin și consolare, a te conecta cu ce e greu în viața altuia."
+  },
+  {
+    "cuvant": "SLĂBICIUNI",
+    "definitie": "Părți vulnerabile ale caracterului nostru."
+  },
+  {
+    "cuvant": "OBOSITOARE",
+    "definitie": "Tip de activitate la finalul căreia rămâi fără blagă."
+  },
+  {
+    "cuvant": "AUTORITARI",
+    "definitie": "Cei care prin natura meseriei trebuie să fie exigenți, cu comportament impunător."
+  },
+  {
+    "cuvant": "RĂSPÂNDIRE",
+    "definitie": "Transmiterea de la un individ la altul a unor informații sau vești în comunitate."
+  },
+  {
+    "cuvant": "NOTIFICARE",
+    "definitie": "Informare oficială, înștiințare primită pentru organizarea unui eveniment."
+  },
+  {
+    "cuvant": "ÎMBOGĂȚIRE",
+    "definitie": "Sporire treptată sau bruscă a confortului financiar."
+  },
+  {
+    "cuvant": "URBANIZARE",
+    "definitie": "Transformarea stilului de viață rural într-unul citadin, fenomenul plecării oamenilor de la țară la oraș."
+  },
+  {
+    "cuvant": "SUPRADOTAT",
+    "definitie": "Cel care a sărit peste etapele normale de dezvoltare, cu aptitudini remarcabile și IQ fantastic."
+  },
+  {
+    "cuvant": "TITULATURĂ",
+    "definitie": "Denumirea oficială asociată unei funcții, titlul profesional al cuiva."
+  },
+  {
+    "cuvant": "RECĂSĂTORIT",
+    "definitie": "A reintra într-un cadru legal, familial, instituțional."
+  },
+  {
+    "cuvant": "VENTRILOCIE",
+    "definitie": "Tehnică de rostire cu mâna sub bărbie."
+  },
+  {
+    "cuvant": "CEAS",
+    "definitie": "Obiect care îți amintește constant că timpul trece.",
+    "note": "Răspuns: CEAS. Sinonime: ceasornic, orologiu."
+  },
+  {
+    "cuvant": "LUNĂ",
+    "definitie": "Vecina nocturnă a Pământului.",
+    "note": "Răspuns: LUNĂ. Poate fi confundat cu unitatea de timp."
+  },
+  {
+    "cuvant": "TOBĂ",
+    "definitie": "Instrument care vorbește prin lovituri.",
+    "note": "Răspuns: TOBĂ. Pot zice TOACĂ — decide dacă accepți."
+  },
+  {
+    "cuvant": "STEA",
+    "definitie": "Lumină care ajunge la noi de foarte departe.",
+    "note": "Răspuns: STEA. Poate da cu SOL, SOARE."
+  },
+  {
+    "cuvant": "PIAN",
+    "definitie": "Instrument care are mai multe chei decât o poartă.",
+    "note": "Răspuns: PIAN. Poate da cu ORGĂ, CLAVIR."
+  },
+  {
+    "cuvant": "VÂNT",
+    "definitie": "Cel care mișcă frunzele fără să se arate.",
+    "note": "Răspuns: VÂNT. Poate da cu AER, BRIZĂ — nu accepta."
+  },
+  {
+    "cuvant": "BRAD",
+    "definitie": "Arborele care nu își schimbă haina nici iarna.",
+    "note": "Răspuns: BRAD. Simbol de Crăciun."
+  },
+  {
+    "cuvant": "FRIG",
+    "definitie": "Senzația pe care o simți când uiți mănușile acasă.",
+    "note": "Răspuns: FRIG. Antonim: căldură."
+  },
+  {
+    "cuvant": "TREN",
+    "definitie": "Vehiculul care merge doar pe drumul lui.",
+    "note": "Răspuns: TREN. Poate da cu VAGON, METROU."
+  },
+  {
+    "cuvant": "NORI",
+    "definitie": "Perna albă a cerului, uneori gri și supărată.",
+    "note": "Răspuns: NORI. Plural de la nor."
+  },
+  {
+    "cuvant": "RAȚĂ",
+    "definitie": "Pasărea care merge legănat și înoată fără lecții.",
+    "note": "Răspuns: RAȚĂ. Poate da cu LEBĂDĂ, GÂSCĂ."
+  },
+  {
+    "cuvant": "DEAL",
+    "definitie": "Fratele mai mic al muntelui.",
+    "note": "Răspuns: DEAL. Poate da cu COLINĂ, MUNTE."
+  },
+  {
+    "cuvant": "OALĂ",
+    "definitie": "Vasul în care se nasc cele mai bune mâncăruri.",
+    "note": "Răspuns: OALĂ. Poate da cu CRATIȚĂ, TAS."
+  },
+  {
+    "cuvant": "GLOB",
+    "definitie": "Modelul rotund al lumii întregi, încăput pe un birou.",
+    "note": "Răspuns: GLOB. Poate da cu SFERĂ, MINGE."
+  },
+  {
+    "cuvant": "MIEZ",
+    "definitie": "Partea centrală și esențială a oricărui lucru.",
+    "note": "Răspuns: MIEZ. Poate da cu CENTRU, INIMĂ."
+  },
+  {
+    "cuvant": "PLOP",
+    "definitie": "Arborele înalt și zvelt care freamătă la cel mai mic vânt.",
+    "note": "Răspuns: PLOP. Specific câmpiei românești."
+  },
+  {
+    "cuvant": "MUNTE",
+    "definitie": "Cel mai înalt vecin al văii.",
+    "note": "Răspuns: MUNTE."
+  },
+  {
+    "cuvant": "TUNEL",
+    "definitie": "Drumul care preferă întunericul.",
+    "note": "Răspuns: TUNEL. Poate da cu TRECERE, PASAJ."
+  },
+  {
+    "cuvant": "VAPOR",
+    "definitie": "Casa plutitoare a marinarilor.",
+    "note": "Răspuns: VAPOR. Poate da cu NAVĂ, BARCĂ."
+  },
+  {
+    "cuvant": "SCARĂ",
+    "definitie": "Drumul vertical spre etajul următor.",
+    "note": "Răspuns: SCARĂ. Poate da cu LIFT — nu e același lucru."
+  },
+  {
+    "cuvant": "CHEIE",
+    "definitie": "Soluția mică pentru probleme mari încuiate.",
+    "note": "Răspuns: CHEIE."
+  },
+  {
+    "cuvant": "COCOȘ",
+    "definitie": "Ceasul deșteptător al satului.",
+    "note": "Răspuns: COCOȘ. Poate da cu GĂINAR, PASĂRE."
+  },
+  {
+    "cuvant": "FLAUT",
+    "definitie": "Instrument de suflat care scoate sunete ca respirația pădurii.",
+    "note": "Răspuns: FLAUT. Se cântă transversal."
+  },
+  {
+    "cuvant": "PLAJĂ",
+    "definitie": "Locul unde nisipul intră în toate buzunarele.",
+    "note": "Răspuns: PLAJĂ. Poate da cu LITORAL, ȚĂRM."
+  },
+  {
+    "cuvant": "LACUL",
+    "definitie": "Oglinda naturală a cerului din mijlocul câmpiei.",
+    "note": "Răspuns: LAC sau LACUL. Poate da cu BALTĂ, IAZUL."
+  },
+  {
+    "cuvant": "CIORI",
+    "definitie": "Păsările negre cu reputație proastă, dar memorie bună.",
+    "note": "Răspuns: CIORI. Plural de la cioară."
+  },
+  {
+    "cuvant": "PIZZA",
+    "definitie": "Invenția italiană adorată pe toate continentele.",
+    "note": "Răspuns: PIZZA."
+  },
+  {
+    "cuvant": "ȘARPE",
+    "definitie": "Reptila fără picioare care se mișcă perfect fără ele.",
+    "note": "Răspuns: ȘARPE. Poate da cu VIPERĂ, COBRĂ."
+  },
+  {
+    "cuvant": "LAPTE",
+    "definitie": "Primul aliment al oricărui mamifer.",
+    "note": "Răspuns: LAPTE. Poate da cu SMÂNTÂNĂ, ZER."
+  },
+  {
+    "cuvant": "ARCUL",
+    "definitie": "Arma silențioasă a lui Robin Hood.",
+    "note": "Răspuns: ARC sau ARCUL. Poate da cu PRAȘTIE."
+  },
+  {
+    "cuvant": "PUMNI",
+    "definitie": "Mâinile închise, gata de efort sau luptă.",
+    "note": "Răspuns: PUMNI. Plural de la pumn."
+  },
+  {
+    "cuvant": "CASTEL",
+    "definitie": "Casa care arată că cineva a avut mult spațiu și multă putere.",
+    "note": "Răspuns: CASTEL. Pot zice PALAT — decide dacă accepți."
+  },
+  {
+    "cuvant": "BUSOLĂ",
+    "definitie": "Prietenul navigatorilor pierduți.",
+    "note": "Răspuns: BUSOLĂ. Știe mereu unde e nordul."
+  },
+  {
+    "cuvant": "VULCAN",
+    "definitie": "Muntele care uneori își pierde calmul.",
+    "note": "Răspuns: VULCAN."
+  },
+  {
+    "cuvant": "DEȘERT",
+    "definitie": "Locul unde apa e mai valoroasă decât aurul.",
+    "note": "Răspuns: DEȘERT. Atenție la Ș."
+  },
+  {
+    "cuvant": "CIOCAN",
+    "definitie": "Argumentul final al tâmplarului.",
+    "note": "Răspuns: CIOCAN. Poate da cu BAROS, UNEALTĂ."
+  },
+  {
+    "cuvant": "INSULĂ",
+    "definitie": "Bucată de pământ care preferă compania apei.",
+    "note": "Răspuns: INSULĂ. Poate da cu ARHIPELAG, ATOL."
+  },
+  {
+    "cuvant": "STRADĂ",
+    "definitie": "Șirul de case cu un drum la mijloc.",
+    "note": "Răspuns: STRADĂ. Poate da cu ALEE, BULEVARD."
+  },
+  {
+    "cuvant": "CACTUS",
+    "definitie": "Planta care a ales deșertul și nu se plânge de sete.",
+    "note": "Răspuns: CACTUS."
+  },
+  {
+    "cuvant": "TEATRU",
+    "definitie": "Clădirea unde minciunile devin artă.",
+    "note": "Răspuns: TEATRU. Poate da cu CINEMA, SCENĂ."
+  },
+  {
+    "cuvant": "FURTUN",
+    "definitie": "Tubul flexibil prin care curge apa la grădină.",
+    "note": "Răspuns: FURTUN. Diferit de FURTUNĂ."
+  },
+  {
+    "cuvant": "STILOU",
+    "definitie": "Instrumentul de scris cu cerneală, elegant și pretențios.",
+    "note": "Răspuns: STILOU. Poate da cu PIX, CREION."
+  },
+  {
+    "cuvant": "PESCAR",
+    "definitie": "Cel care știe că răbdarea e cea mai importantă unealtă.",
+    "note": "Răspuns: PESCAR. 6 litere: P-E-S-C-A-R."
+  },
+  {
+    "cuvant": "PEPENE",
+    "definitie": "Fructul verii cu inima roșie și coaja verde.",
+    "note": "Răspuns: PEPENE. 6 litere: P-E-P-E-N-E."
+  },
+  {
+    "cuvant": "STICLĂ",
+    "definitie": "Materialul transparent din care se fac ferestrele și paharele.",
+    "note": "Răspuns: STICLĂ. 6 litere: S-T-I-C-L-Ă."
+  },
+  {
+    "cuvant": "CREION",
+    "definitie": "Instrumentul de scris care are și el dreptul la greșeală — se șterge.",
+    "note": "Răspuns: CREION. Poate da cu STILOU, PIX."
+  },
+  {
+    "cuvant": "BRICIU",
+    "definitie": "Lamă mică și ascuțită cu care se rade bărbatul tradițional.",
+    "note": "Răspuns: BRICIU. Poate da cu APARAT, LAMĂ."
+  },
+  {
+    "cuvant": "SEMAFOR",
+    "definitie": "Profesorul de răbdare al șoferilor.",
+    "note": "Răspuns: SEMAFOR. Poate da cu STOP, SEMNAL."
+  },
+  {
+    "cuvant": "UMBRELA",
+    "definitie": "Se deschide când cerul nu e de acord cu planurile tale.",
+    "note": "Răspuns: UMBRELĂ. 7 litere: U-M-B-R-E-L-Ă."
+  },
+  {
+    "cuvant": "CASCADĂ",
+    "definitie": "Râul care cade în gol fără să se teamă.",
+    "note": "Răspuns: CASCADĂ. Poate da cu CATARACTĂ, ȘUVOI."
+  },
+  {
+    "cuvant": "CEARȘAF",
+    "definitie": "Haina patului.",
+    "note": "Răspuns: CEARȘAF. 7 litere: C-E-A-R-Ș-A-F."
+  },
+  {
+    "cuvant": "FLUTURE",
+    "definitie": "Floarea care a învățat să zboare.",
+    "note": "Răspuns: FLUTURE. Poate da cu ALBINĂ, INSECTĂ."
+  },
+  {
+    "cuvant": "ECLIPSĂ",
+    "definitie": "Momentul când cerul face o pauză de lumină.",
+    "note": "Răspuns: ECLIPSĂ. 7 litere: E-C-L-I-P-S-Ă."
+  },
+  {
+    "cuvant": "MANDALĂ",
+    "definitie": "Desenul circular cu simetrie perfectă, folosit în meditație.",
+    "note": "Răspuns: MANDALĂ. 7 litere: M-A-N-D-A-L-Ă."
+  },
+  {
+    "cuvant": "CÂRTIȚĂ",
+    "definitie": "Animalul mic care sapă tuneluri fără să vadă ziua.",
+    "note": "Răspuns: CÂRTIȚĂ. 7 litere: C-Â-R-T-I-Ț-Ă."
+  },
+  {
+    "cuvant": "BARIERĂ",
+    "definitie": "Obstacolul care oprește trecerea până la permisiune.",
+    "note": "Răspuns: BARIERĂ. 7 litere: B-A-R-I-E-R-Ă."
+  },
+  {
+    "cuvant": "LACTATE",
+    "definitie": "Categoria alimentară din care fac parte brânza, iaurtul și untul.",
+    "note": "Răspuns: LACTATE. 7 litere: L-A-C-T-A-T-E."
+  },
+  {
+    "cuvant": "TORPEDO",
+    "definitie": "Proiectilul subacvatic care călătorește invizibil.",
+    "note": "Răspuns: TORPEDO. 7 litere: T-O-R-P-E-D-O."
+  },
+  {
+    "cuvant": "BALOANE",
+    "definitie": "Sferele colorate de cauciuc care fac orice petrecere mai veselă.",
+    "note": "Răspuns: BALOANE. 7 litere: B-A-L-O-A-N-E."
+  },
+  {
+    "cuvant": "CAPCANA",
+    "definitie": "Dispozitivul care prinde fără să anunțe.",
+    "note": "Răspuns: CAPCANA — cu articol. 7 litere: C-A-P-C-A-N-A."
+  },
+  {
+    "cuvant": "STATUIA",
+    "definitie": "Opera de artă care stă nemișcată și e admirată în piețe.",
+    "note": "Răspuns: STATUIA — cu articol. 7 litere: S-T-A-T-U-I-A."
+  },
+  {
+    "cuvant": "CIREAȘĂ",
+    "definitie": "Fructul roșu mic de vară, iubit de copii și de cozonac.",
+    "note": "Răspuns: CIREAȘĂ. 7 litere: C-I-R-E-A-Ș-Ă."
+  },
+  {
+    "cuvant": "FÂNTÂNA",
+    "definitie": "Puțul adânc din curtea bunicilor, cu găleată și cumpănă.",
+    "note": "Răspuns: FÂNTÂNA — cu articol. 7 litere: F-Â-N-T-Â-N-A."
+  },
+  {
+    "cuvant": "LANTERNA",
+    "definitie": "Lumină care încape într-un buzunar.",
+    "note": "Răspuns: LANTERNĂ. 8 litere: L-A-N-T-E-R-N-Ă."
+  },
+  {
+    "cuvant": "CALENDAR",
+    "definitie": "Obiectul care știe exact câte zile au mai rămas până la vacanță.",
+    "note": "Răspuns: CALENDAR. 8 litere: C-A-L-E-N-D-A-R."
+  },
+  {
+    "cuvant": "AVALANȘĂ",
+    "definitie": "Zăpada care nu mai are răbdare.",
+    "note": "Răspuns: AVALANȘĂ. 8 litere: A-V-A-L-A-N-Ș-Ă."
+  },
+  {
+    "cuvant": "PIRAMIDĂ",
+    "definitie": "Construcția care urcă spre cer în trepte.",
+    "note": "Răspuns: PIRAMIDĂ. 8 litere: P-I-R-A-M-I-D-Ă."
+  },
+  {
+    "cuvant": "GHIOZDAN",
+    "definitie": "Rucsacul care știe pe de rost toate materiile.",
+    "note": "Răspuns: GHIOZDAN. 8 litere: G-H-I-O-Z-D-A-N."
+  },
+  {
+    "cuvant": "FARFURIE",
+    "definitie": "Patul mâncării de acasă.",
+    "note": "Răspuns: FARFURIE. 8 litere: F-A-R-F-U-R-I-E."
+  },
+  {
+    "cuvant": "CONDUITĂ",
+    "definitie": "Felul în care te comporți când toată lumea se uită.",
+    "note": "Răspuns: CONDUITĂ. 8 litere: C-O-N-D-U-I-T-Ă."
+  },
+  {
+    "cuvant": "TROMPETĂ",
+    "definitie": "Instrumentul de suflat care anunță sosirea fanfarei.",
+    "note": "Răspuns: TROMPETĂ. 8 litere: T-R-O-M-P-E-T-Ă."
+  },
+  {
+    "cuvant": "COSTUMUL",
+    "definitie": "Ținuta completă pentru ocazii importante.",
+    "note": "Răspuns: COSTUMUL — cu articol. 8 litere: C-O-S-T-U-M-U-L."
+  },
+  {
+    "cuvant": "PORTARUL",
+    "definitie": "Cel care păzește intrarea — fie la bloc, fie la poartă.",
+    "note": "Răspuns: PORTARUL. 8 litere: P-O-R-T-A-R-U-L."
+  },
+  {
+    "cuvant": "MELCILOR",
+    "definitie": "Ființele cu casă în spate care lasă urme argintii — la genitiv.",
+    "note": "Răspuns: MELCILOR. 8 litere: M-E-L-C-I-L-O-R."
+  },
+  {
+    "cuvant": "PĂTLAGEA",
+    "definitie": "Leguma roșie suculentă iubită de toată lumea vara.",
+    "note": "Răspuns: PĂTLAGEA — regional pentru roșie. 8 litere."
+  },
+  {
+    "cuvant": "VULTURUL",
+    "definitie": "Pasărea regală care planează la cea mai mare înălțime.",
+    "note": "Răspuns: VULTURUL — cu articol. 8 litere: V-U-L-T-U-R-U-L."
+  },
+  {
+    "cuvant": "CIUPERCĂ",
+    "definitie": "Organismul care crește noaptea după ploaie și nu e nici plantă nici animal.",
+    "note": "Răspuns: CIUPERCĂ. 8 litere: C-I-U-P-E-R-C-Ă."
+  },
+  {
+    "cuvant": "MORCOVUL",
+    "definitie": "Leguma portocalie preferată de iepuri și supe.",
+    "note": "Răspuns: MORCOVUL — cu articol. 8 litere: M-O-R-C-O-V-U-L."
+  },
+  {
+    "cuvant": "CLOPOTUL",
+    "definitie": "Instrumentul de metal care bate ora și cheamă lumea la biserică.",
+    "note": "Răspuns: CLOPOTUL — cu articol. 8 litere: C-L-O-P-O-T-U-L."
+  },
+  {
+    "cuvant": "BICICLETA",
+    "definitie": "Vehicul care merge doar dacă nu stai pe loc.",
+    "note": "Răspuns: BICICLETĂ. 9 litere: B-I-C-I-C-L-E-T-Ă."
+  },
+  {
+    "cuvant": "FEREASTRA",
+    "definitie": "Locul prin care casa privește afară.",
+    "note": "Răspuns: FEREASTRĂ. 9 litere: F-E-R-E-A-S-T-R-Ă."
+  },
+  {
+    "cuvant": "PORTOCALĂ",
+    "definitie": "Fructul care aduce soarele pe masă iarna.",
+    "note": "Răspuns: PORTOCALĂ. 9 litere: P-O-R-T-O-C-A-L-Ă."
+  },
+  {
+    "cuvant": "DICȚIONAR",
+    "definitie": "Cartea care are răspuns la toate întrebările despre cuvinte.",
+    "note": "Răspuns: DICȚIONAR. 9 litere: D-I-C-Ț-I-O-N-A-R."
+  },
+  {
+    "cuvant": "FERĂSTRĂU",
+    "definitie": "Unealta care împarte lemnul în două fără să ceară voie.",
+    "note": "Răspuns: FERĂSTRĂU. 9 litere: F-E-R-Ă-S-T-R-Ă-U."
+  },
+  {
+    "cuvant": "PRĂJITURĂ",
+    "definitie": "Argumentul final al oricărei certuri din bucătărie.",
+    "note": "Răspuns: PRĂJITURĂ. 9 litere: P-R-Ă-J-I-T-U-R-Ă."
+  },
+  {
+    "cuvant": "MELOMANII",
+    "definitie": "Cei care iubesc muzica mai mult decât orice altceva.",
+    "note": "Răspuns: MELOMANII. 9 litere: M-E-L-O-M-A-N-I-I."
+  },
+  {
+    "cuvant": "CROITORUL",
+    "definitie": "Meșterul care transformă stofa în haine perfecte.",
+    "note": "Răspuns: CROITORUL. 9 litere: C-R-O-I-T-O-R-U-L."
+  },
+  {
+    "cuvant": "FURNICARE",
+    "definitie": "Locul de unde ies furnicile — sau senzația de amorțeală.",
+    "note": "Răspuns: FURNICARE. 9 litere: F-U-R-N-I-C-A-R-E."
+  },
+  {
+    "cuvant": "STEAGULUI",
+    "definitie": "Simbolul național purtat cu mândrie la sărbători — la genitiv.",
+    "note": "Răspuns: STEAGULUI. 9 litere: S-T-E-A-G-U-L-U-I."
+  },
+  {
+    "cuvant": "DRAGOSTEA",
+    "definitie": "Sentimentul care face oamenii să facă lucruri inexplicabile.",
+    "note": "Răspuns: DRAGOSTEA. 9 litere: D-R-A-G-O-S-T-E-A."
+  },
+  {
+    "cuvant": "SCAFANDRU",
+    "definitie": "Omul care respiră sub apă cu ajutorul unui aparat special.",
+    "note": "Răspuns: SCAFANDRU. 9 litere: S-C-A-F-A-N-D-R-U."
+  },
+  {
+    "cuvant": "PLANETARE",
+    "definitie": "Care aparține sau se referă la planete sau sistemul solar.",
+    "note": "Răspuns: PLANETARE. 9 litere: P-L-A-N-E-T-A-R-E."
+  },
+  {
+    "cuvant": "VULCANICĂ",
+    "definitie": "Care provine din sau se referă la activitatea vulcanică.",
+    "note": "Răspuns: VULCANICĂ. 9 litere: V-U-L-C-A-N-I-C-Ă."
+  },
+  {
+    "cuvant": "PĂDUCELUL",
+    "definitie": "Arbuștele cu fructe mici roșii, cunoscut la margini de pădure.",
+    "note": "Răspuns: PĂDUCELUL. 9 litere: P-Ă-D-U-C-E-L-U-L."
+  },
+  {
+    "cuvant": "CÂNTECELE",
+    "definitie": "Melodiile cu versuri care se țin minte toată viața.",
+    "note": "Răspuns: CÂNTECELE — plural articulat. 9 litere: C-Â-N-T-E-C-E-L-E."
+  },
+  {
+    "cuvant": "TERMOMETRU",
+    "definitie": "Cel care îți spune cât de fierbinte ești fără să flirteze.",
+    "note": "Răspuns: TERMOMETRU. 10 litere: T-E-R-M-O-M-E-T-R-U."
+  },
+  {
+    "cuvant": "BIBLIOTECĂ",
+    "definitie": "Locul unde mii de povești stau cuminți pe raft.",
+    "note": "Răspuns: BIBLIOTECĂ. 10 litere: B-I-B-L-I-O-T-E-C-Ă."
+  },
+  {
+    "cuvant": "FOTOGRAFIE",
+    "definitie": "Amintire care nu îmbătrânește.",
+    "note": "Răspuns: FOTOGRAFIE. 10 litere: F-O-T-O-G-R-A-F-I-E."
+  },
+  {
+    "cuvant": "LOCOMOTIVĂ",
+    "definitie": "Regina șinelor care trage după ea o lume întreagă.",
+    "note": "Răspuns: LOCOMOTIVĂ. 10 litere: L-O-C-O-M-O-T-I-V-Ă."
+  },
+  {
+    "cuvant": "CALCULATOR",
+    "definitie": "Creierul care nu greșește niciodată la matematică.",
+    "note": "Răspuns: CALCULATOR. 10 litere: C-A-L-C-U-L-A-T-O-R."
+  },
+  {
+    "cuvant": "CROCODILUL",
+    "definitie": "Reptila care zâmbește larg, dar nu din prietenie.",
+    "note": "Răspuns: CROCODILUL. 10 litere: C-R-O-C-O-D-I-L-U-L."
+  },
+  {
+    "cuvant": "GRAVITAȚIE",
+    "definitie": "Forța invizibilă care ne ține cu picioarele pe pământ.",
+    "note": "Răspuns: GRAVITAȚIE. 10 litere: G-R-A-V-I-T-A-Ț-I-E."
+  },
+  {
+    "cuvant": "SUBMARINUL",
+    "definitie": "Nava care preferă să navigheze ascuns, sub apă.",
+    "note": "Răspuns: SUBMARINUL. 10 litere: S-U-B-M-A-R-I-N-U-L."
+  },
+  {
+    "cuvant": "PERSONALUL",
+    "definitie": "Totalitatea angajaților unei instituții sau firme.",
+    "note": "Răspuns: PERSONALUL. 10 litere: P-E-R-S-O-N-A-L-U-L."
+  },
+  {
+    "cuvant": "INOVATORUL",
+    "definitie": "Cel care aduce idei noi acolo unde nimeni nu se gândise.",
+    "note": "Răspuns: INOVATORUL. 10 litere: I-N-O-V-A-T-O-R-U-L."
+  },
+  {
+    "cuvant": "PRIMĂVERII",
+    "definitie": "Anotimpul florilor și al renașterii — la genitiv.",
+    "note": "Răspuns: PRIMĂVERII. 10 litere: P-R-I-M-Ă-V-E-R-I-I."
+  },
+  {
+    "cuvant": "RĂZBOAIELE",
+    "definitie": "Conflictele armate de mare amploare care schimbă istoria.",
+    "note": "Răspuns: RĂZBOAIELE. 10 litere: R-Ă-Z-B-O-A-I-E-L-E."
+  },
+  {
+    "cuvant": "FOTOGRAFUL",
+    "definitie": "Cel care surprinde momentele înainte să dispară.",
+    "note": "Răspuns: FOTOGRAFUL. 10 litere: F-O-T-O-G-R-A-F-U-L."
+  },
+  {
+    "cuvant": "PORTOFELUL",
+    "definitie": "Obiectul mic din buzunar care știe totul despre finanțele tale.",
+    "note": "Răspuns: PORTOFELUL. 10 litere: P-O-R-T-O-F-E-L-U-L."
+  },
+  {
+    "cuvant": "ALBATROSUL",
+    "definitie": "Pasărea marină cu anvergura cea mai mare, legendara călătoare a oceanelor.",
+    "note": "Răspuns: ALBATROSUL. 10 litere: A-L-B-A-T-R-O-S-U-L."
+  },
+  {
+    "cuvant": "MĂNUNCHIUL",
+    "definitie": "Un grup de lucruri strânse împreună — flori, chei, fire.",
+    "note": "Răspuns: MĂNUNCHIUL. 10 litere: M-Ă-N-U-N-C-H-I-U-L."
+  },
+  {
+    "cuvant": "ROATĂ",
+    "definitie": "Invenția care a schimbat lumea — rotundă, se rostogolește.",
+    "note": "Răspuns: ROATĂ. 5 litere: R-O-A-T-Ă."
+  },
+  {
+    "cuvant": "ABUR",
+    "definitie": "Respirația fierbinte a ceaiului sau a oalei pe foc.",
+    "note": "Răspuns: ABUR. 4 litere: A-B-U-R."
+  },
+  {
+    "cuvant": "ALUN",
+    "definitie": "Arborele mic care produce nuci rotunde și gustoase toamna.",
+    "note": "Răspuns: ALUN. 4 litere: A-L-U-N."
+  },
+  {
+    "cuvant": "APUS",
+    "definitie": "Spectacolul gratuit al cerului în clipa când ziua obosește.",
+    "note": "Răspuns: APUS. 4 litere: A-P-U-S. Poate da cu AMURG."
+  },
+  {
+    "cuvant": "ARCĂ",
+    "definitie": "Vasul lui Noe, singurul transport valabil pe timp de potop.",
+    "note": "Răspuns: ARCĂ. 4 litere: A-R-C-Ă."
+  },
+  {
+    "cuvant": "ARTĂ",
+    "definitie": "Exprimarea a ceea ce cuvintele nu pot spune suficient de bine.",
+    "note": "Răspuns: ARTĂ. 4 litere: A-R-T-Ă."
+  },
+  {
+    "cuvant": "BAIE",
+    "definitie": "Camera unde intri murdar și ieși curat, în medie zece minute.",
+    "note": "Răspuns: BAIE. 4 litere: B-A-I-E."
+  },
+  {
+    "cuvant": "BERE",
+    "definitie": "Băutura aurie cu spumă albă, inventată cu mii de ani în urmă.",
+    "note": "Răspuns: BERE. 4 litere: B-E-R-E."
+  },
+  {
+    "cuvant": "BLOC",
+    "definitie": "Clădirea cu mai mulți vecini decât îți amintești numele.",
+    "note": "Răspuns: BLOC. 4 litere: B-L-O-C."
+  },
+  {
+    "cuvant": "BOUR",
+    "definitie": "Taurul sălbatic dispărut, viu pe stema Moldovei de veacuri.",
+    "note": "Răspuns: BOUR. 4 litere: B-O-U-R. Simbol heraldic."
+  },
+  {
+    "cuvant": "CASĂ",
+    "definitie": "Locul unde te poți relaxa în orice fel dorești.",
+    "note": "Răspuns: CASĂ. 4 litere: C-A-S-Ă."
+  },
+  {
+    "cuvant": "CLEI",
+    "definitie": "Substanța lipicioasă care unește ceea ce s-a rupt.",
+    "note": "Răspuns: CLEI. 4 litere: C-L-E-I."
+  },
+  {
+    "cuvant": "COIF",
+    "definitie": "Casca de metal a cavalerului medieval, protecție cu stil.",
+    "note": "Răspuns: COIF. 4 litere: C-O-I-F."
+  },
+  {
+    "cuvant": "CORT",
+    "definitie": "Casa temporară din pânză pentru aventurierii naturii.",
+    "note": "Răspuns: CORT. 4 litere: C-O-R-T."
+  },
+  {
+    "cuvant": "DRAC",
+    "definitie": "Personajul cu coarne la care dai vina când ceva merge prost.",
+    "note": "Răspuns: DRAC. 4 litere: D-R-A-C."
+  },
+  {
+    "cuvant": "FATĂ",
+    "definitie": "Tânăra care are toată viața înainte și știe asta.",
+    "note": "Răspuns: FATĂ. 4 litere: F-A-T-Ă."
+  },
+  {
+    "cuvant": "FIER",
+    "definitie": "Metalul din care se fac cuiele, șinele și voința.",
+    "note": "Răspuns: FIER. 4 litere: F-I-E-R."
+  },
+  {
+    "cuvant": "GARD",
+    "definitie": "Granița din lemn sau metal care spune unde se termină curtea.",
+    "note": "Răspuns: GARD. 4 litere: G-A-R-D."
+  },
+  {
+    "cuvant": "GURĂ",
+    "definitie": "Instrumentul cu care mâncăm, vorbim și uneori greșim.",
+    "note": "Răspuns: GURĂ. 4 litere: G-U-R-Ă."
+  },
+  {
+    "cuvant": "LÂNĂ",
+    "definitie": "Haina naturală a oii, recoltată primăvara cu foarfecele.",
+    "note": "Răspuns: LÂNĂ. 4 litere: L-Â-N-Ă."
+  },
+  {
+    "cuvant": "MASĂ",
+    "definitie": "Obiectul de mobilier în jurul căruia se adună familia.",
+    "note": "Răspuns: MASĂ. 4 litere: M-A-S-Ă."
+  },
+  {
+    "cuvant": "MIEL",
+    "definitie": "Puiul oii care face primăvara mai dulce și Paștele mai tradițional.",
+    "note": "Răspuns: MIEL. 4 litere: M-I-E-L."
+  },
+  {
+    "cuvant": "MÂNĂ",
+    "definitie": "Unealta corpului cu care scriem, construim și atingem.",
+    "note": "Răspuns: MÂNĂ. 4 litere: M-Â-N-Ă."
+  },
+  {
+    "cuvant": "OREZ",
+    "definitie": "Boabele albe care hrănesc jumătate din omenire în fiecare zi.",
+    "note": "Răspuns: OREZ. 4 litere: O-R-E-Z."
+  },
+  {
+    "cuvant": "PACE",
+    "definitie": "Starea pe care toată lumea o vrea, dar puțini o construiesc.",
+    "note": "Răspuns: PACE. 4 litere: P-A-C-E."
+  },
+  {
+    "cuvant": "PORT",
+    "definitie": "Locul unde marea primește navele și navele primesc lumea.",
+    "note": "Răspuns: PORT. 4 litere: P-O-R-T. Poate da cu HARBOR."
+  },
+  {
+    "cuvant": "PRAF",
+    "definitie": "Ce se adună pe mobilă când uiți să faci curat o săptămână.",
+    "note": "Răspuns: PRAF. 4 litere: P-R-A-F."
+  },
+  {
+    "cuvant": "SARE",
+    "definitie": "Ingredientul fără de care mâncarea nu are niciun gust.",
+    "note": "Răspuns: SARE. 4 litere: S-A-R-E."
+  },
+  {
+    "cuvant": "SMOC",
+    "definitie": "Un mănunchi mic de fire, pene sau iarbă strânse laolaltă.",
+    "note": "Răspuns: SMOC. 4 litere: S-M-O-C."
+  },
+  {
+    "cuvant": "SOBĂ",
+    "definitie": "Cuptorul tradițional care încălzea casele bunicilor iarna.",
+    "note": "Răspuns: SOBĂ. 4 litere: S-O-B-Ă."
+  },
+  {
+    "cuvant": "TATĂ",
+    "definitie": "Bărbatul care știe să repare aproape orice și pretinde că știe tot.",
+    "note": "Răspuns: TATĂ. 4 litere: T-A-T-Ă."
+  },
+  {
+    "cuvant": "TURN",
+    "definitie": "Construcția înaltă care se vede de departe și domină peisajul.",
+    "note": "Răspuns: TURN. 4 litere: T-U-R-N."
+  },
+  {
+    "cuvant": "ULIU",
+    "definitie": "Pasărea răpitoare agilă care planează în cercuri deasupra câmpului.",
+    "note": "Răspuns: ULIU. 4 litere: U-L-I-U."
+  },
+  {
+    "cuvant": "UNDĂ",
+    "definitie": "Mișcarea ritmică a apei sau sunetului prin spațiu.",
+    "note": "Răspuns: UNDĂ. 4 litere: U-N-D-Ă."
+  },
+  {
+    "cuvant": "CARTE",
+    "definitie": "Prietenul care nu te judecă niciodată și e mereu disponibil.",
+    "note": "Răspuns: CARTE. 5 litere: C-A-R-T-E."
+  },
+  {
+    "cuvant": "COADĂ",
+    "definitie": "Rândul care nu se mai termină la ghișeu sau la casă.",
+    "note": "Răspuns: COADĂ. 5 litere: C-O-A-D-Ă."
+  },
+  {
+    "cuvant": "CUTIE",
+    "definitie": "Recipientul dreptunghiular care poate ascunde orice surpriză.",
+    "note": "Răspuns: CUTIE. 5 litere: C-U-T-I-E."
+  },
+  {
+    "cuvant": "DOINA",
+    "definitie": "Cântecul trist și înălțător al sufletului românesc.",
+    "note": "Răspuns: DOINA. 5 litere: D-O-I-N-Ă."
+  },
+  {
+    "cuvant": "FOAME",
+    "definitie": "Senzația care face orice mâncare să pară mai bună decât e.",
+    "note": "Răspuns: FOAME. 5 litere: F-O-A-M-E."
+  },
+  {
+    "cuvant": "FURCA",
+    "definitie": "Unealta cu dinți folosită la fân sau uneori ca argument.",
+    "note": "Răspuns: FURCĂ. 5 litere: F-U-R-C-Ă."
+  },
+  {
+    "cuvant": "IARBĂ",
+    "definitie": "Covorul verde pe care copiii se rostogolesc vara.",
+    "note": "Răspuns: IARBĂ. 5 litere: I-A-R-B-Ă."
+  },
+  {
+    "cuvant": "IARNĂ",
+    "definitie": "Anotimpul în care natura doarme sub pătură albă.",
+    "note": "Răspuns: IARNĂ. 5 litere: I-A-R-N-Ă."
+  },
+  {
+    "cuvant": "LACĂT",
+    "definitie": "Paznicul mic de metal care nu doarme și nu uită parola.",
+    "note": "Răspuns: LACĂT. 5 litere: L-A-C-Ă-T."
+  },
+  {
+    "cuvant": "LUMEA",
+    "definitie": "Toate lucrurile și toți oamenii laolaltă, cu tot cu probleme.",
+    "note": "Răspuns: LUMEA. 5 litere: L-U-M-E-A."
+  },
+  {
+    "cuvant": "LUPUL",
+    "definitie": "Animalul sălbatic din basme, inteligent și nedreptățit de reputație.",
+    "note": "Răspuns: LUPUL. 5 litere: L-U-P-U-L. Cu articol."
+  },
+  {
+    "cuvant": "MIERE",
+    "definitie": "Dulceața pe care albinele o fabrică toată viața fără să se plângă.",
+    "note": "Răspuns: MIERE. 5 litere: M-I-E-R-E."
+  },
+  {
+    "cuvant": "NUCUL",
+    "definitie": "Arborele bătrân cu coroană largă și fructe tari ca piatra.",
+    "note": "Răspuns: NUCUL. 5 litere: N-U-C-U-L. Cu articol."
+  },
+  {
+    "cuvant": "PÂINE",
+    "definitie": "Alimentul de bază care nu lipsește de pe nicio masă din lume.",
+    "note": "Răspuns: PÂINE. 5 litere: P-Â-I-N-E."
+  },
+  {
+    "cuvant": "PIAȚA",
+    "definitie": "Locul unde se vinde, se cumpără și se bârfește simultan.",
+    "note": "Răspuns: PIAȚA. 5 litere: P-I-A-Ț-A. Cu articol."
+  },
+  {
+    "cuvant": "PODUL",
+    "definitie": "Construcția care unește două maluri despărțite de apă sau prăpastie.",
+    "note": "Răspuns: PODUL. 5 litere: P-O-D-U-L. Cu articol."
+  },
+  {
+    "cuvant": "ROȘIE",
+    "definitie": "Fructul-legumă roșu care nu știe în ce categorie să se pună.",
+    "note": "Răspuns: ROȘIE. 5 litere: R-O-Ș-I-E."
+  },
+  {
+    "cuvant": "TOACĂ",
+    "definitie": "Tabla de lemn din curtea mănăstirii care cheamă la rugăciune.",
+    "note": "Răspuns: TOACĂ. 5 litere: T-O-A-C-Ă. Poate da cu TOBĂ."
+  },
+  {
+    "cuvant": "URȘII",
+    "definitie": "Marii stăpâni ai pădurii, adorați în basme, respectați în natură.",
+    "note": "Răspuns: URȘII. 5 litere: U-R-Ș-I-I. Plural articulat."
+  },
+  {
+    "cuvant": "VIAȚA",
+    "definitie": "Ceva ce trece repede când ești fericit și greu când nu ești.",
+    "note": "Răspuns: VIAȚA. 5 litere: V-I-A-Ț-A. Cu articol."
+  },
+  {
+    "cuvant": "VISUL",
+    "definitie": "Filmul pe care mintea îl rulează noaptea fără să cumpere bilet.",
+    "note": "Răspuns: VISUL. 5 litere: V-I-S-U-L. Cu articol."
+  },
+  {
+    "cuvant": "ZARUL",
+    "definitie": "Cubul mic care decide totul prin șansă, din Roma antică până azi.",
+    "note": "Răspuns: ZARUL. 5 litere: Z-A-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "SMALȚ",
+    "definitie": "Stratul lucios și dur care protejează dinții sau ceramica.",
+    "note": "Răspuns: SMALȚ. 5 litere: S-M-A-L-Ț."
+  },
+  {
+    "cuvant": "BONDAR",
+    "definitie": "Insecta mare și zumzăitoare care demonstrează că fizica se poate înșela.",
+    "note": "Răspuns: BONDAR. 6 litere: B-O-N-D-A-R."
+  },
+  {
+    "cuvant": "BORCAN",
+    "definitie": "Recipientul de sticlă în care bunica pune murături în fiecare toamnă.",
+    "note": "Răspuns: BORCAN. 6 litere: B-O-R-C-A-N."
+  },
+  {
+    "cuvant": "CLOPOT",
+    "definitie": "Instrumentul de metal care măsoară orele prin lovituri sonore.",
+    "note": "Răspuns: CLOPOT. 6 litere: C-L-O-P-O-T."
+  },
+  {
+    "cuvant": "COMETA",
+    "definitie": "Steaua cu coadă care vizitează sistemul solar o dată în viață.",
+    "note": "Răspuns: COMETĂ. 6 litere: C-O-M-E-T-Ă."
+  },
+  {
+    "cuvant": "CRATER",
+    "definitie": "Gaura lăsată de meteor sau vulcan, ca o cicatrice a pământului.",
+    "note": "Răspuns: CRATER. 6 litere: C-R-A-T-E-R."
+  },
+  {
+    "cuvant": "DELFIN",
+    "definitie": "Mamifer marin care zâmbește mereu și e mai inteligent decât pare.",
+    "note": "Răspuns: DELFIN. 6 litere: D-E-L-F-I-N."
+  },
+  {
+    "cuvant": "FOTBAL",
+    "definitie": "Sportul în care douăzeci și doi de oameni aleargă după o minge.",
+    "note": "Răspuns: FOTBAL. 6 litere: F-O-T-B-A-L."
+  },
+  {
+    "cuvant": "HAMBAR",
+    "definitie": "Clădirea mare de la fermă unde se adăpostește recolta toamnei.",
+    "note": "Răspuns: HAMBAR. 6 litere: H-A-M-B-A-R."
+  },
+  {
+    "cuvant": "IEPURE",
+    "definitie": "Animalul cu urechi lungi care fuge cel mai repede în basme.",
+    "note": "Răspuns: IEPURE. 6 litere: I-E-P-U-R-E."
+  },
+  {
+    "cuvant": "LANȚUL",
+    "definitie": "Șirul de inele metalice care leagă, prinde sau decorează.",
+    "note": "Răspuns: LANȚUL. 6 litere: L-A-N-Ț-U-L. Cu articol."
+  },
+  {
+    "cuvant": "LEBĂDĂ",
+    "definitie": "Pasărea albă și elegantă a lacurilor, inspirație pentru balet.",
+    "note": "Răspuns: LEBĂDĂ. 6 litere: L-E-B-Ă-D-Ă."
+  },
+  {
+    "cuvant": "MAGNET",
+    "definitie": "Obiectul care atrage fierul fără să-l atingă și fără să explice de ce.",
+    "note": "Răspuns: MAGNET. 6 litere: M-A-G-N-E-T."
+  },
+  {
+    "cuvant": "METEOR",
+    "definitie": "Bucata de rocă care cade din cer în flăcări și dispare.",
+    "note": "Răspuns: METEOR. 6 litere: M-E-T-E-O-R."
+  },
+  {
+    "cuvant": "MINUNE",
+    "definitie": "Ceea ce se întâmplă când nimic nu pare posibil și totuși se întâmplă.",
+    "note": "Răspuns: MINUNE. 6 litere: M-I-N-U-N-E."
+  },
+  {
+    "cuvant": "PARFUM",
+    "definitie": "Amintire lichidă care trăiește în sticlă și moare pe piele.",
+    "note": "Răspuns: PARFUM. 6 litere: P-A-R-F-U-M."
+  },
+  {
+    "cuvant": "POIANA",
+    "definitie": "Luminișul din pădure unde soarele ajunge și animalele vin la apă.",
+    "note": "Răspuns: POIANĂ. 6 litere: P-O-I-A-N-Ă."
+  },
+  {
+    "cuvant": "PORUMB",
+    "definitie": "Planta cu boabe galbene din care românii fac mămăliga.",
+    "note": "Răspuns: PORUMB. 6 litere: P-O-R-U-M-B."
+  },
+  {
+    "cuvant": "RECHIN",
+    "definitie": "Peștele care face toți înotătorii să iasă din apă la timp.",
+    "note": "Răspuns: RECHIN. 6 litere: R-E-C-H-I-N."
+  },
+  {
+    "cuvant": "SIRENA",
+    "definitie": "Ființa mitologică jumătate femeie, jumătate pește, toată fascinație.",
+    "note": "Răspuns: SIRENĂ. 6 litere: S-I-R-E-N-Ă."
+  },
+  {
+    "cuvant": "TARABĂ",
+    "definitie": "Masa de vânzare din piață, cu marfă multă și strigăte și mai multe.",
+    "note": "Răspuns: TARABĂ. 6 litere: T-A-R-A-B-Ă."
+  },
+  {
+    "cuvant": "TIGRUL",
+    "definitie": "Cel mai mare felid cu dungi, stăpânul junglei asiatice.",
+    "note": "Răspuns: TIGRUL. 6 litere: T-I-G-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "TĂCERE",
+    "definitie": "Sunetul cel mai greu de suportat uneori și cel mai rar altă dată.",
+    "note": "Răspuns: TĂCERE. 6 litere: T-Ă-C-E-R-E."
+  },
+  {
+    "cuvant": "ULCIOR",
+    "definitie": "Vasul de lut cu gât lung din care se toarnă apa la bunici.",
+    "note": "Răspuns: ULCIOR. 6 litere: U-L-C-I-O-R."
+  },
+  {
+    "cuvant": "VULPEA",
+    "definitie": "Animalul viclean al pădurilor, eroul multor povești și perdant al multor altora.",
+    "note": "Răspuns: VULPEA. 6 litere: V-U-L-P-E-A. Cu articol."
+  },
+  {
+    "cuvant": "ZMEURA",
+    "definitie": "Fructul de pădure roșu care se face dulceața cea mai aromată.",
+    "note": "Răspuns: ZMEURĂ. 6 litere: Z-M-E-U-R-Ă."
+  },
+  {
+    "cuvant": "AUTOBUZ",
+    "definitie": "Vehiculul comun care te duce unde vrei, dacă nu e plin.",
+    "note": "Răspuns: AUTOBUZ. 7 litere: A-U-T-O-B-U-Z."
+  },
+  {
+    "cuvant": "AVIATOR",
+    "definitie": "Cel care a ales cerul ca loc de muncă și orizontul ca vecin.",
+    "note": "Răspuns: AVIATOR. 7 litere: A-V-I-A-T-O-R."
+  },
+  {
+    "cuvant": "CLĂTITĂ",
+    "definitie": "Foaia subțire de aluat care se servește cu gem, miere sau smântână.",
+    "note": "Răspuns: CLĂTITĂ. 7 litere: C-L-Ă-T-I-T-Ă."
+  },
+  {
+    "cuvant": "COMOARĂ",
+    "definitie": "Visul căutătorilor de aventuri — aur ascuns undeva și niciodată găsit.",
+    "note": "Răspuns: COMOARĂ. 7 litere: C-O-M-O-A-R-Ă."
+  },
+  {
+    "cuvant": "COCORUL",
+    "definitie": "Pasărea migratoare elegantă care zboară în formație de V.",
+    "note": "Răspuns: COCORUL. 7 litere: C-O-C-O-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "DEZGHEȚ",
+    "definitie": "Momentul când iarna cedează și apa începe să curgă din nou.",
+    "note": "Răspuns: DEZGHEȚ. 7 litere: D-E-Z-G-H-E-Ț."
+  },
+  {
+    "cuvant": "ELEFANT",
+    "definitie": "Cel mai mare animal terestru, cu memorie perfectă și urechi mari.",
+    "note": "Răspuns: ELEFANT. 7 litere: E-L-E-F-A-N-T."
+  },
+  {
+    "cuvant": "FLOAREA",
+    "definitie": "Frumusețea cu parfum și culori care anunță primăvara.",
+    "note": "Răspuns: FLOAREA. 7 litere: F-L-O-A-R-E-A. Cu articol."
+  },
+  {
+    "cuvant": "FLUVIUL",
+    "definitie": "Râul mai mare decât oricare, care se varsă direct în mare.",
+    "note": "Răspuns: FLUVIUL. 7 litere: F-L-U-V-I-U-L. Cu articol."
+  },
+  {
+    "cuvant": "GALAXIA",
+    "definitie": "Grupul de miliarde de stele din care face parte și Soarele nostru.",
+    "note": "Răspuns: GALAXIA. 7 litere: G-A-L-A-X-I-A. Cu articol."
+  },
+  {
+    "cuvant": "GHIOCEI",
+    "definitie": "Primele flori albe ale primăverii, care ies chiar prin zăpadă.",
+    "note": "Răspuns: GHIOCEI. 7 litere: G-H-I-O-C-E-I. Plural."
+  },
+  {
+    "cuvant": "HAMACUL",
+    "definitie": "Patul suspendat între doi copaci, inventat pentru leneveală perfectă.",
+    "note": "Răspuns: HAMACUL. 7 litere: H-A-M-A-C-U-L. Cu articol."
+  },
+  {
+    "cuvant": "HOHOTUL",
+    "definitie": "Râsul care nu mai poate fi oprit odată ce a început.",
+    "note": "Răspuns: HOHOTUL. 7 litere: H-O-H-O-T-U-L. Cu articol."
+  },
+  {
+    "cuvant": "LACRIMĂ",
+    "definitie": "Apa pe care ochii o produc când emoțiile sunt prea mari pentru cuvinte.",
+    "note": "Răspuns: LACRIMĂ. 7 litere: L-A-C-R-I-M-Ă."
+  },
+  {
+    "cuvant": "LEOPARD",
+    "definitie": "Felida cu pete care aleargă mai repede decât orice mașină de oraș.",
+    "note": "Răspuns: LEOPARD. 7 litere: L-E-O-P-A-R-D."
+  },
+  {
+    "cuvant": "MAIMUȚĂ",
+    "definitie": "Ruda noastră îndepărtată care ne imită și pe care o imităm înapoi.",
+    "note": "Răspuns: MAIMUȚĂ. 7 litere: M-A-I-M-U-Ț-Ă."
+  },
+  {
+    "cuvant": "MĂTASEA",
+    "definitie": "Țesătura produsă de un vierme — cea mai fină și mai scumpă din lume.",
+    "note": "Răspuns: MĂTASEA. 7 litere: M-Ă-T-A-S-E-A. Cu articol."
+  },
+  {
+    "cuvant": "NUFERII",
+    "definitie": "Florile plutitoare ale lacurilor, pictate de Monet la nesfârșit.",
+    "note": "Răspuns: NUFERII. 7 litere: N-U-F-E-R-I-I. Plural articulat."
+  },
+  {
+    "cuvant": "OCEANUL",
+    "definitie": "Apa fără margini care acoperă mai mult de jumătate din Pământ.",
+    "note": "Răspuns: OCEANUL. 7 litere: O-C-E-A-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "OGLINDA",
+    "definitie": "Suprafața care îți arată adevărul fără să mintă și fără să cruțe.",
+    "note": "Răspuns: OGLINDĂ. 7 litere: O-G-L-I-N-D-Ă."
+  },
+  {
+    "cuvant": "POVESTE",
+    "definitie": "O lume inventată care spune uneori adevăruri mai profunde decât realitatea.",
+    "note": "Răspuns: POVESTE. 7 litere: P-O-V-E-S-T-E."
+  },
+  {
+    "cuvant": "RACHETĂ",
+    "definitie": "Vehiculul care funcționează cu foc și merge în spațiu.",
+    "note": "Răspuns: RACHETĂ. 7 litere: R-A-C-H-E-T-Ă."
+  },
+  {
+    "cuvant": "RĂSĂRIT",
+    "definitie": "Primul act al zilei, spectacol gratuit în fiecare dimineață.",
+    "note": "Răspuns: RĂSĂRIT. 7 litere: R-Ă-S-Ă-R-I-T."
+  },
+  {
+    "cuvant": "REGATUL",
+    "definitie": "Teritoriul condus de un rege, cu cetăți, supuși și impozite.",
+    "note": "Răspuns: REGATUL. 7 litere: R-E-G-A-T-U-L. Cu articol."
+  },
+  {
+    "cuvant": "SĂGEATĂ",
+    "definitie": "Proiectilul arcașilor — subțire, rapid și silențios.",
+    "note": "Răspuns: SĂGEATĂ. 7 litere: S-Ă-G-E-A-T-Ă."
+  },
+  {
+    "cuvant": "SCAUNUL",
+    "definitie": "Obiectul de mobilier inventat ca să nu mai stăm în picioare.",
+    "note": "Răspuns: SCAUNUL. 7 litere: S-C-A-U-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "STRUȚUL",
+    "definitie": "Pasărea care nu zboară, dar fuge mai repede decât un om în panică.",
+    "note": "Răspuns: STRUȚUL. 7 litere: S-T-R-U-Ț-U-L. Cu articol."
+  },
+  {
+    "cuvant": "ȘARPELE",
+    "definitie": "Reptila fără picioare care schimbă pielea și sperie lumea.",
+    "note": "Răspuns: ȘARPELE. 7 litere: Ș-A-R-P-E-L-E. Cu articol."
+  },
+  {
+    "cuvant": "ȘTIINȚA",
+    "definitie": "Metoda prin care omenirea încearcă să înțeleagă lumea fără să inventeze.",
+    "note": "Răspuns: ȘTIINȚA. 7 litere: Ș-T-I-I-N-Ț-A. Cu articol."
+  },
+  {
+    "cuvant": "TÂNĂRUL",
+    "definitie": "Cel aflat la vârsta dintre copilărie și maturitate, crezând că știe tot.",
+    "note": "Răspuns: TÂNĂRUL. 7 litere: T-Â-N-Ă-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "URIAȘUL",
+    "definitie": "Personajul din basme care are probleme cu ușile și cu povestitorul.",
+    "note": "Răspuns: URIAȘUL. 7 litere: U-R-I-A-Ș-U-L. Cu articol."
+  },
+  {
+    "cuvant": "VIFORUL",
+    "definitie": "Viscolul puternic care face orice ieșire afară imposibilă.",
+    "note": "Răspuns: VIFORUL. 7 litere: V-I-F-O-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "VIORILE",
+    "definitie": "Instrumentele cu coarde care formează vocea înaltă a orchestrei.",
+    "note": "Răspuns: VIORILE. 7 litere: V-I-O-R-I-L-E. Plural articulat."
+  },
+  {
+    "cuvant": "ZESTREA",
+    "definitie": "Avuția cu care o mireasă pleacă în noua familie, tradiție veche.",
+    "note": "Răspuns: ZESTREA. 7 litere: Z-E-S-T-R-E-A. Cu articol."
+  },
+  {
+    "cuvant": "ACVARIUL",
+    "definitie": "Căsuța de sticlă în care trăiesc pești fără să știe că sunt observați.",
+    "note": "Răspuns: ACVARIUL. 8 litere: A-C-V-A-R-I-U-L. Cu articol."
+  },
+  {
+    "cuvant": "ARMONICĂ",
+    "definitie": "Instrumentul muzical mic care se cântă cu gura și respirația.",
+    "note": "Răspuns: ARMONICĂ. 8 litere: A-R-M-O-N-I-C-Ă."
+  },
+  {
+    "cuvant": "BĂTRÂNUL",
+    "definitie": "Cel cu cele mai multe amintiri din orice cameră în care intră.",
+    "note": "Răspuns: BĂTRÂNUL. 8 litere: B-Ă-T-R-Â-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CERCETAȘ",
+    "definitie": "Tânărul cu cravată și ecuson care știe să facă foc fără chibrituri.",
+    "note": "Răspuns: CERCETAȘ. 8 litere: C-E-R-C-E-T-A-Ș."
+  },
+  {
+    "cuvant": "CIOBANUL",
+    "definitie": "Cel care cunoaște fiecare oaie pe nume și știe unde e nordul fără busolă.",
+    "note": "Răspuns: CIOBANUL. 8 litere: C-I-O-B-A-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CITADELA",
+    "definitie": "Fortăreața din centrul cetății medievale, ultimul refugiu al apărătorilor.",
+    "note": "Răspuns: CITADELĂ. 8 litere: C-I-T-A-D-E-L-Ă."
+  },
+  {
+    "cuvant": "CROCODIL",
+    "definitie": "Reptila preistorică cu zâmbet larg și răbdare infinită la pândă.",
+    "note": "Răspuns: CROCODIL. 8 litere: C-R-O-C-O-D-I-L."
+  },
+  {
+    "cuvant": "DRAGONUL",
+    "definitie": "Ființa mitologică cu aripi, foc din gură și aur în peșteră.",
+    "note": "Răspuns: DRAGONUL. 8 litere: D-R-A-G-O-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "FANTEZIA",
+    "definitie": "Lumea inventată în care totul e posibil și regulile nu se aplică.",
+    "note": "Răspuns: FANTEZIA. 8 litere: F-A-N-T-E-Z-I-A. Cu articol."
+  },
+  {
+    "cuvant": "FLAMINGO",
+    "definitie": "Pasărea roz care stă pe un picior în apă și nimeni nu știe de ce.",
+    "note": "Răspuns: FLAMINGO. 8 litere: F-L-A-M-I-N-G-O."
+  },
+  {
+    "cuvant": "FLORARUL",
+    "definitie": "Cel care transformă florile tăiate în bucurie ambalată frumos.",
+    "note": "Răspuns: FLORARUL. 8 litere: F-L-O-R-A-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "FOTBALUL",
+    "definitie": "Sportul care unește sau desparte națiunile o dată la patru ani.",
+    "note": "Răspuns: FOTBALUL. 8 litere: F-O-T-B-A-L-U-L. Cu articol."
+  },
+  {
+    "cuvant": "HAIDUCUL",
+    "definitie": "Eroul popular care fura de la bogați și dădea la săraci, din pădure.",
+    "note": "Răspuns: HAIDUCUL. 8 litere: H-A-I-D-U-C-U-L. Cu articol."
+  },
+  {
+    "cuvant": "LEAGĂNUL",
+    "definitie": "Prima călătorie a copilului — legănat de mâinile mamei.",
+    "note": "Răspuns: LEAGĂNUL. 8 litere: L-E-A-G-Ă-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "LILIACUL",
+    "definitie": "Animalul nocturn care doarme cu capul în jos și vede cu urechile.",
+    "note": "Răspuns: LILIACUL. 8 litere: L-I-L-I-A-C-U-L. Cu articol. Poate da cu LILIAC-floare."
+  },
+  {
+    "cuvant": "LUMINILE",
+    "definitie": "Ceea ce transformă noaptea de sărbătoare în ceva magic.",
+    "note": "Răspuns: LUMINILE. 8 litere: L-U-M-I-N-I-L-E. Plural articulat."
+  },
+  {
+    "cuvant": "MISTERUL",
+    "definitie": "Întrebarea fără răspuns care ne ține treji noaptea.",
+    "note": "Răspuns: MISTERUL. 8 litere: M-I-S-T-E-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "MONARHUL",
+    "definitie": "Conducătorul ales de destin și naștere, nu de cetățeni.",
+    "note": "Răspuns: MONARHUL. 8 litere: M-O-N-A-R-H-U-L. Cu articol."
+  },
+  {
+    "cuvant": "OCHEANUL",
+    "definitie": "Instrumentul cu lentile care aduce depărtarea mai aproape de ochi.",
+    "note": "Răspuns: OCHEANUL. 8 litere: O-C-H-E-A-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "PALATELE",
+    "definitie": "Reședințele grandioase ale regilor, acum deschise turiștilor.",
+    "note": "Răspuns: PALATELE. 8 litere: P-A-L-A-T-E-L-E. Plural articulat."
+  },
+  {
+    "cuvant": "PARFUMUL",
+    "definitie": "Amintirea cuiva pe care nu o mai poți atinge, dar o simți.",
+    "note": "Răspuns: PARFUMUL. 8 litere: P-A-R-F-U-M-U-L. Cu articol."
+  },
+  {
+    "cuvant": "PELERINA",
+    "definitie": "Mantia fără mâneci purtată de detectivi, vampiri și eroi.",
+    "note": "Răspuns: PELERINĂ. 8 litere: P-E-L-E-R-I-N-Ă."
+  },
+  {
+    "cuvant": "PICTORUL",
+    "definitie": "Cel care transformă vopseaua în emoție pe pânză sau pe perete.",
+    "note": "Răspuns: PICTORUL. 8 litere: P-I-C-T-O-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "PORȚELAN",
+    "definitie": "Materialul delicat din care se fac ceșcuțele de ceai ale bunicii.",
+    "note": "Răspuns: PORȚELAN. 8 litere: P-O-R-Ț-E-L-A-N."
+  },
+  {
+    "cuvant": "ARLECHIN",
+    "definitie": "Personajul în costum de romburi colorate din comedia italiană.",
+    "note": "Răspuns: ARLECHIN. 8 litere: A-R-L-E-C-H-I-N."
+  },
+  {
+    "cuvant": "CĂLĂTORUL",
+    "definitie": "Cel care cunoaște lumea prin propriile picioare, nu prin ecran.",
+    "note": "Răspuns: CĂLĂTORUL. 9 litere: C-Ă-L-Ă-T-O-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CĂPITANUL",
+    "definitie": "Conducătorul echipajului, fie pe mare, fie pe teren de fotbal.",
+    "note": "Răspuns: CĂPITANUL. 9 litere: C-Ă-P-I-T-A-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CIRCUITUL",
+    "definitie": "Drumul care se întoarce de unde a plecat, fără să obosească.",
+    "note": "Răspuns: CIRCUITUL. 9 litere: C-I-R-C-U-I-T-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CORIDORUL",
+    "definitie": "Spațiul îngust care leagă camerele și secretele lor.",
+    "note": "Răspuns: CORIDORUL. 9 litere: C-O-R-I-D-O-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "GAZETARUL",
+    "definitie": "Cel care scrie adevăruri pe care alții preferă să nu le vadă tipărite.",
+    "note": "Răspuns: GAZETARUL. 9 litere: G-A-Z-E-T-A-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "GRĂDINIȚA",
+    "definitie": "Prima instituție a copilăriei, cu plastilină și somn după-amiază.",
+    "note": "Răspuns: GRĂDINIȚA. 9 litere: G-R-Ă-D-I-N-I-Ț-A. Cu articol."
+  },
+  {
+    "cuvant": "MARATONUL",
+    "definitie": "Cursa de 42 de kilometri inventată de un grec care a murit de efort.",
+    "note": "Răspuns: MARATONUL. 9 litere: M-A-R-A-T-O-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "MIRACOLUL",
+    "definitie": "Ceea ce se întâmplă când știința nu mai are explicații și totuși se produce.",
+    "note": "Răspuns: MIRACOLUL. 9 litere: M-I-R-A-C-O-L-U-L. Cu articol."
+  },
+  {
+    "cuvant": "NĂZDRĂVAN",
+    "definitie": "Copilul care inventează motive să nu doarmă și scuze să nu mănânce.",
+    "note": "Răspuns: NĂZDRĂVAN. 9 litere: N-Ă-Z-D-R-Ă-V-A-N."
+  },
+  {
+    "cuvant": "NOROCOSUL",
+    "definitie": "Cel la care lucrurile se aranjează fără efort aparent și cu zâmbet.",
+    "note": "Răspuns: NOROCOSUL. 9 litere: N-O-R-O-C-O-S-U-L. Cu articol."
+  },
+  {
+    "cuvant": "OASPETELE",
+    "definitie": "Cel care vine în vizită și are voie să folosească prosopul cel bun.",
+    "note": "Răspuns: OASPETELE. 9 litere: O-A-S-P-E-T-E-L-E. Cu articol."
+  },
+  {
+    "cuvant": "ORIZONTUL",
+    "definitie": "Linia imaginară unde cerul se întâlnește cu pământul și nu se pot ajunge.",
+    "note": "Răspuns: ORIZONTUL. 9 litere: O-R-I-Z-O-N-T-U-L. Cu articol."
+  },
+  {
+    "cuvant": "SANDVIȘUL",
+    "definitie": "Mâncarea inventată de un conte care nu voia să lase jocul de cărți.",
+    "note": "Răspuns: SANDVIȘUL. 9 litere: S-A-N-D-V-I-Ș-U-L. Cu articol."
+  },
+  {
+    "cuvant": "SCENARIUL",
+    "definitie": "Textul care spune actorilor ce să spună și lumii ce să vadă.",
+    "note": "Răspuns: SCENARIUL. 9 litere: S-C-E-N-A-R-I-U-L. Cu articol."
+  },
+  {
+    "cuvant": "STRATEGIA",
+    "definitie": "Planul gândit înainte să înceapă bătălia sau jocul sau discuția.",
+    "note": "Răspuns: STRATEGIA. 9 litere: S-T-R-A-T-E-G-I-A. Cu articol."
+  },
+  {
+    "cuvant": "TINEREȚEA",
+    "definitie": "Perioada când totul pare posibil și somnul e un moft inutil.",
+    "note": "Răspuns: TINEREȚEA. 9 litere: T-I-N-E-R-E-Ț-E-A. Cu articol."
+  },
+  {
+    "cuvant": "TRAMVAIUL",
+    "definitie": "Vehiculul pe șine care împarte strada cu mașinile, fără să ceară voie.",
+    "note": "Răspuns: TRAMVAIUL. 9 litere: T-R-A-M-V-A-I-U-L. Cu articol."
+  },
+  {
+    "cuvant": "TROPICELE",
+    "definitie": "Zonele calde ale Pământului unde iarna nu există și ploaia e caldă.",
+    "note": "Răspuns: TROPICELE. 9 litere: T-R-O-P-I-C-E-L-E. Plural articulat."
+  },
+  {
+    "cuvant": "UNIVERSUL",
+    "definitie": "Tot ce există, de la atom până la galaxii — și poate mai mult.",
+    "note": "Răspuns: UNIVERSUL. 9 litere: U-N-I-V-E-R-S-U-L. Cu articol."
+  },
+  {
+    "cuvant": "VACANȚELE",
+    "definitie": "Perioadele din an când școala tace și copiii o iau razna.",
+    "note": "Răspuns: VACANȚELE. 9 litere: V-A-C-A-N-Ț-E-L-E. Plural articulat."
+  },
+  {
+    "cuvant": "AVENTURIER",
+    "definitie": "Cel care alege drumul greu doar pentru că e mai interesant.",
+    "note": "Răspuns: AVENTURIER. 10 litere: A-V-E-N-T-U-R-I-E-R."
+  },
+  {
+    "cuvant": "CAMELEONUL",
+    "definitie": "Reptila care se ascunde schimbând culoarea — maestrul camuflajului.",
+    "note": "Răspuns: CAMELEONUL. 10 litere: C-A-M-E-L-E-O-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CARNAVALUL",
+    "definitie": "Sărbătoarea deghizărilor, muzicii și nebuniei organizate.",
+    "note": "Răspuns: CARNAVALUL. 10 litere: C-A-R-N-A-V-A-L-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CETĂȚEANUL",
+    "definitie": "Membrul oficial al unui stat, cu drepturi, obligații și buletin.",
+    "note": "Răspuns: CETĂȚEANUL. 10 litere: C-E-T-Ă-Ț-E-A-N-U-L. Cu articol."
+  },
+  {
+    "cuvant": "CIRCULAȚIA",
+    "definitie": "Mișcarea neîntreruptă a mașinilor, sângelui sau ideilor prin sistem.",
+    "note": "Răspuns: CIRCULAȚIA. 10 litere: C-I-R-C-U-L-A-Ț-I-A. Cu articol."
+  },
+  {
+    "cuvant": "CUTREMURUL",
+    "definitie": "Tremuratul pământului care ne amintește că stăm pe ceva viu.",
+    "note": "Răspuns: CUTREMURUL. 10 litere: C-U-T-R-E-M-U-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "DINOZAURUL",
+    "definitie": "Reptila gigantică dispărută acum 66 de milioane de ani, din vina unui asteroid.",
+    "note": "Răspuns: DINOZAURUL. 10 litere: D-I-N-O-Z-A-U-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "DIPLOMATUL",
+    "definitie": "Cel care rezolvă conflictele cu cuvinte, nu cu arme.",
+    "note": "Răspuns: DIPLOMATUL. 10 litere: D-I-P-L-O-M-A-T-U-L. Cu articol."
+  },
+  {
+    "cuvant": "EPICENTRUL",
+    "definitie": "Punctul de pe suprafață cel mai aproape de originea cutremurului.",
+    "note": "Răspuns: EPICENTRUL. 10 litere: E-P-I-C-E-N-T-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "FESTIVALUL",
+    "definitie": "Sărbătoarea muzicii, artei sau filmului, cu mulțimi și entuziasm.",
+    "note": "Răspuns: FESTIVALUL. 10 litere: F-E-S-T-I-V-A-L-U-L. Cu articol."
+  },
+  {
+    "cuvant": "FORTĂREAȚA",
+    "definitie": "Construcția masivă de piatră gândită să reziste oricărui atac.",
+    "note": "Răspuns: FORTĂREAȚA. 10 litere: F-O-R-T-Ă-R-E-A-Ț-A. Cu articol."
+  },
+  {
+    "cuvant": "GRĂDINARUL",
+    "definitie": "Cel care vorbește cu plantele și ele îl ascultă și cresc.",
+    "note": "Răspuns: GRĂDINARUL. 10 litere: G-R-Ă-D-I-N-A-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "HIPODROMUL",
+    "definitie": "Arena cu pistă ovală unde caii aleargă și oamenii pariază.",
+    "note": "Răspuns: HIPODROMUL. 10 litere: H-I-P-O-D-R-O-M-U-L. Cu articol."
+  },
+  {
+    "cuvant": "IMAGINAȚIA",
+    "definitie": "Capacitatea de a vedea cu ochii minții ceea ce nu există încă.",
+    "note": "Răspuns: IMAGINAȚIA. 10 litere: I-M-A-G-I-N-A-Ț-I-A. Cu articol."
+  },
+  {
+    "cuvant": "INTERNETUL",
+    "definitie": "Rețeaua globală care a schimbat lumea mai repede decât orice altă invenție.",
+    "note": "Răspuns: INTERNETUL. 10 litere: I-N-T-E-R-N-E-T-U-L. Cu articol."
+  },
+  {
+    "cuvant": "LABIRINTUL",
+    "definitie": "Construcția din care ieși greu dacă nu știi trucul sau firul.",
+    "note": "Răspuns: LABIRINTUL. 10 litere: L-A-B-I-R-I-N-T-U-L. Cu articol."
+  },
+  {
+    "cuvant": "MEȘTEȘUGUL",
+    "definitie": "Arta de a face cu mâinile ceea ce mașinile nu pot egala.",
+    "note": "Răspuns: MEȘTEȘUGUL. 10 litere: M-E-Ș-T-E-Ș-U-G-U-L. Cu articol."
+  },
+  {
+    "cuvant": "OLIMPIADEI",
+    "definitie": "Competiției mondiale de sport care se ține o dată la patru ani, la genitiv.",
+    "note": "Răspuns: OLIMPIADEI. 10 litere: O-L-I-M-P-I-A-D-E-I. Genitiv."
+  },
+  {
+    "cuvant": "ROMANTICUL",
+    "definitie": "Cel care crede că florile, luna și versurile rezolvă orice problemă.",
+    "note": "Răspuns: ROMANTICUL. 10 litere: R-O-M-A-N-T-I-C-U-L. Cu articol."
+  },
+  {
+    "cuvant": "STALACTITA",
+    "definitie": "Formațiunea de calcar care crește în jos din tavanul peșterilor, picătură cu picătură.",
+    "note": "Răspuns: STALACTITĂ. 10 litere: S-T-A-L-A-C-T-I-T-Ă."
+  },
+  {
+    "cuvant": "TELESCOPUL",
+    "definitie": "Instrumentul prin care privim stele care s-au stins cu milioane de ani în urmă.",
+    "note": "Răspuns: TELESCOPUL. 10 litere: T-E-L-E-S-C-O-P-U-L. Cu articol."
+  },
+  {
+    "cuvant": "VOLUNTARUL",
+    "definitie": "Cel care ajută fără să aștepte nimic în schimb, pentru că vrea.",
+    "note": "Răspuns: VOLUNTARUL. 10 litere: V-O-L-U-N-T-A-R-U-L. Cu articol."
+  },
+  {
+    "cuvant": "SOCIOLOGUL",
+    "definitie": "Savantul care studiază societatea ca pe un experiment viu.",
+    "note": "Răspuns: SOCIOLOGUL. 10 litere: S-O-C-I-O-L-O-G-U-L. Cu articol."
+  },
+  {
+    "cuvant": "ARTA",
+    "definitie": "Exprimarea a ceea ce cuvintele nu pot spune suficient de bine.",
+    "note": "Răspuns: ARTĂ. 4 litere. Poate da cu MUZICĂ, PICTURĂ."
+  },
+  {
+    "cuvant": "CASA",
+    "definitie": "Locul unde te poți relaxa în orice fel dorești.",
+    "note": "Răspuns: CASĂ. 4 litere. Poate da cu LOCUINȚĂ, VILĂ."
+  },
+  {
+    "cuvant": "CUPA",
+    "definitie": "Trofeul rotund pe care echipa câștigătoare îl ridică deasupra capului.",
+    "note": "Răspuns: CUPĂ. 4 litere. Poate da cu TROFEUL, PAHARUL."
+  },
+  {
+    "cuvant": "GARA",
+    "definitie": "Locul de unde trenurile pleacă și reîntâlnirile încep.",
+    "note": "Răspuns: GARĂ. 4 litere. Poate da cu STAȚIE, TERMINAL."
+  },
+  {
+    "cuvant": "IAPA",
+    "definitie": "Calul de gen feminin — mai blând la povești, la fel de rapid la alergat.",
+    "note": "Răspuns: IAPĂ. 4 litere."
+  },
+  {
+    "cuvant": "LEUL",
+    "definitie": "Regele junglei africane care doarme 20 de ore pe zi și tot e rege.",
+    "note": "Răspuns: LEUL. 4 litere. Cu articol. Și moneda națională."
+  },
+  {
+    "cuvant": "LUNA",
+    "definitie": "Vecina nocturnă care schimbă forma în fiecare noapte.",
+    "note": "Răspuns: LUNĂ. 4 litere. Poate da cu unitatea de timp."
+  },
+  {
+    "cuvant": "MASA",
+    "definitie": "Obiectul de mobilier în jurul căruia se adună familia la mâncare și certuri.",
+    "note": "Răspuns: MASĂ. 4 litere. Poate da cu BIROU, TEJGHEA."
+  },
+  {
+    "cuvant": "NOTA",
+    "definitie": "Cifra care decide dacă vara e liberă sau nu.",
+    "note": "Răspuns: NOTĂ. 4 litere. Poate da cu CALIFICATIV."
+  },
+  {
+    "cuvant": "OAIA",
+    "definitie": "Animalul blând care dă lâna, laptele și personajele pentru basme.",
+    "note": "Răspuns: OAIE sau OAIA. 4 litere. Cu articol."
+  },
+  {
+    "cuvant": "OALA",
+    "definitie": "Vasul în care se nasc cele mai bune mâncăruri.",
+    "note": "Răspuns: OALĂ. 4 litere. Poate da cu CRATIȚĂ."
+  },
+  {
+    "cuvant": "RAȚA",
+    "definitie": "Pasărea care merge legănat și înoată fără lecții.",
+    "note": "Răspuns: RAȚA. 4 litere. Cu articol."
+  },
+  {
+    "cuvant": "RÂUL",
+    "definitie": "Apa care știe întotdeauna spre unde merge, chiar dacă face cotitiri.",
+    "note": "Răspuns: RÂUL. 4 litere. Cu articol. Poate da cu PÂRÂUL."
+  },
+  {
+    "cuvant": "SUMA",
+    "definitie": "Rezultatul adunării, fie că e vorba de bani sau de probleme.",
+    "note": "Răspuns: SUMĂ. 4 litere. Poate da cu TOTAL, VALOARE."
+  },
+  {
+    "cuvant": "SUPA",
+    "definitie": "Lichidul fierbinte care vindecă răceli și nostalgii.",
+    "note": "Răspuns: SUPĂ. 4 litere. Poate da cu CIORBĂ, ZEAMĂ."
+  },
+  {
+    "cuvant": "VARA",
+    "definitie": "Anotimpul când școala tace și marea cheamă.",
+    "note": "Răspuns: VARĂ. 4 litere."
+  },
+  {
+    "cuvant": "ZIUA",
+    "definitie": "Intervalul de 24 de ore în care încearcăm să facem tot ce nu am făcut ieri.",
+    "note": "Răspuns: ZIUA. 4 litere. Cu articol."
+  },
+  {
+    "cuvant": "ȚARA",
+    "definitie": "Locul cu granițe, imn și echipă națională de fotbal.",
+    "note": "Răspuns: ȚARA. 4 litere. Cu articol. Poate da cu PATRIA."
+  },
+  {
+    "cuvant": "ALBUL",
+    "definitie": "Culoarea zăpezii, a halatului și a paginii goale.",
+    "note": "Răspuns: ALBUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "BEREA",
+    "definitie": "Băutura aurie cu spumă albă pe care o bei rece, vara, la terasă.",
+    "note": "Răspuns: BEREA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "BOXUL",
+    "definitie": "Sportul în care doi oameni se bat cu mănuși și reguli stricte.",
+    "note": "Răspuns: BOXUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "CALUL",
+    "definitie": "Animalul nobil care a transportat omenirea mii de ani înainte de motor.",
+    "note": "Răspuns: CALUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "CAPRA",
+    "definitie": "Animalul care urcă pe stânci verticale și mănâncă orice, inclusiv ziare.",
+    "note": "Răspuns: CAPRA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "CEAPA",
+    "definitie": "Leguma care te face să plângi chiar când ești fericit.",
+    "note": "Răspuns: CEAPA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "CERUL",
+    "definitie": "Tavanul infinit al lumii, albastru ziua și plin de stele noaptea.",
+    "note": "Răspuns: CERUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "CLASA",
+    "definitie": "Camera cu bănci unde se predau cunoștințe și se formează prietenii pentru viață.",
+    "note": "Răspuns: CLASA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "FAGUL",
+    "definitie": "Arborele cu scoarță netedă și frunze late, stăpânul pădurilor de deal.",
+    "note": "Răspuns: FAGUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "GOLUL",
+    "definitie": "Momentul pentru care toată lumea stă pe stadion — durează 3 secunde și e suficient.",
+    "note": "Răspuns: GOLUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "GRÂUL",
+    "definitie": "Planta din care se face pâinea, temelia mesei din orice cultură.",
+    "note": "Răspuns: GRÂUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "GĂINA",
+    "definitie": "Pasărea domestică muncitoare care produce ouă în fiecare zi fără să ceară laudă.",
+    "note": "Răspuns: GĂINA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "IARNA",
+    "definitie": "Anotimpul când natura doarme sub pătură albă și noi ne plângem de frig.",
+    "note": "Răspuns: IARNA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "LINIA",
+    "definitie": "Drumul cel mai scurt între două puncte, mereu drept, mereu clar.",
+    "note": "Răspuns: LINIA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "MAREA",
+    "definitie": "Întinderea de apă sărată care ne cheamă vara și ne intimidează iarna.",
+    "note": "Răspuns: MAREA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "MĂRUL",
+    "definitie": "Fructul care a iscat războaie, a inspirat fizica și este interzis pe dietă.",
+    "note": "Răspuns: MĂRUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "NORUL",
+    "definitie": "Masa de vapori din cer care decide dacă ieși cu sau fără umbrelă.",
+    "note": "Răspuns: NORUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "OPERA",
+    "definitie": "Spectacolul în care personajele nu vorbesc — cântă, inclusiv când mor.",
+    "note": "Răspuns: OPERA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "OUĂLE",
+    "definitie": "Produsele găinii, esențiale la cozonac, omletă și Paște.",
+    "note": "Răspuns: OUĂLE. 5 litere. Plural articulat."
+  },
+  {
+    "cuvant": "PASTA",
+    "definitie": "Fie că e de dinți, fie italiană, e mereu la îndemână.",
+    "note": "Răspuns: PASTA. 5 litere. Cu articol. Poate da cu SPAGHETE."
+  },
+  {
+    "cuvant": "PATUL",
+    "definitie": "Obiectul de mobilier pe care îl urăști dimineața și îl iubești seara.",
+    "note": "Răspuns: PATUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "PERNA",
+    "definitie": "Perna moale pe care o îmbrățișezi când dormi și o arunci când e cald.",
+    "note": "Răspuns: PERNA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "PINUL",
+    "definitie": "Coniferul înalt cu ace fine care mirosea a rășină pe cărările de munte.",
+    "note": "Răspuns: PINUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "PIXUL",
+    "definitie": "Instrumentul de scris cu pastă, indispensabil la examene și semnături.",
+    "note": "Răspuns: PIXUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "PLAJA",
+    "definitie": "Fâșia de nisip unde oamenii se culcă la soare și pretind că se odihnesc.",
+    "note": "Răspuns: PLAJA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "PLITA",
+    "definitie": "Suprafața de gătit pe care se pun oalele și tigăile — inima bucătăriei.",
+    "note": "Răspuns: PLITA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "PĂRUL",
+    "definitie": "Fie arborele cu fructe galbene, fie cel care crește pe cap și cere tuns.",
+    "note": "Răspuns: PĂRUL. 5 litere. Cu articol. Ambiguitate utilă."
+  },
+  {
+    "cuvant": "RACUL",
+    "definitie": "Crustaceul care merge invers și a dat un semn zodiacal.",
+    "note": "Răspuns: RACUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "ROȘIA",
+    "definitie": "Fructul-legumă roșu care nu știe în ce categorie să se pună, dar e bun în salată.",
+    "note": "Răspuns: ROȘIA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "ROȘUL",
+    "definitie": "Culoarea dragostei, pericolului și a semafoarelui care nu te lasă să treci.",
+    "note": "Răspuns: ROȘUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "SAREA",
+    "definitie": "Ingredientul fără de care mâncarea nu are gust și supraviețuirea era imposibilă.",
+    "note": "Răspuns: SAREA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "SATUL",
+    "definitie": "Comunitatea mică unde toată lumea știe tot despre toată lumea.",
+    "note": "Răspuns: SATUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "SCENA",
+    "definitie": "Platforma ridicată de unde actorul vorbește lumii, fie că lumea ascultă.",
+    "note": "Răspuns: SCENA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "SEARA",
+    "definitie": "Momentul zilei când soarele pleacă și oamenii fie se odihnesc, fie ies.",
+    "note": "Răspuns: SEARA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "SUCUL",
+    "definitie": "Lichidul extras din fructe — natural sau din cutie, tot îl bei repede.",
+    "note": "Răspuns: SUCUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "TABLA",
+    "definitie": "Suprafața neagră sau albă pe care profesorul scrie și elevii copiază.",
+    "note": "Răspuns: TABLA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "TEIUL",
+    "definitie": "Arborele cu flori parfumate din care se face ceaiul de vară al bunicii.",
+    "note": "Răspuns: TEIUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "TRUPA",
+    "definitie": "Grupul de actori, muzicieni sau soldați care lucrează împreună.",
+    "note": "Răspuns: TRUPA. 5 litere. Cu articol. Poate da cu ECHIPA."
+  },
+  {
+    "cuvant": "UMBRA",
+    "definitie": "Silueta întunecată pe care o lași în urmă când soarele te urmărește.",
+    "note": "Răspuns: UMBRA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "UNTUL",
+    "definitie": "Grăsimea galbenă din lapte care face prăjiturile fragede și dieta imposibilă.",
+    "note": "Răspuns: UNTUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "URSUL",
+    "definitie": "Marele stăpân al pădurii care hibernează și trezit e periculos.",
+    "note": "Răspuns: URSUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "VALEA",
+    "definitie": "Spațiul îngust dintre munți prin care curge râul și trece viața.",
+    "note": "Răspuns: VALEA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "VARZA",
+    "definitie": "Leguma rotundă verde din care se face murătura de iarnă a bunicii.",
+    "note": "Răspuns: VARZA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "VINUL",
+    "definitie": "Băutura obținută din struguri fermentați, subiect de conversație la orice masă.",
+    "note": "Răspuns: VINUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "ZEBRA",
+    "definitie": "Calul african cu dungi alb-negre care nu se lasă domesticit.",
+    "note": "Răspuns: ZEBRA. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "ZIDUL",
+    "definitie": "Construcția verticală de piatră sau cărămidă care desparte sau apără.",
+    "note": "Răspuns: ZIDUL. 5 litere. Cu articol."
+  },
+  {
+    "cuvant": "ALBINA",
+    "definitie": "Insecta muncitoare care produce miere și polenizează jumătate din recoltele lumii.",
+    "note": "Răspuns: ALBINA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "BANANA",
+    "definitie": "Fructul galben curbat, sursa rapidă de energie a sportivilor și maimuțelor.",
+    "note": "Răspuns: BANANA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "BLOCUL",
+    "definitie": "Clădirea cu mai mulți vecini decât poți ține minte la un loc.",
+    "note": "Răspuns: BLOCUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "BRADUL",
+    "definitie": "Arborele care nu își schimbă haina nici iarna și devine erou de Crăciun.",
+    "note": "Răspuns: BRADUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "BRÂNZA",
+    "definitie": "Produsul lactat solid care există în sute de forme și toate sunt bune.",
+    "note": "Răspuns: BRÂNZA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "BURSUC",
+    "definitie": "Mamifer nocturn cu dungi pe față care sapă galerii și evită oamenii.",
+    "note": "Răspuns: BURSUC. 6 litere."
+  },
+  {
+    "cuvant": "CARNEA",
+    "definitie": "Produsul de origine animală care împarte omenirea în două tabere la masă.",
+    "note": "Răspuns: CARNEA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CARTEA",
+    "definitie": "Prietenul care nu te judecă și e mereu disponibil pe noptieră.",
+    "note": "Răspuns: CARTEA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CEAIUL",
+    "definitie": "Băutura caldă din frunze sau flori, alternativa elegantă la cafea.",
+    "note": "Răspuns: CEAIUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CERCUL",
+    "definitie": "Figura geometrică perfectă fără colțuri și fără început sau sfârșit.",
+    "note": "Răspuns: CERCUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CHIMIA",
+    "definitie": "Știința care explică de ce explodează lucrurile și de ce nu trebuie să le amesteci.",
+    "note": "Răspuns: CHIMIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CIOARA",
+    "definitie": "Pasărea neagră inteligentă cu reputație proastă și memorie excelentă.",
+    "note": "Răspuns: CIOARA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CIORBA",
+    "definitie": "Supa acrișoară românească care vindecă orice, de la răceală la mahmureală.",
+    "note": "Răspuns: CIORBA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CONTUL",
+    "definitie": "Locul digital sau bancar unde stă — sau nu stă — banii tăi.",
+    "note": "Răspuns: CONTUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CORBUL",
+    "definitie": "Pasărea neagră mare, mesager al ghinionului în toate basmele lumii.",
+    "note": "Răspuns: CORBUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CRABUL",
+    "definitie": "Crustaceul cu clești care merge în lateral și locuiește pe fundul mării.",
+    "note": "Răspuns: CRABUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CRINUL",
+    "definitie": "Floarea albă și parfumată a purității, prezentă la nunți și înmormântări.",
+    "note": "Răspuns: CRINUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "CURCAN",
+    "definitie": "Pasărea care domină masa de Crăciun și Thanksgiving fără să vrea.",
+    "note": "Răspuns: CURCAN. 6 litere."
+  },
+  {
+    "cuvant": "CÂMPIA",
+    "definitie": "Suprafața plată de teren unde orizontul se vede din orice punct.",
+    "note": "Răspuns: CÂMPIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "DRUMUL",
+    "definitie": "Calea trasată prin spațiu pe care o urmezi fie că știi unde ajungi, fie că nu.",
+    "note": "Răspuns: DRUMUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "ECHIPA",
+    "definitie": "Grupul de oameni care câștigă sau pierde împreună.",
+    "note": "Răspuns: ECHIPA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "ELEVUL",
+    "definitie": "Cel aflat în proces de acumulat cunoștințe pe care le va uita la vacanță.",
+    "note": "Răspuns: ELEVUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "EȘECUL",
+    "definitie": "Rezultatul nereușit care, conform motivational-speakerilor, e un pas spre succes.",
+    "note": "Răspuns: EȘECUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "FIZICA",
+    "definitie": "Știința care explică de ce cad lucrurile și de ce racheta nu cade.",
+    "note": "Răspuns: FIZICA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "FRIGUL",
+    "definitie": "Senzația care te face să cauți plapuma și să uiți că ai zis că îți place iarna.",
+    "note": "Răspuns: FRIGUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "GIRAFĂ",
+    "definitie": "Animalul cu cel mai lung gât din lume, util la mâncat frunze din copaci înalți.",
+    "note": "Răspuns: GIRAFĂ. 6 litere."
+  },
+  {
+    "cuvant": "GOLFUL",
+    "definitie": "Sportul cu bețe și găuri mici sau brațul de mare care intră în uscat.",
+    "note": "Răspuns: GOLFUL. 6 litere. Cu articol. Ambigu util."
+  },
+  {
+    "cuvant": "GÂNDAC",
+    "definitie": "Insecta mică și tenace care supraviețuiește oricărei calamități.",
+    "note": "Răspuns: GÂNDAC. 6 litere. Poate da cu SCARABEU."
+  },
+  {
+    "cuvant": "HÂRTIA",
+    "definitie": "Suprafața albă pe care se scriu legi, poeme și liste de cumpărături.",
+    "note": "Răspuns: HÂRTIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "INSULA",
+    "definitie": "Bucată de pământ înconjurată de apă din toate părțile, visul multor vacanțe.",
+    "note": "Răspuns: INSULA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "LINTEA",
+    "definitie": "Leguminoasa mică și rotundă, plină de proteine și mai rapidă la gătit decât fasolea.",
+    "note": "Răspuns: LINTEA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "LUMINA",
+    "definitie": "Radiația care face posibil văzul, fotografiile și viața pe Pământ.",
+    "note": "Răspuns: LUMINA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "LĂMÂIA",
+    "definitie": "Fructul galben acru pe care îl storci în ceai, pe pește și pe ambiție.",
+    "note": "Răspuns: LĂMÂIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "MAȘINA",
+    "definitie": "Vehiculul cu motor pe patru roți care ne-a transformat viața și traficul.",
+    "note": "Răspuns: MAȘINA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "MEDUZA",
+    "definitie": "Criatura marină transparentă care plutește fără creier și fără scuze.",
+    "note": "Răspuns: MEDUZA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "MERELE",
+    "definitie": "Fructele rotunde ale mărului, roșii sau verzi, preferate de doctori și balauri.",
+    "note": "Răspuns: MERELE. 6 litere. Plural articulat."
+  },
+  {
+    "cuvant": "MIEREA",
+    "definitie": "Dulceața produsă de albine, cel mai vechi îndulcitor al omenirii.",
+    "note": "Răspuns: MIEREA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "MINGEA",
+    "definitie": "Obiectul rotund din jurul căruia se organizează cele mai multe sporturi.",
+    "note": "Răspuns: MINGEA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "MUZEUL",
+    "definitie": "Clădirea unde trecutul stă în vitrină și vizitatorii fac poze cu telefonul.",
+    "note": "Răspuns: MUZEUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "MUZICA",
+    "definitie": "Arta sunetelor organizate care te poate face să dansezi sau să plângi fără motiv.",
+    "note": "Răspuns: MUZICA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "MÂNZUL",
+    "definitie": "Puiul calului, zvelt și nesigur pe picioare în primele zile de viață.",
+    "note": "Răspuns: MÂNZUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "NEGRUL",
+    "definitie": "Culoarea nopții, a elegantei și a costumelor de gală.",
+    "note": "Răspuns: NEGRUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "ORAȘUL",
+    "definitie": "Aglomerarea de oameni, clădiri și mașini unde viața merge mai repede.",
+    "note": "Răspuns: ORAȘUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "OREZUL",
+    "definitie": "Boabele albe care hrănesc jumătate din omenire în fiecare zi.",
+    "note": "Răspuns: OREZUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "OȚETUL",
+    "definitie": "Lichidul acid din bucătărie bun la murat, salate și curățat calcar.",
+    "note": "Răspuns: OȚETUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PAGINA",
+    "definitie": "Fața foii de carte sau de site unde stau informațiile în rând.",
+    "note": "Răspuns: PAGINA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PARCUL",
+    "definitie": "Spațiul verde din oraș unde oamenii vin să respire și câinii să se plimbe.",
+    "note": "Răspuns: PARCUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PERELE",
+    "definitie": "Fructele cu formă de lacrimă, dulci și moi, preferate toamna.",
+    "note": "Răspuns: PERELE. 6 litere. Plural articulat."
+  },
+  {
+    "cuvant": "PISICA",
+    "definitie": "Animalul de companie independent care te tolerează cu condiții.",
+    "note": "Răspuns: PISICA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PLOAIA",
+    "definitie": "Apa care cade din cer și care fie strică planurile, fie salvează grădina.",
+    "note": "Răspuns: PLOAIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "POEZIA",
+    "definitie": "Forma de scriere în care fiecare cuvânt cântărește de zece ori mai mult.",
+    "note": "Răspuns: POEZIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PORCUL",
+    "definitie": "Animalul domesticit de mii de ani, eroul nelipsit al Crăciunului la țară.",
+    "note": "Răspuns: PORCUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PORTUL",
+    "definitie": "Locul unde marea primește navele și navele primesc lumea.",
+    "note": "Răspuns: PORTUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PRUNUL",
+    "definitie": "Arborele cu fructe mov din care se face țuica și magiuna bunicii.",
+    "note": "Răspuns: PRUNUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PÂINEA",
+    "definitie": "Alimentul de bază al omenirii, copt din grâu în mii de forme.",
+    "note": "Răspuns: PÂINEA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PĂTURA",
+    "definitie": "Învelitoarea caldă sub care te ascunzi iarna și nu vrei să ieși dimineața.",
+    "note": "Răspuns: PĂTURA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "PĂUNUL",
+    "definitie": "Pasărea care și-a transformat coada într-un spectacol de culori pentru a impresiona.",
+    "note": "Răspuns: PĂUNUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "SALATA",
+    "definitie": "Preparatul rece din legume crude care apare pe orice dietă și dispare primul.",
+    "note": "Răspuns: SALATA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "SALCIA",
+    "definitie": "Arborele cu ramuri plângătoare care atârnă deasupra apei melancolic.",
+    "note": "Răspuns: SALCIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "SECARA",
+    "definitie": "Cereala robustă din care se face pâinea neagră, rezistentă la ger.",
+    "note": "Răspuns: SECARA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "STRADA",
+    "definitie": "Fâșia asfaltată dintre case pe care merge toată lumea și nu aparține nimănui.",
+    "note": "Răspuns: STRADA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "TIGAIA",
+    "definitie": "Vasul plat de bucătărie în care se prăjesc ouăle și carnea.",
+    "note": "Răspuns: TIGAIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "TOAMNA",
+    "definitie": "Anotimpul cu frunze colorate, ploaie și nostalgie la pachet.",
+    "note": "Răspuns: TOAMNA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "TRENUL",
+    "definitie": "Vehiculul care merge doar pe drumul lui, dar ajunge mereu la timp în alte țări.",
+    "note": "Răspuns: TRENUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "ULEIUL",
+    "definitie": "Lichidul gras din bucătărie, esențial la prăjit și la motoare.",
+    "note": "Răspuns: ULEIUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "VACILE",
+    "definitie": "Animalele domestice care produc laptele din care vine tot ce e lactat.",
+    "note": "Răspuns: VACILE. 6 litere. Plural articulat."
+  },
+  {
+    "cuvant": "VRABIA",
+    "definitie": "Pasărea mică și maronie, cea mai comună și cel mai ignorată din curte.",
+    "note": "Răspuns: VRABIA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "VÂNTUL",
+    "definitie": "Aerul care se mișcă fără să se vadă și mișcă tot ce întâlnește.",
+    "note": "Răspuns: VÂNTUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "ȘCOALA",
+    "definitie": "Instituția unde se predau cunoștințe și se formează oameni — ani îndelungați.",
+    "note": "Răspuns: ȘCOALA. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "ȘOIMUL",
+    "definitie": "Pasărea răpitoare rapidă folosită în vânătoare de nobili secole la rând.",
+    "note": "Răspuns: ȘOIMUL. 6 litere. Cu articol."
+  },
+  {
+    "cuvant": "AFINELE",
+    "definitie": "Fructele mici și albastre de pădure, pline de antioxidanți și savoare.",
+    "note": "Răspuns: AFINELE. 7 litere. Plural articulat."
+  },
+  {
+    "cuvant": "ALBUMUL",
+    "definitie": "Colecția de fotografii sau piese muzicale adunate între două coperți.",
+    "note": "Răspuns: ALBUMUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "ARDEIUL",
+    "definitie": "Leguma iute sau dulce, roșie sau verde, prezentă în orice bucătărie.",
+    "note": "Răspuns: ARDEIUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "ARȚARUL",
+    "definitie": "Arborele ale cărui frunze devin roșii toamna și al cărui sirop e canadian.",
+    "note": "Răspuns: ARȚARUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "ATACANT",
+    "definitie": "Jucătorul din fotbal care are sarcina să înscrie goluri și meritul când o face.",
+    "note": "Răspuns: ATACANT. 7 litere."
+  },
+  {
+    "cuvant": "AUTORUL",
+    "definitie": "Cel care a creat opera — fie că e carte, film sau problemă.",
+    "note": "Răspuns: AUTORUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "AVIONUL",
+    "definitie": "Vehiculul cu aripi care a micșorat lumea și a mare frica de înălțime.",
+    "note": "Răspuns: AVIONUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "BROASCA",
+    "definitie": "Amfibia care sare, croncăne și devine prinț doar în basme.",
+    "note": "Răspuns: BROASCA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "BUCĂTAR",
+    "definitie": "Artistul din bucătărie care transformă ingredientele în experiențe.",
+    "note": "Răspuns: BUCĂTAR. 7 litere."
+  },
+  {
+    "cuvant": "BUFNIȚA",
+    "definitie": "Pasărea nocturnă înțeleaptă care vede în întuneric și tace ziua.",
+    "note": "Răspuns: BUFNIȚA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "BUJORUL",
+    "definitie": "Floarea mare și parfumată, roz sau roșie, regina grădinilor de mai.",
+    "note": "Răspuns: BUJORUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CAIETUL",
+    "definitie": "Agenda cu foi unde elevul scrie și uneori și desenează pe margine.",
+    "note": "Răspuns: CAIETUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CATEDRA",
+    "definitie": "Masa înaltă de la care profesorul domină clasa și cunoașterea.",
+    "note": "Răspuns: CATEDRA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CEREALA",
+    "definitie": "Planta cultivată pentru boabe — grâu, porumb, ovăz — baza alimentației.",
+    "note": "Răspuns: CEREALA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CIRESUL",
+    "definitie": "Arborele cu fructe roșii de mai, primul rod al primăverii în livadă.",
+    "note": "Răspuns: CIREȘUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CITITOR",
+    "definitie": "Cel care transformă literele de pe pagină în lumi întregi în minte.",
+    "note": "Răspuns: CITITOR. 7 litere."
+  },
+  {
+    "cuvant": "COACĂZE",
+    "definitie": "Fructele mici negre sau roșii din tufe, acre și bune la gem.",
+    "note": "Răspuns: COACĂZE. 7 litere. Plural."
+  },
+  {
+    "cuvant": "COCOȘUL",
+    "definitie": "Ceasul deșteptător al satului care nu are buton de snooze.",
+    "note": "Răspuns: COCOȘUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CONCERT",
+    "definitie": "Evenimentul live unde muzica se simte în piept, nu doar în urechi.",
+    "note": "Răspuns: CONCERT. 7 litere."
+  },
+  {
+    "cuvant": "COVORUL",
+    "definitie": "Suprafața moale de pe podea pe care te bucuri să calci desculț.",
+    "note": "Răspuns: COVORUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CRATIȚA",
+    "definitie": "Vasul de gătit cu coadă, esențial la sosuri, ciorbe și omlete.",
+    "note": "Răspuns: CRATIȚA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CUCUVAI",
+    "definitie": "Pasărea nocturnă al cărei strigăt a speriat sate întregi în basme.",
+    "note": "Răspuns: CUCUVAI. 7 litere."
+  },
+  {
+    "cuvant": "CUȚITUL",
+    "definitie": "Unealta cu lamă ascuțită, esențială în bucătărie și periculoasă altundeva.",
+    "note": "Răspuns: CUȚITUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CÂINELE",
+    "definitie": "Cel mai vechi prieten al omului, loial fără condiții și fericit la orice întoarcere.",
+    "note": "Răspuns: CÂINELE. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CĂLDURA",
+    "definitie": "Senzația plăcută de temperatură ridicată, iubită iarna și urâtă în august.",
+    "note": "Răspuns: CĂLDURA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CĂLUȚUL",
+    "definitie": "Diminutivul calului — fie jucărie de lemn, fie puiul mânzei.",
+    "note": "Răspuns: CĂLUȚUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "CĂPȘUNA",
+    "definitie": "Fructul roșu mic al primăverii, bun cu frișcă și imposibil de mâncat cu demnitate.",
+    "note": "Răspuns: CĂPȘUNA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "DIPLOMA",
+    "definitie": "Documentul oficial care atestă că ai terminat ceva important.",
+    "note": "Răspuns: DIPLOMA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "DOSARUL",
+    "definitie": "Colecția de documente adunate pentru o cauză, un dosar sau un birou.",
+    "note": "Răspuns: DOSARUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "DULAPUL",
+    "definitie": "Mobilierul cu uși care ascunde haine, secrete și lucruri uitate.",
+    "note": "Răspuns: DULAPUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "FASOLEA",
+    "definitie": "Leguminoasa în păstaie, sursa de proteine vegetale a oricărui meniu modest.",
+    "note": "Răspuns: FASOLEA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "FERMIER",
+    "definitie": "Cel care lucrează pământul și hrănește orașele fără ca orașele să știe.",
+    "note": "Răspuns: FERMIER. 7 litere."
+  },
+  {
+    "cuvant": "FURTUNA",
+    "definitie": "Combinația de vânt, ploaie și tunete care oprește orice plan de ieșit.",
+    "note": "Răspuns: FURTUNA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "GHIOCEL",
+    "definitie": "Prima floare albă a primăverii, curajoasă să iasă chiar prin zăpadă.",
+    "note": "Răspuns: GHIOCEL. 7 litere."
+  },
+  {
+    "cuvant": "GRĂDINA",
+    "definitie": "Spațiul cultivat cu flori și legume, proiectul de weekend al bunicilor.",
+    "note": "Răspuns: GRĂDINA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "IAURTUL",
+    "definitie": "Produsul lactat cremos consumat la micul dejun sau cu fructe și miere.",
+    "note": "Răspuns: IAURTUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "INGINER",
+    "definitie": "Specialistul care calculează cum să construiești ce arhitectul a desenat.",
+    "note": "Răspuns: INGINER. 7 litere."
+  },
+  {
+    "cuvant": "LALEAUA",
+    "definitie": "Floarea olandeză cu formă de pahar, simbol al primăverii și al Olandei.",
+    "note": "Răspuns: LALEAUA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "LAPTELE",
+    "definitie": "Primul aliment al oricărui mamifer, de la naștere la cozonacul de Paște.",
+    "note": "Răspuns: LAPTELE. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "LINGURA",
+    "definitie": "Ustensila concavă cu care mănânci supa și guști din oală.",
+    "note": "Răspuns: LINGURA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "MANGOUL",
+    "definitie": "Fructul tropical galben-portocaliu, regele aromelor exotice.",
+    "note": "Răspuns: MANGOUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "MARATON",
+    "definitie": "Cursa de 42 de kilometri inventată de un grec care nu a supraviețuit să o repete.",
+    "note": "Răspuns: MARATON. 7 litere."
+  },
+  {
+    "cuvant": "MEDALIA",
+    "definitie": "Discul de metal purtat cu mândrie după victorie sau finalizare.",
+    "note": "Răspuns: MEDALIA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "MELODIA",
+    "definitie": "Succesiunea de note care rămâne în cap zile întregi fără să ceară voie.",
+    "note": "Răspuns: MELODIA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "MESAJUL",
+    "definitie": "Informația transmisă de la un om la altul, scrisă, vorbită sau desenată.",
+    "note": "Răspuns: MESAJUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "METROUL",
+    "definitie": "Trenul subteran al orașului care nu se blochează în trafic niciodată.",
+    "note": "Răspuns: METROUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "MOARTEA",
+    "definitie": "Singurul eveniment garantat din viață, despre care nimeni nu vorbește suficient.",
+    "note": "Răspuns: MOARTEA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "MOLIDUL",
+    "definitie": "Coniferul înalt și drept din care se fac cele mai frumoase brazi de Crăciun.",
+    "note": "Răspuns: MOLIDUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "MUNTELE",
+    "definitie": "Înălțimea de piatră care domină peisajul și cheamă alpiniștii.",
+    "note": "Răspuns: MUNTELE. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "NARCISE",
+    "definitie": "Florile galbene sau albe de primăvară, numite după tânărul care s-a îndrăgostit de propria reflexie.",
+    "note": "Răspuns: NARCISE. 7 litere. Plural."
+  },
+  {
+    "cuvant": "NOAPTEA",
+    "definitie": "Jumătatea întunecată a zilei, preferată de bufnițe, astronomi și noctambuli.",
+    "note": "Răspuns: NOAPTEA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "NUMĂRUL",
+    "definitie": "Simbolul matematic cu care numărăm, măsurăm și categorisim totul.",
+    "note": "Răspuns: NUMĂRUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "PAHARUL",
+    "definitie": "Recipientul de sticlă sau plastic din care bem, fie apă, fie ceva mai interesant.",
+    "note": "Răspuns: PAHARUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "PEȘTELE",
+    "definitie": "Vertebratul acvatic care respiră prin branhii și pune la test răbdarea pescarilor.",
+    "note": "Răspuns: PEȘTELE. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "PICTURA",
+    "definitie": "Arta de a transforma vopseaua și pânza în emoție, uimire sau mister.",
+    "note": "Răspuns: PICTURA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "PIPERUL",
+    "definitie": "Condimentul negru sau alb care strănută când îl miroși și face mâncarea vie.",
+    "note": "Răspuns: PIPERUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "PIȚIGOI",
+    "definitie": "Pasărea mică și colorată a iernii care vine la hrănitoare și aduce veselia.",
+    "note": "Răspuns: PIȚIGOI. 7 litere."
+  },
+  {
+    "cuvant": "POMPIER",
+    "definitie": "Cel care aleargă spre incendii când toți ceilalți fug în direcția opusă.",
+    "note": "Răspuns: POMPIER. 7 litere."
+  },
+  {
+    "cuvant": "PRUNELE",
+    "definitie": "Fructele mov ale prunului, bune proaspete sau în borcan sau în țuică.",
+    "note": "Răspuns: PRUNELE. 7 litere. Plural articulat."
+  },
+  {
+    "cuvant": "PUNCTUL",
+    "definitie": "Cel mai mic semn de punctuație care termină orice frază cu autoritate.",
+    "note": "Răspuns: PUNCTUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "PĂDUREA",
+    "definitie": "Suprafața mare acoperită cu copaci unde natura trăiește după regulile ei.",
+    "note": "Răspuns: PĂDUREA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "PĂSĂREA",
+    "definitie": "Vertebratul cu pene și aripi — unele zboară, altele nu, toate fascinează.",
+    "note": "Răspuns: PĂSĂREA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "RACHETA",
+    "definitie": "Fie vehiculul spre spațiu cu foc la bază, fie paleta de tenis cu corzi.",
+    "note": "Răspuns: RACHETA. 7 litere. Cu articol. Frumos ambigu."
+  },
+  {
+    "cuvant": "REȚEAUA",
+    "definitie": "Sistemul de conexiuni care leagă computere, oameni sau neuroni.",
+    "note": "Răspuns: REȚEAUA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "ROMANUL",
+    "definitie": "Cartea de ficțiune lungă în care intri și îți este greu să mai ieși.",
+    "note": "Răspuns: ROMANUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "SEZONUL",
+    "definitie": "Perioada din an dedicată unui sport, fenomen sau anotimp specific.",
+    "note": "Răspuns: SEZONUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "SOARELE",
+    "definitie": "Steaua din centrul sistemului nostru solar care face posibilă orice altceva.",
+    "note": "Răspuns: SOARELE. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "SPORTIV",
+    "definitie": "Cel care și-a antrenat corpul și voința până la performanță.",
+    "note": "Răspuns: SPORTIV. 7 litere."
+  },
+  {
+    "cuvant": "STELELE",
+    "definitie": "Soarele vazut de la distanță — miliarde de ele, fiecare cu lumea ei posibilă.",
+    "note": "Răspuns: STELELE. 7 litere. Plural articulat."
+  },
+  {
+    "cuvant": "SUNETUL",
+    "definitie": "Vibrația aerului care ajunge la ureche și devine muzică, vorbă sau zgomot.",
+    "note": "Răspuns: SUNETUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "TEATRUL",
+    "definitie": "Clădirea unde minciunile devin artă și publicul aplaudă.",
+    "note": "Răspuns: TEATRUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "TENISUL",
+    "definitie": "Sportul cu rachete și plasă în care mingea trebuie să treacă, dar nu să cadă.",
+    "note": "Răspuns: TENISUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "TERENUL",
+    "definitie": "Suprafața pe care se joacă, se construiește sau se cultivă.",
+    "note": "Răspuns: TERENUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "TROFEUL",
+    "definitie": "Obiectul care dovedește că cineva a câștigat ceva important.",
+    "note": "Răspuns: TROFEUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "TUNELUL",
+    "definitie": "Drumul săpat prin munte sau sub apă care preferă întunericul.",
+    "note": "Răspuns: TUNELUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "TUNETUL",
+    "definitie": "Bubuitura sonoră care urmează fulgerul și îi sperie pe câini.",
+    "note": "Răspuns: TUNETUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "USTUROI",
+    "definitie": "Bulbul puternic mirositor care ține vampirii la distanță și prietenii aproape.",
+    "note": "Răspuns: USTUROI. 7 litere."
+  },
+  {
+    "cuvant": "VAPORUL",
+    "definitie": "Casa plutitoare a marinarilor care traversează oceane cu tonele de marfă.",
+    "note": "Răspuns: VAPORUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "VERDELE",
+    "definitie": "Culoarea ierbii, a speranței și a semaforului care îți dă voie să treci.",
+    "note": "Răspuns: VERDELE. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "VIESPEA",
+    "definitie": "Insecta galben-neagră care nu produce miere dar are ace și temperament.",
+    "note": "Răspuns: VIESPEA. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "VIȘINUL",
+    "definitie": "Arborele cu fructe roșii-negre acrisoare, bune la dulceță și lichior.",
+    "note": "Răspuns: VIȘINUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "VOLEIUL",
+    "definitie": "Sportul de echipă cu fileu în care mingea nu trebuie să atingă pământul.",
+    "note": "Răspuns: VOLEIUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "ZAHĂRUL",
+    "definitie": "Substanța albă dulce fără de care prăjiturile și copilăria ar fi mai amare.",
+    "note": "Răspuns: ZAHĂRUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "ȘOFERUL",
+    "definitie": "Cel care conduce mașina altcuiva sau propria mașină cu răbdare variabilă.",
+    "note": "Răspuns: ȘOFERUL. 7 litere. Cu articol."
+  },
+  {
+    "cuvant": "ACOPERIȘ",
+    "definitie": "Partea de sus a casei care ține ploaia afară și căldura înăuntru.",
+    "note": "Răspuns: ACOPERIȘ. 8 litere."
+  },
+  {
+    "cuvant": "ALBASTRU",
+    "definitie": "Culoarea cerului senin și a mării adânci, cea mai iubită culoare din lume.",
+    "note": "Răspuns: ALBASTRU. 8 litere."
+  },
+  {
+    "cuvant": "ANANASUL",
+    "definitie": "Fructul tropical cu coroană de frunze și coajă aspră, dulce și acid pe dinăuntru.",
+    "note": "Răspuns: ANANASUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "APĂRĂTOR",
+    "definitie": "Jucătorul din fotbal care îl apără pe portar sau avocatul care te apără în tribunal.",
+    "note": "Răspuns: APĂRĂTOR. 8 litere."
+  },
+  {
+    "cuvant": "ARAGAZUL",
+    "definitie": "Aparatul de bucătărie cu arzătoare și cuptor, inima oricărei găteli serioase.",
+    "note": "Răspuns: ARAGAZUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "ARBITRUL",
+    "definitie": "Cel care aplică regulile jocului și nu are prieteni pe niciun teren.",
+    "note": "Răspuns: ARBITRUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "ARTISTUL",
+    "definitie": "Cel care creează frumusețe din orice material și orice subiect.",
+    "note": "Răspuns: ARTISTUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "AVOCATUL",
+    "definitie": "Specialistul în lege care te apără sau acuză cu argumente și taxe.",
+    "note": "Răspuns: AVOCATUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "BIOLOGIA",
+    "definitie": "Știința vieții în toate formele ei, de la bacterie până la balenă.",
+    "note": "Răspuns: BIOLOGIA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "CARTOFUL",
+    "definitie": "Tuberculul adus din America care a salvat Europa de foamete și a dat chips-urile.",
+    "note": "Răspuns: CARTOFUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "CLIENTUL",
+    "definitie": "Cel care plătește și prin urmare are întotdeauna dreptate, teoretic.",
+    "note": "Răspuns: CLIENTUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "CREIONUL",
+    "definitie": "Instrumentul de scris cu grafit care are și el dreptul la greșeală — se șterge.",
+    "note": "Răspuns: CREIONUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "CULORILE",
+    "definitie": "Proprietățile luminii care fac lumea vizibilă și viața mai frumoasă.",
+    "note": "Răspuns: CULORILE. 8 litere. Plural articulat."
+  },
+  {
+    "cuvant": "DEȘERTUL",
+    "definitie": "Locul fierbinte și uscat unde apa e mai valoroasă ca aurul.",
+    "note": "Răspuns: DEȘERTUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "DOCTORUL",
+    "definitie": "Specialistul care știe ce te doare înainte să îi explici prea mult.",
+    "note": "Răspuns: DOCTORUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "EXAMENUL",
+    "definitie": "Testul care decide dacă ai învățat sau dacă ai dormit suficient ca să îți pese.",
+    "note": "Răspuns: EXAMENUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "FARFURIA",
+    "definitie": "Vasul rotund pe care se servește mâncarea și de pe care se mănâncă.",
+    "note": "Răspuns: FARFURIA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "FESTIVAL",
+    "definitie": "Sărbătoarea muzicii sau artei cu scenă, mulțimi și entuziasm organizat.",
+    "note": "Răspuns: FESTIVAL. 8 litere."
+  },
+  {
+    "cuvant": "FRIGIDER",
+    "definitie": "Aparatul din bucătărie care păstrează mâncarea rece și speranțele de dietă.",
+    "note": "Răspuns: FRIGIDER. 8 litere."
+  },
+  {
+    "cuvant": "FRIPTURA",
+    "definitie": "Carnea gătită la foc mare, subiect de dezbatere la orice grătar.",
+    "note": "Răspuns: FRIPTURA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "FULGERUL",
+    "definitie": "Descărcarea electrică din cer care luminează totul o clipă și dispare.",
+    "note": "Răspuns: FULGERUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "GALBENUL",
+    "definitie": "Culoarea soarelui, a lămâii și a taxiurilor din New York.",
+    "note": "Răspuns: GALBENUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "GRAFICUL",
+    "definitie": "Reprezentarea vizuală a datelor — mai convingătoare decât orice text.",
+    "note": "Răspuns: GRAFICUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "IMAGINEA",
+    "definitie": "Reprezentarea vizuală a unui obiect sau moment, reală sau creată de minte.",
+    "note": "Răspuns: IMAGINEA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "MEDICINA",
+    "definitie": "Știința și arta de a vindeca oamenii, cu sau fără efecte secundare.",
+    "note": "Răspuns: MEDICINA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "NINSOARE",
+    "definitie": "Căderea fulgilor de zăpadă care transformă lumea în ceva mai tăcut și mai alb.",
+    "note": "Răspuns: NINSOARE. 8 litere."
+  },
+  {
+    "cuvant": "PEPENELE",
+    "definitie": "Fructul verii cu coajă verde și inimă roșie care cântărește cât o valiză.",
+    "note": "Răspuns: PEPENELE. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "PORUMBEL",
+    "definitie": "Pasărea albă a păcii care a livrat scrisori înainte de email.",
+    "note": "Răspuns: PORUMBEL. 8 litere."
+  },
+  {
+    "cuvant": "PORUMBUL",
+    "definitie": "Planta cu știuleți galbeni din care vin mămăliga, popcornul și floricelele.",
+    "note": "Răspuns: PORUMBUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "PRODUSUL",
+    "definitie": "Rezultatul înmulțirii sau obiectul de vânzare — depinde de context.",
+    "note": "Răspuns: PRODUSUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "PUBLICUL",
+    "definitie": "Mulțimea de spectatori fără de care niciun spectacol nu are sens.",
+    "note": "Răspuns: PUBLICUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "PĂIANJEN",
+    "definitie": "Artropoda cu opt picioare care țese plase și îi sperie pe cei mai mulți.",
+    "note": "Răspuns: PĂIANJEN. 8 litere."
+  },
+  {
+    "cuvant": "PĂTRATUL",
+    "definitie": "Figura geometrică cu patru laturi egale și patru colțuri drepte.",
+    "note": "Răspuns: PĂTRATUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "RECORDUL",
+    "definitie": "Performanța maximă atinsă vreodată, așteptând să fie doborâtă.",
+    "note": "Răspuns: RECORDUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "REGIUNEA",
+    "definitie": "Zona geografică sau administrativă cu caracteristici proprii.",
+    "note": "Răspuns: REGIUNEA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "SALCÂMUL",
+    "definitie": "Arborele cu flori albe parfumate din care se face mierea cea mai bună.",
+    "note": "Răspuns: SALCÂMUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "SALTEAUA",
+    "definitie": "Stratul moale pe care se pune cearșaful și pe care dormim, uneori bine.",
+    "note": "Răspuns: SALTEAUA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "SISTEMUL",
+    "definitie": "Ansamblul de elemente organizate care funcționează împreună cu un scop.",
+    "note": "Răspuns: SISTEMUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "SMÂNTÂNA",
+    "definitie": "Stratul gras de deasupra laptelui, nelipsit de lângă ciorba de fasole.",
+    "note": "Răspuns: SMÂNTÂNA. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "SPANACUL",
+    "definitie": "Leguma verde cu frunze mari care l-a făcut pe Popeye celebru.",
+    "note": "Răspuns: SPANACUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "STEJARUL",
+    "definitie": "Arborele masiv și longeviv al pădurilor de câmpie, simbol al forței.",
+    "note": "Răspuns: STEJARUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "SUCCESUL",
+    "definitie": "Rezultatul dorit după efort, noroc și timing bun — în proporții variabile.",
+    "note": "Răspuns: SUCCESUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "TRIUNGHI",
+    "definitie": "Figura cu trei laturi și trei unghiuri, cea mai stabilă formă geometrică.",
+    "note": "Răspuns: TRIUNGHI. 8 litere."
+  },
+  {
+    "cuvant": "VECTORUL",
+    "definitie": "Mărimea fizică cu valoare și direcție — la matematică, nu la navigație GPS.",
+    "note": "Răspuns: VECTORUL. 8 litere. Cu articol."
+  },
+  {
+    "cuvant": "APLAUZELE",
+    "definitie": "Sunetul palmelor bătute împreună, cel mai sincer compliment al publicului.",
+    "note": "Răspuns: APLAUZELE. 9 litere. Plural articulat."
+  },
+  {
+    "cuvant": "CASTRAVET",
+    "definitie": "Leguma verde și lungă bună în salată, la murat și la hidratarea feței.",
+    "note": "Răspuns: CASTRAVETE sau CASTRAVET. 9 litere."
+  },
+  {
+    "cuvant": "DOVLEACUL",
+    "definitie": "Leguma portocalie uriașă a toamnei, simbol de Halloween și ingredient la plăcinte.",
+    "note": "Răspuns: DOVLEACUL. 9 litere. Cu articol."
+  },
+  {
+    "cuvant": "FURCULIȚA",
+    "definitie": "Ustensila cu dinți cu care mâncăm tot ce nu se mânâncă cu lingura.",
+    "note": "Răspuns: FURCULIȚA. 9 litere. Cu articol."
+  },
+  {
+    "cuvant": "PLATFORMA",
+    "definitie": "Suprafața ridicată de unde vorbești sau de unde îți aștepți trenul.",
+    "note": "Răspuns: PLATFORMA. 9 litere. Cu articol."
+  },
+  {
+    "cuvant": "TRANDAFIR",
+    "definitie": "Floarea cu spini și parfum inconfundabil, simbolul iubirii în orice limbă.",
+    "note": "Răspuns: TRANDAFIR. 9 litere."
+  }
+]

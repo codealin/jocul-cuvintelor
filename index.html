@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jocul Cuvintelor</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Share+Tech+Mono&family=Bebas+Neue&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CORNERS -->
+<div class="corner corner-tl"></div>
+<div class="corner corner-tr"></div>
+<div class="corner corner-bl"></div>
+<div class="corner corner-br"></div>
+
+<!-- THEME TOGGLE -->
+<button id="themeToggleBtn" onclick="cycleTheme()">◆ Clasic</button>
+
+<!-- LOBBY FLOATING BUBBLES (shown during player setup) -->
+<div id="lobbyBubbles"></div>
+
+<!-- STOP PROGRESS BAR -->
+<div id="stopOverlay"></div>
+
+<!-- NOTIFICATION -->
+<div id="notification"></div>
+
+<!-- ══════════════════════════════════════════
+     PRESENTER WINDOW (shown only at #presenter)
+══════════════════════════════════════════════ -->
+<div id="presenterWindow">
+  <div class="pw-topbar">
+    <div class="pw-badge">⬡ Prezentator · Jocul Cuvintelor</div>
+    <div class="pw-connection-status" id="pwConnStatus">⬤ așteptare joc...</div>
+  </div>
+
+  <div id="pwContent">
+    <div class="pw-wait">
+      <div class="pw-wait-msg">AȘTEPTARE JOC</div>
+      <div style="font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:3px;color:var(--dim);text-align:center;line-height:2;">
+        Deschide jocul în altă fereastră<br>
+        și apasă <span style="color:var(--gold-dim);">Start Joc</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- This section is shown when game is active -->
+  <div id="pwGame" style="display:none; flex-direction:column; gap:14px;">
+    <div class="pw-player-info">
+      <div class="pw-player-name" id="pwPlayerName">—</div>
+      <div class="pw-player-meta" id="pwPlayerMeta"></div>
+    </div>
+
+    <div>
+      <div class="pw-word" id="pwWord">—</div>
+      <div class="pw-word-meta" id="pwWordMeta"></div>
+    </div>
+
+    <div class="pw-def" id="pwDef"></div>
+
+    <div class="pw-notes-box" id="pwNotes"></div>
+
+    <div class="pw-score-info" id="pwScoreInfo"></div>
+
+    <div class="pw-stop-indicator" id="pwStopBlock">
+      <div style="font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:3px;color:var(--red);">STOP</div>
+      <div class="pw-stop-time" id="pwStopTime">0:30</div>
+    </div>
+
+    <div class="pw-buttons">
+      <button class="pw-btn pw-btn-correct" id="pwBtnCorrect" onclick="pwSend('correct')">✓ Corect</button>
+      <button class="pw-btn pw-btn-hint" id="pwBtnHint" onclick="pwSend('hint')">L Literă</button>
+      <button class="pw-btn pw-btn-stop" id="pwBtnStop" onclick="pwSend('stop')">⏸ Stop</button>
+      <button class="pw-btn pw-btn-next" id="pwBtnNext" onclick="pwSend('next')" style="display:none;">→ Următor</button>
+    </div>
+
+    <div class="pw-next-word" id="pwNextWord" style="display:none;">
+      <div class="pw-next-word-label">Următor cuvânt</div>
+      <div class="pw-next-word-player" id="pwNextPlayer" style="display:none;"></div>
+      <div class="pw-next-word-text" id="pwNextWordText"></div>
+      <div class="pw-next-def" id="pwNextWordDef"></div>
+    </div>
+
+    <div class="pw-mini-lb" id="pwMiniLb" style="display:none;">
+      <div class="pw-next-word-label">Clasament</div>
+      <div id="pwMiniLbRows"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     TV SCREENS
+══════════════════════════════════════════════ -->
+
+<!-- ══ START SCREEN ══ -->
+<div id="startScreen">
+  <div class="logo">Jocul Cuvintelor</div>
+  <div class="logo-sub">Joc de cuvinte pentru TV</div>
+
+  <div class="upload-zone" id="uploadZone">
+    <input type="file" accept=".json,application/json" id="jsonFileInput" onchange="handleFileUpload(this)">
+    <div class="upload-icon">📂</div>
+    <div class="upload-label">Încarcă fișier JSON cu cuvinte</div>
+    <div class="upload-status" id="uploadStatus">drag &amp; drop sau click</div>
+  </div>
+
+  <div class="upload-sep"><span>sau selectează categorii din folder</span></div>
+
+  <button class="btn-folder" onclick="openWordFolder()">📁 Selectează folder Words</button>
+
+  <div id="categoryCardsSection" style="display:none;">
+    <div class="cat-header">
+      <div class="cat-status" id="catStatus">Toate categoriile selectate</div>
+      <div class="cat-actions">
+        <button class="cat-action-btn" onclick="selectAllCategories()">Selectează toate</button>
+        <button class="cat-action-btn" onclick="deselectAllCategories()">Niciuna</button>
+      </div>
+    </div>
+    <div class="cat-cards-grid" id="categoryCardsGrid"></div>
+  </div>
+
+  <div class="upload-sep"><span>sau folosește baza de date internă</span></div>
+
+  <button class="btn-primary" onclick="goToPlayerSetup()">Configurează Jocul →</button>
+</div>
+
+<!-- ══ PLAYER SETUP SCREEN ══ -->
+<div id="playerSetupScreen">
+  <div class="setup-title">Configurare Joc</div>
+
+  <div class="setup-section-label">Tip jucători</div>
+  <div class="mode-select">
+    <button class="mode-btn active" id="btnModeIndividual" onclick="setPlayerMode('individual')">👤 Individual</button>
+    <button class="mode-btn" id="btnModeTeam" onclick="setPlayerMode('team')">👥 Echipe</button>
+  </div>
+
+  <div class="setup-section-label">Mod de joc</div>
+  <div class="mode-select">
+    <button class="mode-btn active" id="btnModeClassic" onclick="setMode('classic')">🏆 Classic</button>
+    <button class="mode-btn" id="btnModeArcade" onclick="setMode('arcade')">⚡ Arcade</button>
+  </div>
+  <div class="mode-desc" id="modeDesc">
+    Fiecare jucător joacă câte o rundă completă de 14 cuvinte.<br>La final, clasamentul decide câștigătorul.
+  </div>
+
+  <div class="setup-section-label" id="playerCountLabel">Număr de jucători</div>
+  <div class="player-count-control">
+    <button class="count-btn" onclick="changePlayerCount(-1)">−</button>
+    <div class="count-display" id="playerCountDisplay">3</div>
+    <button class="count-btn" onclick="changePlayerCount(+1)">+</button>
+  </div>
+
+  <!-- Lobby: phone players connected via WebSocket -->
+  <div id="lobbySection" style="display:none; flex-direction:column; gap:8px; width:100%; max-width:480px;">
+    <div class="setup-section-label" style="margin-bottom:0;">📱 Conectați pe telefon</div>
+    <div id="lobbyChips" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
+    <button class="cat-action-btn" onclick="addAllFromLobby()" id="addAllLobbyBtn"
+      style="align-self:flex-start; padding:6px 14px; font-size:9px;">
+      + Adaugă toți
+    </button>
+  </div>
+
+  <div class="setup-section-label" id="playersGridLabel">Nume jucători</div>
+  <div class="players-grid" id="playersGrid"></div>
+
+  <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center; margin-top:8px;">
+    <button class="btn-primary" onclick="goToReadyFromSetup()" style="font-size:18px; padding:14px 40px;">▶ Pornește Jocul</button>
+  </div>
+
+  <div class="setup-presenter-link">
+    <span style="opacity:0.5;">Deschide view prezentator:</span>
+    <a onclick="openPresenterWindow()">Fereastră prezentator →</a><br>
+    <span style="opacity:0.35;font-size:9px;letter-spacing:1px;">(funcționează în același browser, ferestre diferite)</span>
+  </div>
+
+  <!-- QR code for player phones — shown only in server mode -->
+  <div id="qrWidget" style="display:none; position:fixed; bottom:20px; right:20px; z-index:200;
+    background:rgba(10,10,15,0.95); border:1px solid rgba(255,215,0,0.25);
+    padding:14px 14px 10px; display:none; flex-direction:column; align-items:center; gap:8px;">
+    <div style="font-family:'Share Tech Mono',monospace; font-size:8px; letter-spacing:3px;
+      color:rgba(255,215,0,0.45); text-transform:uppercase;">📱 jucători telefon</div>
+    <img id="qrImg" src="" alt="QR" style="width:140px; height:140px; display:block;">
+    <div id="qrUrl" style="font-family:'Share Tech Mono',monospace; font-size:7px;
+      letter-spacing:1px; color:rgba(255,215,0,0.35); text-align:center; max-width:140px;
+      word-break:break-all;"></div>
+  </div>
+
+  <button onclick="backToWordList()" style="background:none; border:none; color:var(--dim); font-family:'Share Tech Mono',monospace; font-size:11px; letter-spacing:3px; cursor:pointer; text-decoration:underline; margin-top:-8px;">← înapoi la listă</button>
+</div>
+
+<!-- ══ READY SCREEN ══ -->
+<div id="readyScreen">
+  <div class="ready-player-label" id="readyPlayerLabel">JUCĂTORUL 1</div>
+  <div class="ready-player-name" id="readyPlayerName">Jucător</div>
+  <div class="ready-timer-preview" id="readyTimerPreview">⏱ 4:00</div>
+  <button class="btn-primary" onclick="startPlayerRound()" style="font-size:22px; padding:20px 60px; letter-spacing:6px; margin-top:8px;">▶ START</button>
+  <button onclick="backToPlayerSetup()" style="background:none; border:none; color:var(--dim); font-family:'Share Tech Mono',monospace; font-size:11px; letter-spacing:3px; cursor:pointer; text-decoration:underline;">← înapoi la configurare</button>
+</div>
+
+<!-- ══ GAME SCREEN ══ -->
+<div id="gameScreen">
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="show-title">Jocul Cuvintelor</div>
+
+    <div class="timers-row">
+      <div class="timer-block">
+        <div class="timer-label">Timp</div>
+        <div class="timer-value" id="mainTimer">4:00</div>
+      </div>
+      <div class="sep"></div>
+      <div class="timer-stop-block" id="stopTimerBlock">
+        <div class="timer-label" style="color:var(--red);">Stop</div>
+        <div class="timer-stop-value" id="stopTimer">0:30</div>
+        <div id="stopPressedByLabel"></div>
+      </div>
+    </div>
+
+    <div class="player-score-group">
+      <div class="top-bar-avatar" id="topBarAvatar"></div>
+      <div class="player-block">
+        <div class="score-label">Jucător</div>
+        <div class="player-name-display" id="currentPlayerLabel">—</div>
+      </div>
+      <div class="sep"></div>
+      <div class="score-block">
+        <div class="score-label">Punctaj</div>
+        <div class="score-value" id="scoreDisplay">0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROGRESS DOTS -->
+  <div class="progress-row" id="progressDots"></div>
+
+  <!-- NEXT PLAYER INDICATOR (arcade) -->
+  <div id="nextPlayerRow">
+    <span class="next-player-label">URMEAZĂ</span>
+    <span class="next-player-name" id="nextPlayerNameDisplay">—</span>
+  </div>
+
+  <!-- BIG STOP BUTTON -->
+  <button id="bigStopBtn" onclick="handleStop()">⏸ STOP</button>
+
+  <!-- CENTER -->
+  <div class="center-area">
+    <div class="word-counter" id="wordCounter">CUVÂNTUL 1 / 14</div>
+    <div class="definition-box">
+      <div class="definition-text" id="definitionText"></div>
+    </div>
+    <div class="letters-row" id="lettersRow"></div>
+    <div class="between-msg" id="betweenMsg"></div>
+  </div>
+
+  <!-- BOTTOM LEGEND (hidden on TV, shown only in presenter window) -->
+  <div id="bottomLegend" style="display:none; width:100%; align-items:center; justify-content:center;">
+    <div style="display:flex; gap:20px; align-items:center; flex-wrap:wrap; justify-content:center; padding:4px 0;">
+      <span style="font-family:'Share Tech Mono',monospace; font-size:9px; letter-spacing:2px; color:rgba(255,215,0,0.2);">PREZENTATOR:</span>
+      <span class="legend-key" style="color:rgba(0,200,83,0.7);">C <span class="legend-desc">Corect</span></span>
+      <span class="legend-key" style="color:rgba(136,170,255,0.7);">L <span class="legend-desc">Literă</span></span>
+      <span class="legend-key" style="color:rgba(255,215,0,0.5);">N <span class="legend-desc">Următor</span></span>
+      <span class="legend-key" style="color:rgba(255,215,0,0.35);">P <span class="legend-desc">Panou</span></span>
+      <span style="width:1px; height:14px; background:rgba(255,215,0,0.1); display:inline-block; margin:0 4px;"></span>
+      <span style="font-family:'Share Tech Mono',monospace; font-size:9px; letter-spacing:2px; color:rgba(230,48,48,0.3);">JUCĂTOR:</span>
+      <span class="legend-key" style="color:rgba(230,48,48,0.5);">SPACE <span class="legend-desc">Stop · buton lateral →</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- ══ INTERIM SCREEN (Classic: between players) ══ -->
+<div id="interimScreen">
+  <div class="end-title" style="font-size:clamp(28px,5vw,52px);" id="interimTitle">Rundă completă</div>
+
+  <div class="leaderboard" id="interimLeaderboard">
+    <div class="lb-header">Clasament curent</div>
+  </div>
+
+  <div style="font-family:'Share Tech Mono',monospace; font-size:11px; letter-spacing:4px; color:var(--dim); text-align:center;" id="interimNextLabel"></div>
+  <button class="btn-primary" onclick="continueToNextPlayer()" id="interimContinueBtn" style="font-size:18px; padding:14px 40px;">→ Următor jucător</button>
+</div>
+
+<!-- ══ END SCREEN ══ -->
+<div id="endScreen">
+  <div class="end-title">Joc Încheiat</div>
+  <div class="leaderboard" id="finalLeaderboard">
+    <div class="lb-header">Clasament Final</div>
+  </div>
+  <div style="margin-top:8px; display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+    <button class="btn-primary" onclick="resetGame()">Joc Nou</button>
+  </div>
+</div>
+
+<!-- ══ PRESENTER PANEL OVERLAY (keyboard P) ══ -->
+<div id="presenterPanel">
+  <div class="panel-header">
+    <div class="panel-badge">Prezentator · Panou lateral (P)</div>
+    <div class="panel-word" id="panelWord">—</div>
+    <div class="panel-word-info" id="panelWordInfo"></div>
+    <div class="panel-score-info" id="panelScoreInfo"></div>
+  </div>
+  <div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
+    <div class="panel-notes" id="panelNotes" style="min-width:180px; flex:1;">—</div>
+  </div>
+  <div class="panel-buttons">
+    <button class="p-btn p-btn-correct" onclick="handleCorrect()" id="btnCorrect">✓ Corect <span class="key-hint">C</span></button>
+    <button class="p-btn p-btn-hint" onclick="handleHint()" id="btnHint">Dezvăluie literă <span class="key-hint">L</span></button>
+    <button class="p-btn p-btn-stop" onclick="handleStop()" id="btnStop">⏸ Stop timp <span class="key-hint">SPACE</span></button>
+    <button class="p-btn p-btn-next" onclick="handleNext()" id="btnNext" style="display:none;">→ Următor <span class="key-hint">N</span></button>
+  </div>
+  <div class="panel-hint" id="panelHintText"></div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
