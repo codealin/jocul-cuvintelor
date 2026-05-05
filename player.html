@@ -619,7 +619,7 @@
     area.innerHTML = `
       <div class="status-badge" style="color:var(--gold);margin-bottom:14px;">ALEGE ECHIPA TA</div>
       ${teamsAvailable.map(t =>
-        `<button class="team-select-btn" onclick="selectTeam(${JSON.stringify(t)})">${t}</button>`
+        `<button class="team-select-btn" onclick="selectTeam('${t.replace(/'/g, "\\'")}')">${t}</button>`
       ).join('')}
     `;
     document.getElementById('stopBtn').className = 'disabled';
