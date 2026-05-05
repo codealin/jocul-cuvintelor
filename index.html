@@ -157,10 +157,16 @@
   <div id="lobbySection" style="display:none; flex-direction:column; gap:8px; width:100%; max-width:480px;">
     <div class="setup-section-label" style="margin-bottom:0;">📱 Conectați pe telefon</div>
     <div id="lobbyChips" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
-    <button class="cat-action-btn" onclick="addAllFromLobby()" id="addAllLobbyBtn"
-      style="align-self:flex-start; padding:6px 14px; font-size:9px;">
-      + Adaugă toți
-    </button>
+    <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+      <button class="cat-action-btn" onclick="addAllFromLobby()" id="addAllLobbyBtn"
+        style="padding:6px 14px; font-size:9px;">
+        + Adaugă toți
+      </button>
+      <button class="cat-action-btn" onclick="publishTeams()" id="publishTeamsBtn"
+        style="display:none; padding:6px 14px; font-size:9px; border-color:rgba(255,215,0,0.5); color:var(--gold);">
+        📡 Publică echipele
+      </button>
+    </div>
   </div>
 
   <div class="setup-section-label" id="playersGridLabel">Nume jucători</div>

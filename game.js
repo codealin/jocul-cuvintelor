@@ -681,11 +681,19 @@ function goToReadyFromSetup() {
       return;
     }
   } else {
+    const hasTeamAssignments = _lobbyPlayersData.some(p => p.team);
     const slots = document.querySelectorAll('.team-slot');
     slots.forEach((slot, i) => {
-      const teamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i+1}`;
-      const memberInputs = slot.querySelectorAll('.team-member-input');
-      const members = Array.from(memberInputs).map(inp => inp.value.trim()).filter(Boolean);
+      const teamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
+      let members;
+      if (hasTeamAssignments) {
+        // Auto-populate from phone team selection
+        members = _lobbyPlayersData.filter(p => p.team === teamName).map(p => p.name);
+      } else {
+        // Manual member inputs
+        const memberInputs = slot.querySelectorAll('.team-member-input');
+        members = Array.from(memberInputs).map(inp => inp.value.trim()).filter(Boolean);
+      }
       players.push({ name: teamName, score: 0, timerSecs: 240, words: [], members: members.length > 0 ? members : null, hintsTotal: 0 });
     });
   }
@@ -1488,13 +1496,26 @@ function renderLobby(players) {
   }
 
   section.style.display = 'flex';
-  chips.innerHTML = players.map(p =>
-    `<button class="lobby-chip" onclick="addFromLobby('${p.name.replace(/'/g,"\\'")}')">
-      📱 ${p.name}
-    </button>`
-  ).join('');
+  chips.innerHTML = players.map(p => {
+    const teamTag = p.team ? ` <span style="color:var(--gold);font-size:8px;letter-spacing:1px;opacity:0.9;">→ ${p.team}</span>` : '';
+    return `<button class="lobby-chip" onclick="addFromLobby('${p.name.replace(/'/g,"\\'")}')">
+      📱 ${p.name}${teamTag}
+    </button>`;
+  }).join('');
+
+  const publishBtn = document.getElementById('publishTeamsBtn');
+  if (publishBtn) publishBtn.style.display = teamMode ? 'inline-block' : 'none';
 
   renderLobbyBubbles(players);
+}
+
+function publishTeams() {
+  const teamSlots = document.querySelectorAll('.team-slot');
+  const teams = Array.from(teamSlots).map((slot, i) =>
+    slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`
+  );
+  BC.postMessage({ type: 'teams', teams });
+  showNotif(`Echipe publicate: ${teams.join(', ')}`, 'pos', 2500);
 }
 
 function addFromLobby(name) {

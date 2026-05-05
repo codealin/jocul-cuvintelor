@@ -61,7 +61,8 @@ const server = http.createServer((req, res) => {
 /* ── WebSocket relay + lobby tracking ── */
 const wss = new WebSocketServer({ server });
 const clients = new Set();
-const playerData = new Map(); // ws → {name, avatar}
+const playerData = new Map(); // ws → {name, avatar, team}
+let currentTeams = [];
 
 function broadcastLobby() {
   const players = [...playerData.values()];
@@ -78,6 +79,10 @@ wss.on('connection', (ws) => {
   // Send current lobby state to the new client immediately
   if (playerData.size > 0) {
     ws.send(JSON.stringify({ type: 'lobby', players: [...playerData.values()] }));
+  }
+  // Send published teams to new connections (phones connecting after publishTeams)
+  if (currentTeams.length > 0) {
+    ws.send(JSON.stringify({ type: 'teams', teams: currentTeams }));
   }
 
   ws.on('message', (raw) => {
@@ -99,6 +104,25 @@ wss.on('connection', (ws) => {
       if (msg.type === 'leave') {
         playerData.delete(ws);
         broadcastLobby();
+        return;
+      }
+
+      if (msg.type === 'teams') {
+        currentTeams = msg.teams || [];
+        // Relay to all other clients (phones need to receive team list)
+        for (const c of clients) {
+          if (c !== ws && c.readyState === 1) c.send(str);
+        }
+        return;
+      }
+
+      if (msg.type === 'joinTeam') {
+        const d = playerData.get(ws);
+        if (d && msg.team) {
+          d.team = msg.team;
+          console.log(`[LOBBY] ${d.name} → ${msg.team}`);
+          broadcastLobby();
+        }
         return;
       }
     } catch (_) {}

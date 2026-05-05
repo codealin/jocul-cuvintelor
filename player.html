@@ -333,6 +333,27 @@
   }
   .end-lb-row.lb-me .end-lb-score { color: var(--gold); }
 
+  /* ── TEAM SELECTION ── */
+  .team-select-btn {
+    width: 100%;
+    max-width: 300px;
+    padding: 18px 24px;
+    background: rgba(255,215,0,0.06);
+    border: 2px solid rgba(255,215,0,0.3);
+    color: var(--gold);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: block;
+  }
+  .team-select-btn:active {
+    background: rgba(255,215,0,0.18);
+    border-color: var(--gold);
+    transform: scale(0.97);
+  }
+
 </style>
 </head>
 <body>
@@ -381,6 +402,8 @@
   let myName = '';
   let lastState = null;
   let myAvatar = { animal: 0 };
+  let teamsAvailable = [];
+  let myTeam = null;
 
   /* ── Animal SVGs ── */
   const ANIMAL_SVGS = [
@@ -437,6 +460,11 @@
     ws.onmessage = (e) => {
       try {
         const msg = JSON.parse(e.data);
+        if (msg.type === 'teams') {
+          teamsAvailable = msg.teams || [];
+          if (!myTeam) showTeamSelection();
+          return;
+        }
         if (msg.type === 'state') handleState(msg);
       } catch (_) {}
     };
@@ -495,7 +523,13 @@
     const phase = s.phase || 'idle';
 
     if (phase === 'idle') {
-      area.innerHTML = `<div class="idle-msg">Așteptare joc...<br>Prezentatorul pornește din curând.</div>`;
+      if (teamsAvailable.length > 0 && !myTeam) {
+        showTeamSelection();
+      } else if (myTeam) {
+        showTeamWaiting();
+      } else {
+        area.innerHTML = `<div class="idle-msg">Așteptare joc...<br>Prezentatorul pornește din curând.</div>`;
+      }
       btn.className = 'disabled';
       hint.textContent = '';
       return;
@@ -576,6 +610,35 @@
       btn.className = 'disabled';
       hint.textContent = nextIsMe ? 'pregătește-te, urmezi!' : 'nu e rândul tău';
     }
+  }
+
+  // ── Team selection ──
+  function showTeamSelection() {
+    if (!teamsAvailable.length || myTeam) return;
+    const area = document.getElementById('statusArea');
+    area.innerHTML = `
+      <div class="status-badge" style="color:var(--gold);margin-bottom:14px;">ALEGE ECHIPA TA</div>
+      ${teamsAvailable.map(t =>
+        `<button class="team-select-btn" onclick="selectTeam(${JSON.stringify(t)})">${t}</button>`
+      ).join('')}
+    `;
+    document.getElementById('stopBtn').className = 'disabled';
+    document.getElementById('stopHint').textContent = '';
+  }
+
+  function selectTeam(teamName) {
+    myTeam = teamName;
+    wsSend({ type: 'joinTeam', name: myName, team: teamName });
+    showTeamWaiting();
+  }
+
+  function showTeamWaiting() {
+    const area = document.getElementById('statusArea');
+    area.innerHTML = `
+      <div class="status-badge" style="color:var(--green);margin-bottom:6px;">ECHIPA TA</div>
+      <div class="status-main active">${myTeam}</div>
+      <div class="next-label" style="margin-top:14px;">așteptare start joc...</div>
+    `;
   }
 
   // ── STOP button ──
