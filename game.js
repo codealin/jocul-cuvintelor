@@ -687,8 +687,9 @@ function goToReadyFromSetup() {
       const teamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
       let members;
       if (hasTeamAssignments) {
-        // Auto-populate from phone team selection
+        // Auto-populate from phone team selection — team size determined by who joined
         members = _lobbyPlayersData.filter(p => p.team === teamName).map(p => p.name);
+        if (members.length === 0) return; // skip teams with no phone players
       } else {
         // Manual member inputs
         const memberInputs = slot.querySelectorAll('.team-member-input');
@@ -696,6 +697,10 @@ function goToReadyFromSetup() {
       }
       players.push({ name: teamName, score: 0, timerSecs: 240, words: [], members: members.length > 0 ? members : null, hintsTotal: 0 });
     });
+    if (players.length === 0) {
+      showNotif('Niciun jucător nu s-a alăturat unei echipe', 'neg', 2500);
+      return;
+    }
   }
 
   // Generate words
@@ -1520,15 +1525,39 @@ function publishTeams() {
 
 function addFromLobby(name) {
   if (teamMode) {
-    // In team mode: fill first empty member slot (not team name)
-    const memberInputs = document.querySelectorAll('.team-member-input');
-    for (const input of memberInputs) {
+    // Find this player's assigned team from lobby data
+    const lobbyPlayer = _lobbyPlayersData.find(p => p.name === name);
+    const targetTeam = lobbyPlayer?.team || null;
+
+    const slots = document.querySelectorAll('.team-slot');
+    let targetSlotIdx = -1;
+
+    if (targetTeam) {
+      slots.forEach((slot, i) => {
+        const slotTeamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
+        if (slotTeamName === targetTeam) targetSlotIdx = i;
+      });
+    }
+
+    if (targetSlotIdx >= 0) {
+      const container = document.getElementById(`teamMembers${targetSlotIdx}`);
+      const memberInputs = container.querySelectorAll('.team-member-input');
+      for (const input of memberInputs) {
+        if (input.value.trim().toUpperCase() === name.toUpperCase()) return; // already added
+        if (!input.value.trim()) { input.value = name; return; }
+      }
+      // All rows full — expand this team
+      addMember(targetSlotIdx);
+      const all = container.querySelectorAll('.team-member-input');
+      all[all.length - 1].value = name;
+      return;
+    }
+
+    // Fallback (no team assigned): fill first empty slot across all teams
+    for (const input of document.querySelectorAll('.team-member-input')) {
       if (!input.value.trim()) { input.value = name; return; }
     }
-    // All slots full — expand last team with a new member row
-    addMember(playerCount - 1);
-    const all = document.querySelectorAll('.team-member-input');
-    all[all.length - 1].value = name;
+    showNotif('Toate câmpurile sunt completate', 'neg', 1500);
     return;
   }
   const inputs = document.querySelectorAll('.player-name-input');
