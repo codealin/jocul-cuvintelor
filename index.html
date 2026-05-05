@@ -75,6 +75,7 @@
       <button class="pw-btn pw-btn-stop" id="pwBtnStop" onclick="pwSend('stop')">⏸ Stop</button>
       <button class="pw-btn pw-btn-next" id="pwBtnNext" onclick="pwSend('next')" style="display:none;">→ Următor</button>
     </div>
+    <button class="panel-reset-btn" style="margin-top:8px;width:100%;" onclick="pwSend('reset')">↺ Resetează jocul</button>
 
     <div class="pw-next-word" id="pwNextWord" style="display:none;">
       <div class="pw-next-word-label">Următor cuvânt</div>
@@ -293,6 +294,18 @@
   </div>
 </div>
 
+<!-- ══ RESET MODAL ══ -->
+<div id="resetModal" style="display:none;">
+  <div class="reset-modal-box">
+    <div class="reset-modal-title">⚠ Resetezi jocul?</div>
+    <div class="reset-modal-body">Toți jucătorii, scorurile și cuvintele se pierd.<br>Acțiunea nu poate fi anulată.</div>
+    <div class="reset-modal-btns">
+      <button class="reset-cancel-btn" onclick="hideResetModal()">Anulează</button>
+      <button class="reset-confirm-btn" onclick="confirmReset()">Da, resetează</button>
+    </div>
+  </div>
+</div>
+
 <!-- ══ PRESENTER PANEL OVERLAY (keyboard P) ══ -->
 <div id="presenterPanel">
   <div class="panel-header">
@@ -311,6 +324,7 @@
     <button class="p-btn p-btn-next" onclick="handleNext()" id="btnNext" style="display:none;">→ Următor <span class="key-hint">N</span></button>
   </div>
   <div class="panel-hint" id="panelHintText"></div>
+  <button class="panel-reset-btn" onclick="showResetModal()">↺ Resetează jocul</button>
 </div>
 
 <script src="game.js"></script>

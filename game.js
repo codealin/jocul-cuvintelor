@@ -1293,6 +1293,17 @@ function renderLeaderboard(containerId, showFinal) {
   });
 }
 
+function showResetModal() {
+  document.getElementById('resetModal').style.display = 'flex';
+}
+function hideResetModal() {
+  document.getElementById('resetModal').style.display = 'none';
+}
+function confirmReset() {
+  hideResetModal();
+  resetGame();
+}
+
 function resetGame() {
   document.getElementById('endScreen').style.display = 'none';
   document.getElementById('interimScreen').style.display = 'none';
@@ -1367,6 +1378,7 @@ BC.addEventListener('message', e => {
     else if (a === 'hint') handleHint();
     else if (a === 'stop') handleStop(e.data.fromName || '');
     else if (a === 'next') handleNext();
+    else if (a === 'reset') showResetModal();
     return;
   }
 
@@ -1731,6 +1743,12 @@ function pwRenderState(s) {
 document.addEventListener('keydown', (e) => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
   const key = e.key.toUpperCase();
+
+  // ESC închide modalul de reset
+  if (e.key === 'Escape') { hideResetModal(); return; }
+
+  // Blochează shortcut-urile când modalul e deschis
+  if (document.getElementById('resetModal').style.display !== 'none') return;
 
   if (gamePhase === 'playing') {
     if (key === 'C') handleCorrect();

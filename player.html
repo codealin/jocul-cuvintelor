@@ -476,7 +476,10 @@
     lastState = s;
 
     if (s.players && myName) {
-      const me = s.players.find(p => p.name.toUpperCase() === myName);
+      const me = s.players.find(p =>
+        p.name.toUpperCase() === myName ||
+        (Array.isArray(p.members) && p.members.some(m => m.toUpperCase() === myName))
+      );
       if (me) document.getElementById('myScore').textContent = `SCOR: ${me.score.toLocaleString('ro')}`;
     }
 
@@ -529,13 +532,15 @@
     if (s.stopActive) {
       const secs = s.stopTimerSecs || 0;
       const pressedBy = s.stopPressedByName || '';
-      const pressedByLine = pressedBy && !isMyTurn
+      const iPressedStop = pressedBy && pressedBy === myName;
+      const pressedByLine = pressedBy && !iPressedStop
         ? `<div class="next-label">apăsat de <span style="color:var(--gold);letter-spacing:2px;">${pressedBy}</span></div>`
         : '';
       area.innerHTML = `
         <div class="status-badge">STOP ACTIV</div>
         <div class="stop-timer">${secs}</div>
-        ${isMyTurn ? '<div class="status-main stop">RĂSPUNDE!</div>' : pressedByLine}
+        ${isMyTurn ? '<div class="status-main stop">RĂSPUNDE!</div>' : ''}
+        ${pressedByLine}
       `;
       btn.className = 'pressed';
       hint.textContent = isMyTurn ? 'dai răspunsul prezentatorului' : '';
