@@ -330,6 +330,23 @@
     <button class="p-btn p-btn-next" onclick="handleNext()" id="btnNext" style="display:none;">→ Următor <span class="key-hint">N</span></button>
   </div>
   <div class="panel-hint" id="panelHintText"></div>
+
+  <!-- Collapsible: teams & scores -->
+  <div class="panel-section">
+    <button class="panel-collapse-btn" onclick="togglePanelSection('panelTeamsBody', this)">
+      <span class="panel-collapse-arrow">▾</span> Echipe &amp; Scoruri
+    </button>
+    <div id="panelTeamsBody" class="panel-section-body"></div>
+  </div>
+
+  <!-- Collapsible: full word preset -->
+  <div class="panel-section">
+    <button class="panel-collapse-btn collapsed" onclick="togglePanelSection('panelPresetBody', this)">
+      <span class="panel-collapse-arrow">▾</span> Cuvinte Joc (preset complet)
+    </button>
+    <div id="panelPresetBody" class="panel-section-body" style="display:none;"></div>
+  </div>
+
   <button class="panel-reset-btn" onclick="showResetModal()">↺ Resetează jocul</button>
 </div>
 

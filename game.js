@@ -999,7 +999,77 @@ function addScore(pts) {
 /* ══════════════════════════════════════════════
    PRESENTER PANEL (overlay)
 ══════════════════════════════════════════════ */
+function togglePanelSection(bodyId, btn) {
+  const body = document.getElementById(bodyId);
+  if (!body) return;
+  const isCollapsed = body.style.display === 'none';
+  body.style.display = isCollapsed ? '' : 'none';
+  btn.classList.toggle('collapsed', !isCollapsed);
+}
+
+function updatePresenterTeams() {
+  const body = document.getElementById('panelTeamsBody');
+  if (!body) return;
+  if (players.length === 0) { body.innerHTML = '<div style="font-size:10px;color:var(--dim);padding:4px 0;">Jocul nu a început.</div>'; return; }
+  const activeP = activePlayer();
+  body.innerHTML = players.map(p => {
+    const isActive = p === activeP;
+    const membersLine = Array.isArray(p.members) && p.members.length > 0
+      ? `<div class="panel-team-members">• ${p.members.join(' • ')}</div>` : '';
+    return `<div class="panel-team-entry">
+      <div class="panel-team-row${isActive ? ' active' : ''}">
+        <div class="panel-team-name">${isActive ? '▶ ' : ''}${p.name}</div>
+        <div class="panel-team-score">${p.score.toLocaleString('ro')} lei</div>
+        ${isActive ? `<div class="panel-team-timer">⏱${formatTime(p.timerSecs)}</div>` : ''}
+      </div>
+      ${membersLine}
+    </div>`;
+  }).join('');
+}
+
+function updatePresenterPreset() {
+  const body = document.getElementById('panelPresetBody');
+  if (!body || players.length === 0 || sessionWords.length === 0) return;
+  const activeP = activePlayer();
+
+  if (gameMode === 'classic') {
+    body.innerHTML = players.map((p, i) => {
+      const isActive = p === activeP;
+      const isBefore = i < currentPlayerIdx;
+      const chips = (p.words || []).map((w, wi) => {
+        let cls = 'panel-word-chip';
+        if (isBefore || (isActive && wi < currentWordIdx)) cls += ' done';
+        else if (isActive && wi === currentWordIdx) cls += ' current';
+        return `<span class="${cls}" title="${w.definitie || ''}">${w.cuvant}</span>`;
+      }).join('');
+      return `<div class="panel-preset-team">
+        <div class="panel-preset-label">${p.name}${isActive ? ' — acum' : ''} · ${p.score.toLocaleString('ro')} lei</div>
+        <div class="panel-preset-words">${chips}</div>
+      </div>`;
+    }).join('');
+  } else {
+    // Arcade: sessionWords interleaved (p0r0, p1r0, p2r0, p0r1, ...)
+    body.innerHTML = players.map((p, pi) => {
+      const chips = Array.from({ length: DIST_ARCADE.length }, (_, ri) => {
+        const idx = ri * players.length + pi;
+        const w = sessionWords[idx];
+        if (!w) return '';
+        let cls = 'panel-word-chip';
+        if (idx < currentWordIdx) cls += ' done';
+        else if (idx === currentWordIdx) cls += ' current';
+        return `<span class="${cls}" title="${w.definitie || ''}">${w.cuvant}</span>`;
+      }).join('');
+      return `<div class="panel-preset-team">
+        <div class="panel-preset-label">${p.name} · ${p.score.toLocaleString('ro')} lei</div>
+        <div class="panel-preset-words">${chips}</div>
+      </div>`;
+    }).join('');
+  }
+}
+
 function updatePresenterPanel() {
+  updatePresenterTeams();
+  updatePresenterPreset();
   if (currentWordIdx >= sessionWords.length) return;
   const word = sessionWords[currentWordIdx];
   const p = activePlayer();
@@ -1799,6 +1869,15 @@ document.addEventListener('keydown', (e) => {
 
   // Blochează shortcut-urile când modalul e deschis
   if (document.getElementById('resetModal').style.display !== 'none') return;
+
+  // P — panou prezentator
+  if (key === 'P') {
+    const panel = document.getElementById('presenterPanel');
+    presenterVisible = !presenterVisible;
+    panel.classList.toggle('visible', presenterVisible);
+    if (presenterVisible) updatePresenterPanel();
+    return;
+  }
 
   if (gamePhase === 'playing') {
     if (key === 'C') handleCorrect();
