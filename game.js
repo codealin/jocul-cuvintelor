@@ -158,7 +158,6 @@ let stopActive = false;
 let stopWasPressedThisWord = false;
 let stopPressedByName = '';
 let gamePhase = 'idle';
-let presenterVisible = false;
 
 /* ══════════════════════════════════════════════
    AUDIO — Web Audio API (no files needed)
@@ -621,6 +620,7 @@ function renderPlayerInputs() {
             <button class="add-member-btn" onclick="addMember(${i})">+</button>
           </div>
         </div>
+        <div class="team-lobby-row" id="teamLobbyRow${i}" style="display:none;"></div>
       `;
       grid.appendChild(slot);
       if (savedTeamNames[i]) slot.querySelector('.team-name-input').value = savedTeamNames[i];
@@ -872,7 +872,6 @@ function loadWordPaused(idx) {
   }
 
   document.getElementById('betweenMsg').style.display = 'none';
-  updatePresenterPanel();
   updateProgressDots();
   updatePlayerLabel();
   updateNextPlayerRow();
@@ -999,112 +998,12 @@ function addScore(pts) {
 /* ══════════════════════════════════════════════
    PRESENTER PANEL (overlay)
 ══════════════════════════════════════════════ */
-function togglePanelSection(bodyId, btn) {
-  const body = document.getElementById(bodyId);
-  if (!body) return;
-  const isCollapsed = body.style.display === 'none';
-  body.style.display = isCollapsed ? '' : 'none';
-  btn.classList.toggle('collapsed', !isCollapsed);
-}
-
-function updatePresenterTeams() {
-  const body = document.getElementById('panelTeamsBody');
-  if (!body) return;
-  if (players.length === 0) { body.innerHTML = '<div style="font-size:10px;color:var(--dim);padding:4px 0;">Jocul nu a început.</div>'; return; }
-  const activeP = activePlayer();
-  body.innerHTML = players.map(p => {
-    const isActive = p === activeP;
-    const membersLine = Array.isArray(p.members) && p.members.length > 0
-      ? `<div class="panel-team-members">• ${p.members.join(' • ')}</div>` : '';
-    return `<div class="panel-team-entry">
-      <div class="panel-team-row${isActive ? ' active' : ''}">
-        <div class="panel-team-name">${isActive ? '▶ ' : ''}${p.name}</div>
-        <div class="panel-team-score">${p.score.toLocaleString('ro')} lei</div>
-        ${isActive ? `<div class="panel-team-timer">⏱${formatTime(p.timerSecs)}</div>` : ''}
-      </div>
-      ${membersLine}
-    </div>`;
-  }).join('');
-}
-
-function updatePresenterPreset() {
-  const body = document.getElementById('panelPresetBody');
-  if (!body || players.length === 0 || sessionWords.length === 0) return;
-  const activeP = activePlayer();
-
-  if (gameMode === 'classic') {
-    body.innerHTML = players.map((p, i) => {
-      const isActive = p === activeP;
-      const isBefore = i < currentPlayerIdx;
-      const chips = (p.words || []).map((w, wi) => {
-        let cls = 'panel-word-chip';
-        if (isBefore || (isActive && wi < currentWordIdx)) cls += ' done';
-        else if (isActive && wi === currentWordIdx) cls += ' current';
-        return `<span class="${cls}" title="${w.definitie || ''}">${w.cuvant}</span>`;
-      }).join('');
-      return `<div class="panel-preset-team">
-        <div class="panel-preset-label">${p.name}${isActive ? ' — acum' : ''} · ${p.score.toLocaleString('ro')} lei</div>
-        <div class="panel-preset-words">${chips}</div>
-      </div>`;
-    }).join('');
-  } else {
-    // Arcade: sessionWords interleaved (p0r0, p1r0, p2r0, p0r1, ...)
-    body.innerHTML = players.map((p, pi) => {
-      const chips = Array.from({ length: DIST_ARCADE.length }, (_, ri) => {
-        const idx = ri * players.length + pi;
-        const w = sessionWords[idx];
-        if (!w) return '';
-        let cls = 'panel-word-chip';
-        if (idx < currentWordIdx) cls += ' done';
-        else if (idx === currentWordIdx) cls += ' current';
-        return `<span class="${cls}" title="${w.definitie || ''}">${w.cuvant}</span>`;
-      }).join('');
-      return `<div class="panel-preset-team">
-        <div class="panel-preset-label">${p.name} · ${p.score.toLocaleString('ro')} lei</div>
-        <div class="panel-preset-words">${chips}</div>
-      </div>`;
-    }).join('');
-  }
-}
-
-function updatePresenterPanel() {
-  updatePresenterTeams();
-  updatePresenterPreset();
-  if (currentWordIdx >= sessionWords.length) return;
-  const word = sessionWords[currentWordIdx];
-  const p = activePlayer();
-  document.getElementById('panelWord').textContent = word.cuvant;
-  document.getElementById('panelWordInfo').textContent = `${word.cuvant.length} litere · Cuvânt ${currentWordIdx+1}/${sessionWords.length} · ${p?.name || ''}`;
-  document.getElementById('panelNotes').textContent = word.note || '—';
-  const unrev = revealedLetters.filter(r => !r).length;
-  document.getElementById('panelScoreInfo').textContent =
-    `Potențial: +${unrev * 100} · Penalizare: −${unrev * 100} · Scor: ${p?.score || 0}`;
-  const hintCount = revealedLetters.filter(r => r).length;
-  document.getElementById('panelHintText').textContent =
-    `Nedezvăluite: ${unrev} · Hint-uri: ${hintCount} · Timer: ${formatTime(p?.timerSecs || 0)}`;
-}
-
 function updatePresenterButtons() {
   const playing = gamePhase === 'playing';
-  const between = gamePhase === 'between';
-  const isFirst = !mainTimerRunning;
-
-  document.getElementById('btnCorrect').disabled = !playing || !stopWasPressedThisWord;
-  document.getElementById('btnHint').disabled = !playing || stopActive;
-  document.getElementById('btnStop').disabled = !playing || stopActive;
-
   const bigStop = document.getElementById('bigStopBtn');
-  bigStop.style.display = playing ? 'flex' : 'none';
-  bigStop.disabled = !playing || stopActive;
-
-  const btnNext = document.getElementById('btnNext');
-  if (between) {
-    btnNext.style.display = 'flex';
-    btnNext.innerHTML = isFirst
-      ? '▶ Pornește <span class="key-hint">N</span>'
-      : '→ Următor <span class="key-hint">N</span>';
-  } else {
-    btnNext.style.display = 'none';
+  if (bigStop) {
+    bigStop.style.display = playing ? 'flex' : 'none';
+    bigStop.disabled = !playing || stopActive;
   }
 }
 
@@ -1133,8 +1032,7 @@ function handleCorrect(bypassStopCheck = false) {
     }
     showBetweenMsg('✓ CORECT!', 'correct');
     updatePresenterButtons();
-    updatePresenterPanel();
-    if (stopActive) endStopTimer(false);
+      if (stopActive) endStopTimer(false);
     broadcastState();
   });
 }
@@ -1155,7 +1053,6 @@ function handleHint() {
   showNotif(`Litera "${word.cuvant[idx]}" dezvăluită · −100`, 'neg');
   const p = activePlayer();
   if (p) p.hintsTotal = (p.hintsTotal || 0) + 1;
-  updatePresenterPanel();
 
   // Auto-wrong if all letters now revealed (penalty = 0 since unrev = 0)
   const stillHidden = revealedLetters.filter(r => !r).length;
@@ -1197,8 +1094,7 @@ function handleWrong(skipStopCleanup = false) {
     showNotif(`−${penalty} PUNCTE`, 'neg', 2500);
     showBetweenMsg('✕ RATAT', 'wrong');
     updatePresenterButtons();
-    updatePresenterPanel();
-    if (stopActive && !skipStopCleanup) endStopTimer(false);
+      if (stopActive && !skipStopCleanup) endStopTimer(false);
     broadcastState();
   });
 }
@@ -1571,15 +1467,48 @@ function renderLobby(players) {
   }
 
   section.style.display = 'flex';
-  chips.innerHTML = players.map(p => {
-    const teamTag = p.team ? ` <span style="color:var(--gold);font-size:8px;letter-spacing:1px;opacity:0.9;">→ ${p.team}</span>` : '';
-    return `<button class="lobby-chip" onclick="addFromLobby('${p.name.replace(/'/g,"\\'")}')">
-      📱 ${p.name}${teamTag}
-    </button>`;
-  }).join('');
+
+  if (teamMode) {
+    // Update inline team lobby rows inside each team slot
+    const slots = document.querySelectorAll('.team-slot');
+    slots.forEach((slot, i) => {
+      const teamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
+      const teamPlayers = players.filter(p => p.team === teamName);
+      const row = document.getElementById(`teamLobbyRow${i}`);
+      if (!row) return;
+      if (teamPlayers.length === 0) {
+        row.innerHTML = ''; row.style.display = 'none'; return;
+      }
+      row.style.display = 'flex';
+      row.innerHTML = `<span class="team-lobby-label">📱 de pe telefon</span>` +
+        teamPlayers.map(p =>
+          `<button class="team-lobby-chip-inline" onclick="addFromLobby('${p.name.replace(/'/g, "\\'")}')">
+            ${p.name}
+          </button>`
+        ).join('');
+    });
+
+    // Show unassigned players in chips area
+    const unassigned = players.filter(p => !p.team);
+    if (chips) {
+      chips.innerHTML = unassigned.length > 0
+        ? `<span style="font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:2px;color:var(--dim);">fără echipă:</span> ` +
+          unassigned.map(p =>
+            `<button class="lobby-chip" onclick="addFromLobby('${p.name.replace(/'/g, "\\'")}')">📱 ${p.name}</button>`
+          ).join('')
+        : `<span style="font-family:'Share Tech Mono',monospace;font-size:8px;letter-spacing:2px;color:var(--dim);">${players.length} conectat${players.length !== 1 ? 'ți' : ''} · toți în echipă</span>`;
+    }
+  } else {
+    // Individual mode: show all as chips
+    if (chips) {
+      chips.innerHTML = players.map(p =>
+        `<button class="lobby-chip" onclick="addFromLobby('${p.name.replace(/'/g, "\\'")}')">📱 ${p.name}</button>`
+      ).join('');
+    }
+  }
 
   const publishBtn = document.getElementById('publishTeamsBtn');
-  if (publishBtn) publishBtn.style.display = teamMode ? 'inline-block' : 'none';
+  if (publishBtn) publishBtn.style.display = (players.length > 0 && teamMode) ? 'inline-block' : 'none';
 
   renderLobbyBubbles(players);
 }
@@ -1869,15 +1798,6 @@ document.addEventListener('keydown', (e) => {
 
   // Blochează shortcut-urile când modalul e deschis
   if (document.getElementById('resetModal').style.display !== 'none') return;
-
-  // P — panou prezentator
-  if (key === 'P') {
-    const panel = document.getElementById('presenterPanel');
-    presenterVisible = !presenterVisible;
-    panel.classList.toggle('visible', presenterVisible);
-    if (presenterVisible) updatePresenterPanel();
-    return;
-  }
 
   if (gamePhase === 'playing') {
     if (key === 'C') handleCorrect();

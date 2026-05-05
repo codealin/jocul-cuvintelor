@@ -154,9 +154,8 @@
   </div>
 
   <!-- Lobby: phone players connected via WebSocket -->
-  <div id="lobbySection" style="display:none; flex-direction:column; gap:8px; width:100%; max-width:480px;">
-    <div class="setup-section-label" style="margin-bottom:0;">📱 Conectați pe telefon</div>
-    <div id="lobbyChips" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
+  <div id="lobbySection" style="display:none; flex-direction:column; gap:6px; width:100%; max-width:480px;">
+    <div id="lobbyChips" style="display:flex; flex-wrap:wrap; gap:6px; align-items:center;"></div>
     <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
       <button class="cat-action-btn" onclick="addAllFromLobby()" id="addAllLobbyBtn"
         style="padding:6px 14px; font-size:9px;">
@@ -312,43 +311,6 @@
   </div>
 </div>
 
-<!-- ══ PRESENTER PANEL OVERLAY (keyboard P) ══ -->
-<div id="presenterPanel">
-  <div class="panel-header">
-    <div class="panel-badge">Prezentator · Panou lateral (P)</div>
-    <div class="panel-word" id="panelWord">—</div>
-    <div class="panel-word-info" id="panelWordInfo"></div>
-    <div class="panel-score-info" id="panelScoreInfo"></div>
-  </div>
-  <div style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
-    <div class="panel-notes" id="panelNotes" style="min-width:180px; flex:1;">—</div>
-  </div>
-  <div class="panel-buttons">
-    <button class="p-btn p-btn-correct" onclick="handleCorrect()" id="btnCorrect">✓ Corect <span class="key-hint">C</span></button>
-    <button class="p-btn p-btn-hint" onclick="handleHint()" id="btnHint">Dezvăluie literă <span class="key-hint">L</span></button>
-    <button class="p-btn p-btn-stop" onclick="handleStop()" id="btnStop">⏸ Stop timp <span class="key-hint">SPACE</span></button>
-    <button class="p-btn p-btn-next" onclick="handleNext()" id="btnNext" style="display:none;">→ Următor <span class="key-hint">N</span></button>
-  </div>
-  <div class="panel-hint" id="panelHintText"></div>
-
-  <!-- Collapsible: teams & scores -->
-  <div class="panel-section">
-    <button class="panel-collapse-btn" onclick="togglePanelSection('panelTeamsBody', this)">
-      <span class="panel-collapse-arrow">▾</span> Echipe &amp; Scoruri
-    </button>
-    <div id="panelTeamsBody" class="panel-section-body"></div>
-  </div>
-
-  <!-- Collapsible: full word preset -->
-  <div class="panel-section">
-    <button class="panel-collapse-btn collapsed" onclick="togglePanelSection('panelPresetBody', this)">
-      <span class="panel-collapse-arrow">▾</span> Cuvinte Joc (preset complet)
-    </button>
-    <div id="panelPresetBody" class="panel-section-body" style="display:none;"></div>
-  </div>
-
-  <button class="panel-reset-btn" onclick="showResetModal()">↺ Resetează jocul</button>
-</div>
 
 <script src="game.js"></script>
 </body>

@@ -404,6 +404,7 @@
   let myAvatar = { animal: 0 };
   let teamsAvailable = [];
   let myTeam = null;
+  let lastLobby = [];
 
   /* ── Animal SVGs ── */
   const ANIMAL_SVGS = [
@@ -463,6 +464,11 @@
         if (msg.type === 'teams') {
           teamsAvailable = msg.teams || [];
           if (!myTeam) showTeamSelection();
+          return;
+        }
+        if (msg.type === 'lobby') {
+          lastLobby = msg.players || [];
+          if (myTeam) showTeamWaiting();
           return;
         }
         if (msg.type === 'state') handleState(msg);
@@ -634,10 +640,16 @@
 
   function showTeamWaiting() {
     const area = document.getElementById('statusArea');
+    const teammates = lastLobby.filter(p => p.team === myTeam && p.name !== myName);
+    const teammatesHtml = teammates.length > 0
+      ? `<div class="next-label" style="margin-top:12px;">coechipieri</div>
+         ${teammates.map(p => `<div class="next-name">${p.name}</div>`).join('')}`
+      : `<div class="next-label" style="margin-top:12px;opacity:0.5;">ești primul în echipă</div>`;
     area.innerHTML = `
       <div class="status-badge" style="color:var(--green);margin-bottom:6px;">ECHIPA TA</div>
       <div class="status-main active">${myTeam}</div>
-      <div class="next-label" style="margin-top:14px;">așteptare start joc...</div>
+      ${teammatesHtml}
+      <div class="next-label" style="margin-top:14px;opacity:0.45;">așteptare start joc...</div>
     `;
   }
 

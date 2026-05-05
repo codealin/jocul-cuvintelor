@@ -849,62 +849,7 @@
   .lb-score { font-family: 'Share Tech Mono', monospace; font-size: 16px; color: var(--gold); font-weight: bold; }
   .lb-pending { font-family: 'Share Tech Mono', monospace; font-size: 11px; color: var(--dim); letter-spacing: 2px; }
 
-  /* ══ PRESENTER PANEL (overlay, keyboard P) ══ */
-  #presenterPanel {
-    position: fixed;
-    right: 0; top: 0; bottom: 0;
-    width: 380px;
-    background: var(--panel-bg);
-    border-left: 1px solid var(--border);
-    padding: 24px;
-    z-index: 9000;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    transform: translateX(100%);
-    transition: transform 0.3s;
-    overflow-y: auto;
-  }
-  #presenterPanel.visible { transform: translateX(0); }
-
-  .panel-header { display: flex; flex-direction: column; gap: 4px; }
-  .panel-badge { font-family: 'Share Tech Mono', monospace; font-size: 9px; letter-spacing: 4px; color: var(--gold-dim); margin-bottom: 4px; }
-  .panel-word { font-family: 'Bebas Neue', sans-serif; font-size: 42px; color: var(--gold); letter-spacing: 6px; line-height: 1; }
-  .panel-word-info { font-family: 'Share Tech Mono', monospace; font-size: 11px; color: var(--dim); letter-spacing: 2px; }
-  .panel-score-info { font-family: 'Share Tech Mono', monospace; font-size: 11px; color: var(--gold-dim); letter-spacing: 1px; margin-top: 4px; }
-  .panel-notes { font-size: 13px; color: var(--dim); line-height: 1.5; font-family: 'Rajdhani', sans-serif; padding: 10px; border: 1px solid rgba(255,215,0,0.1); background: rgba(255,255,255,0.02); }
-  .panel-buttons { display: flex; flex-direction: column; gap: 8px; }
-
-  .p-btn {
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 10px 16px;
-    background: transparent;
-    border: 1px solid currentColor;
-    cursor: pointer;
-    transition: all 0.15s;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .p-btn:disabled { opacity: 0.3; cursor: not-allowed; }
-  .key-hint { font-family: 'Share Tech Mono', monospace; font-size: 11px; background: rgba(255,255,255,0.1); padding: 2px 6px; }
-  .p-btn-correct { color: var(--green); }
-  .p-btn-correct:hover:not(:disabled) { background: var(--green); color: var(--bg); }
-  .p-btn-hint { color: #88aaff; }
-  .p-btn-hint:hover:not(:disabled) { background: #88aaff; color: var(--bg); }
-  .p-btn-stop { color: var(--red); }
-  .p-btn-stop:hover:not(:disabled) { background: var(--red); color: var(--text); }
-  .p-btn-stop.active-stop { background: rgba(230,48,48,0.2); }
-  .p-btn-wrong { color: #ff8844; }
-  .p-btn-wrong:hover:not(:disabled) { background: #ff8844; color: var(--bg); }
-  .p-btn-next { color: var(--gold); border-color: var(--gold); }
-  .p-btn-next:hover:not(:disabled) { background: var(--gold); color: var(--bg); }
-  .panel-hint { font-family: 'Share Tech Mono', monospace; font-size: 10px; letter-spacing: 2px; color: var(--dim); line-height: 1.6; }
-
+  /* ── Presenter window reset button (shared) ── */
   .panel-reset-btn {
     margin-top: 12px;
     background: none;
@@ -921,68 +866,28 @@
   }
   .panel-reset-btn:hover { border-color: var(--red); color: var(--red); background: rgba(230,48,48,0.08); }
 
-  /* ── Collapsible sections ── */
-  .panel-section {
-    border-top: 1px solid rgba(255,215,0,0.1);
-    margin: 6px -14px 0;
-    padding: 0 14px;
+  /* ── Inline phone players inside team slots ── */
+  .team-lobby-row {
+    display: flex; flex-wrap: wrap; gap: 5px;
+    padding: 5px 6px 3px;
+    border-top: 1px solid rgba(255,215,0,0.08);
   }
-  .panel-collapse-btn {
-    width: 100%; background: none; border: none;
-    color: rgba(255,215,0,0.35);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 9px; letter-spacing: 3px; text-transform: uppercase;
-    text-align: left; padding: 7px 0; cursor: pointer;
-    display: flex; align-items: center; gap: 6px;
-    transition: color 0.15s;
-  }
-  .panel-collapse-btn:hover { color: rgba(255,215,0,0.7); }
-  .panel-collapse-arrow { display: inline-block; transition: transform 0.2s; }
-  .panel-collapse-btn.collapsed .panel-collapse-arrow { transform: rotate(-90deg); }
-  .panel-section-body { padding-bottom: 8px; }
-
-  /* ── Teams section ── */
-  .panel-team-entry { margin-bottom: 6px; }
-  .panel-team-row {
-    display: flex; align-items: baseline; gap: 6px;
-    padding-left: 5px;
-    border-left: 2px solid transparent;
-  }
-  .panel-team-row.active { border-left-color: var(--gold); }
-  .panel-team-name {
-    font-family: 'Oswald', sans-serif; font-size: 12px;
-    letter-spacing: 2px; color: var(--dim); text-transform: uppercase; flex: 1;
-  }
-  .panel-team-row.active .panel-team-name { color: var(--text); }
-  .panel-team-score {
-    font-family: 'Share Tech Mono', monospace; font-size: 10px; color: var(--gold-dim);
-  }
-  .panel-team-timer {
-    font-family: 'Share Tech Mono', monospace; font-size: 10px; color: var(--dim);
-  }
-  .panel-team-row.active .panel-team-score { color: var(--gold); }
-  .panel-team-members {
-    font-family: 'Rajdhani', sans-serif; font-size: 10px;
-    color: rgba(136,136,136,0.7); padding-left: 7px; margin-top: 1px;
-  }
-
-  /* ── Preset section ── */
-  .panel-preset-team { margin-bottom: 8px; }
-  .panel-preset-label {
+  .team-lobby-label {
     font-family: 'Share Tech Mono', monospace; font-size: 8px;
-    letter-spacing: 2px; color: var(--dim); text-transform: uppercase; margin-bottom: 4px;
+    letter-spacing: 2px; color: var(--dim); text-transform: uppercase;
+    width: 100%; margin-bottom: 2px;
   }
-  .panel-preset-words { display: flex; flex-wrap: wrap; gap: 3px; }
-  .panel-word-chip {
+  .team-lobby-chip-inline {
     font-family: 'Share Tech Mono', monospace; font-size: 9px;
-    padding: 2px 5px; border: 1px solid rgba(255,255,255,0.08); color: var(--dim);
-    letter-spacing: 0.5px;
+    letter-spacing: 1px; padding: 3px 9px;
+    background: rgba(255,215,0,0.05);
+    border: 1px solid rgba(255,215,0,0.2);
+    color: rgba(255,215,0,0.65);
+    cursor: pointer; transition: all 0.12s;
   }
-  .panel-word-chip.done {
-    color: rgba(0,200,83,0.4); border-color: rgba(0,200,83,0.15); text-decoration: line-through;
-  }
-  .panel-word-chip.current {
-    color: var(--gold); border-color: rgba(255,215,0,0.4); background: rgba(255,215,0,0.06);
+  .team-lobby-chip-inline:hover {
+    background: rgba(255,215,0,0.12); color: var(--gold);
+    border-color: rgba(255,215,0,0.45);
   }
 
   /* ══ RESET MODAL ══ */
