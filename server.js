@@ -125,6 +125,18 @@ wss.on('connection', (ws) => {
         }
         return;
       }
+
+      if (msg.type === 'resetSession') {
+        currentTeams = [];
+        playerData.clear();
+        console.log('[RESET] sesiune resetată');
+        broadcastLobby(); // sends empty player list to all
+        const clearTeams = JSON.stringify({ type: 'teams', teams: [] });
+        for (const c of clients) {
+          if (c.readyState === 1) c.send(clearTeams);
+        }
+        return;
+      }
     } catch (_) {}
 
     // Relay everything else to all other clients

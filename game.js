@@ -1565,6 +1565,15 @@ function renderLobby(players) {
   renderLobbyBubbles(players);
 }
 
+function resetSession() {
+  BC.postMessage({ type: 'resetSession' });
+  _publishedTeams = [];
+  lobbyPlayers = [];
+  _lobbyPlayersData = [];
+  renderLobby([]);
+  showNotif('Sesiune resetată — datele vechi au fost șterse', 'info', 2500);
+}
+
 function publishTeams() {
   const teamSlots = document.querySelectorAll('.team-slot');
   const teams = Array.from(teamSlots).map((slot, i) =>

@@ -365,6 +365,20 @@
     cursor: pointer;
   }
 
+  /* ── Session reset button ── */
+  .session-reset-btn {
+    position: absolute; top: 14px; right: 16px;
+    font-family: 'Share Tech Mono', monospace; font-size: 9px;
+    letter-spacing: 2px; color: var(--dim);
+    background: transparent; border: 1px solid rgba(255,255,255,0.08);
+    padding: 5px 12px; border-radius: 4px; cursor: pointer;
+    transition: all 0.15s; opacity: 0.6;
+  }
+  .session-reset-btn:hover {
+    color: var(--red); border-color: rgba(230,48,48,0.4);
+    opacity: 1;
+  }
+
   /* ══ TEAM MODE SETUP ══ */
   .team-slot {
     width: 440px; max-width: 90vw;

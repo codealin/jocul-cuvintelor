@@ -466,7 +466,13 @@
         const msg = JSON.parse(e.data);
         if (msg.type === 'teams') {
           teamsAvailable = msg.teams || [];
-          if (!myTeam) showTeamSelection();
+          if (teamsAvailable.length === 0) {
+            myTeam = null;
+            document.getElementById('statusArea').innerHTML =
+              `<div class="idle-msg">Așteptare joc...<br>Prezentatorul pornește din curând.</div>`;
+          } else if (!myTeam) {
+            showTeamSelection();
+          }
           return;
         }
         if (msg.type === 'lobby') {
