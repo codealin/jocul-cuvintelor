@@ -454,7 +454,10 @@
 
     ws.onopen = () => {
       setConn(true);
-      if (myName) ws.send(JSON.stringify({ type: 'join', name: myName, avatar: myAvatar }));
+      if (myName) {
+        ws.send(JSON.stringify({ type: 'join', name: myName, avatar: myAvatar }));
+        if (myTeam) ws.send(JSON.stringify({ type: 'joinTeam', team: myTeam }));
+      }
       queue.splice(0).forEach(msg => ws.send(msg));
     };
 

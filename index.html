@@ -236,6 +236,10 @@
         <div class="score-label">Punctaj</div>
         <div class="score-value" id="scoreDisplay">0</div>
       </div>
+      <button id="teamsToggleBtn" onclick="toggleTeamsPanel()" style="display:none;">
+        <span class="tp-toggle-icon">◈</span>
+        <span class="tp-toggle-label">ECHIPE</span>
+      </button>
     </div>
   </div>
 
@@ -259,6 +263,15 @@
     </div>
     <div class="letters-row" id="lettersRow"></div>
     <div class="between-msg" id="betweenMsg"></div>
+  </div>
+
+  <!-- TEAMS OVERVIEW PANEL -->
+  <div id="teamsPanel" style="display:none;">
+    <div class="tp-container">
+      <div class="tp-title">ECHIPE</div>
+      <div class="tp-teams-grid" id="tpTeamsGrid"></div>
+      <button class="tp-close" onclick="toggleTeamsPanel()">ÎNCHIDE</button>
+    </div>
   </div>
 
   <!-- BOTTOM LEGEND (hidden on TV, shown only in presenter window) -->

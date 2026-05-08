@@ -659,6 +659,7 @@ function addMember(teamIdx) {
 function renderPlayerSetup() {
   document.getElementById('playerCountDisplay').textContent = playerCount;
   renderPlayerInputs();
+  if (_lobbyPlayersData.length > 0) renderLobby(_lobbyPlayersData);
 }
 
 function openPresenterWindow() {
@@ -684,7 +685,7 @@ function goToReadyFromSetup() {
     const hasTeamAssignments = _lobbyPlayersData.some(p => p.team);
     const slots = document.querySelectorAll('.team-slot');
     slots.forEach((slot, i) => {
-      const teamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
+      const teamName = _publishedTeams[i] || slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
       let members;
       if (hasTeamAssignments) {
         // Auto-populate from phone team selection — team size determined by who joined
@@ -1005,6 +1006,53 @@ function updatePresenterButtons() {
     bigStop.style.display = playing ? 'flex' : 'none';
     bigStop.disabled = !playing || stopActive;
   }
+  const teamsBtn = document.getElementById('teamsToggleBtn');
+  if (teamsBtn) {
+    teamsBtn.style.display = (teamMode && gamePhase !== 'idle') ? 'flex' : 'none';
+  }
+}
+
+/* ══════════════════════════════════════════════
+   TEAMS OVERVIEW PANEL
+══════════════════════════════════════════════ */
+let _teamsPanelOpen = false;
+
+function toggleTeamsPanel() {
+  _teamsPanelOpen = !_teamsPanelOpen;
+  const panel = document.getElementById('teamsPanel');
+  if (!panel) return;
+  if (_teamsPanelOpen) {
+    updateTeamsPanel();
+    panel.style.display = 'flex';
+  } else {
+    panel.style.display = 'none';
+  }
+}
+
+function updateTeamsPanel() {
+  if (!_teamsPanelOpen) return;
+  const grid = document.getElementById('tpTeamsGrid');
+  if (!grid) return;
+
+  grid.innerHTML = players.map((pl, i) => {
+    const members = (teamMode && pl.members) ? pl.members : [pl.name];
+    const memberRows = members.map(memberName => {
+      const lobbyP = _lobbyPlayersData.find(lp => lp.name.toUpperCase() === memberName.toUpperCase());
+      const av = lobbyP?.avatar || pl.avatar;
+      const animalIdx = (av && av.animal != null) ? av.animal : (i % ANIMAL_SVGS.length);
+      const svgHtml = ANIMAL_SVGS[animalIdx] || ANIMAL_SVGS[0];
+      return `<div class="tp-member">
+        <div class="tp-avatar">${svgHtml}</div>
+        <span class="tp-member-name">${memberName}</span>
+      </div>`;
+    }).join('');
+
+    return `<div class="tp-team">
+      <div class="tp-team-name">${pl.name}</div>
+      <div class="tp-team-score">${pl.score} <span style="font-size:9px;opacity:0.6;">LEI</span></div>
+      <div class="tp-members">${memberRows}</div>
+    </div>`;
+  }).join('');
 }
 
 /* ══════════════════════════════════════════════
@@ -1300,6 +1348,8 @@ function resetGame() {
   currentWordIdx = 0;
   gamePhase = 'idle';
   sessionWords = [];
+  _publishedTeams = [];
+  if (_teamsPanelOpen) { _teamsPanelOpen = false; const p = document.getElementById('teamsPanel'); if (p) p.style.display = 'none'; }
   broadcastState();
 }
 
@@ -1344,6 +1394,7 @@ function broadcastState() {
       nextWordPlayerName,
     });
   } catch(e) {}
+  updateTeamsPanel();
 }
 
 // Listen for actions (from presenter / player phones) and lobby updates
@@ -1452,6 +1503,7 @@ function buildAvatarSVG(av, uid) {
 ══════════════════════════════════════════════ */
 let lobbyPlayers = [];     // names only — used by addFromLobby
 let _lobbyPlayersData = []; // full {name, avatar} — used by bubbles
+let _publishedTeams = []; // team names at publish time — used for stable matching
 
 function renderLobby(players) {
   lobbyPlayers = players.map(p => p.name);
@@ -1472,7 +1524,7 @@ function renderLobby(players) {
     // Update inline team lobby rows inside each team slot
     const slots = document.querySelectorAll('.team-slot');
     slots.forEach((slot, i) => {
-      const teamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
+      const teamName = _publishedTeams[i] || slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
       const teamPlayers = players.filter(p => p.team === teamName);
       const row = document.getElementById(`teamLobbyRow${i}`);
       if (!row) return;
@@ -1518,6 +1570,7 @@ function publishTeams() {
   const teams = Array.from(teamSlots).map((slot, i) =>
     slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`
   );
+  _publishedTeams = teams;
   BC.postMessage({ type: 'teams', teams });
   showNotif(`Echipe publicate: ${teams.join(', ')}`, 'pos', 2500);
 }
@@ -1533,7 +1586,7 @@ function addFromLobby(name) {
 
     if (targetTeam) {
       slots.forEach((slot, i) => {
-        const slotTeamName = slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
+        const slotTeamName = _publishedTeams[i] || slot.querySelector('.team-name-input')?.value.trim() || `Echipa ${i + 1}`;
         if (slotTeamName === targetTeam) targetSlotIdx = i;
       });
     }
