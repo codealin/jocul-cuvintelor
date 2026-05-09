@@ -123,7 +123,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 100dvh;
+    height: 100dvh;
+    overflow: hidden;
     padding: 24px 20px 32px;
     gap: 16px;
   }
@@ -166,7 +167,10 @@
     width: 100%;
     text-align: center;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
     padding: 8px 0;
+    min-height: 0;
   }
   .status-badge {
     font-family: 'Share Tech Mono', monospace;

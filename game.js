@@ -943,7 +943,6 @@ function startStopTimer() {
   stopWasPressedThisWord = true;
   document.getElementById('stopTimerBlock').classList.add('active');
   document.getElementById('stopOverlay').classList.add('active');
-  document.getElementById('btnStop').classList.add('active-stop');
 
   clearInterval(stopTimerInterval);
   stopTimerInterval = setInterval(() => {
@@ -965,8 +964,6 @@ function endStopTimer(fromExpiry = false) {
   if (label) label.textContent = '';
   document.getElementById('stopTimerBlock').classList.remove('active');
   document.getElementById('stopOverlay').classList.remove('active');
-  document.getElementById('btnStop').classList.remove('active-stop');
-  document.getElementById('btnStop').disabled = false;
 
   if (fromExpiry && gamePhase === 'playing') {
     showNotif('STOP EXPIRAT — RĂSPUNS GREȘIT', 'neg', 3000);
